@@ -69,7 +69,7 @@ namespace FusilliProject
 
         public void chop()
         {
-            if(this.chopState < 5)
+            if(this.chopState < 4)
             {
                 this.chopState++;
             }
