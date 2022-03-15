@@ -21,9 +21,9 @@ namespace FusilliProject
         {
             if(ingredient != null)
             {
-                if(!ingredient.GetComponent<TomatoController>().isDragged)
+                if(!ingredient.GetComponent<IngredientController>().isDragged)
                 {
-                    ingredient.GetComponent<TomatoController>().setTransform(this.transform.position);
+                    ingredient.GetComponent<IngredientController>().setTransform(this.transform.position);
                     hasIngredient = true;
                 }
             }
@@ -32,12 +32,12 @@ namespace FusilliProject
         private void OnTriggerEnter2D(Collider2D col) {
             Debug.Log("enter");
             ingredient = col.gameObject;
-            ingredient.GetComponent<TomatoController>().onBoard = true;
+            ingredient.GetComponent<IngredientController>().onBoard = true;
         }
 
         private void OnTriggerExit2D(Collider2D col) {
             Debug.Log("exit");
-            ingredient.GetComponent<TomatoController>().onBoard = false;
+            ingredient.GetComponent<IngredientController>().onBoard = false;
             ingredient = null;
             hasIngredient = false;
         }
@@ -46,7 +46,7 @@ namespace FusilliProject
         {
             if(hasIngredient)
             {
-                ingredient.GetComponent<TomatoController>().chop();
+                ingredient.GetComponent<IngredientController>().chop();
             }
         }
 

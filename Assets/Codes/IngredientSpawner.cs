@@ -12,7 +12,7 @@ namespace FusilliProject
         [SerializeField]
         private GameObject ingredientPrefab;
         private GameObject ingredient;
-        private TomatoController ingredientScript;
+        private IngredientController ingredientScript;
 
 
         private void spawn()
@@ -23,7 +23,7 @@ namespace FusilliProject
         public void OnPointerDown(PointerEventData eventData)
         {
             spawn();
-            ingredientScript = ingredient.GetComponent<TomatoController>();
+            ingredientScript = ingredient.GetComponent<IngredientController>();
             ingredientScript.OnPointerDown(eventData);
         }
 

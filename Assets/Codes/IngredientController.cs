@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 namespace FusilliProject
 {
-    public class TomatoController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+    public class IngredientController : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         [SerializeField]
         private int chopState;
@@ -15,7 +15,7 @@ namespace FusilliProject
         public bool isDragged;
 
         [SerializeField]
-        public Sprite[] tomatoStages;
+        public Sprite[] ingredientStages;
 
         //private Animator chopAnimator;
 
@@ -32,20 +32,18 @@ namespace FusilliProject
             this.onBoard = false;
             this.chopState = 0;
             this.spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-            this.spriteRenderer.sprite = tomatoStages[0];
+            this.spriteRenderer.sprite = ingredientStages[0];
 
         }
 
         public void OnPointerDown(PointerEventData eventData)
         {
             this.isDragged = true;
-            Debug.Log("down");
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
             this.isDragged = false;
-            Debug.Log("up");
         }
 
         private void OnTouchPosition(InputAction.CallbackContext context)
@@ -73,7 +71,7 @@ namespace FusilliProject
             {
                 this.chopState++;
             }
-            this.spriteRenderer.sprite = this.tomatoStages[this.chopState];
+            this.spriteRenderer.sprite = this.ingredientStages[this.chopState];
         }
     }
 }
