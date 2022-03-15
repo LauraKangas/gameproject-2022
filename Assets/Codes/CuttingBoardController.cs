@@ -10,7 +10,7 @@ namespace FusilliProject
         private bool hasIngredient;
 
         [SerializeField]
-        private GameObject ingredient;
+        private IngredientController ingredientController;
 
         void Start()
         {
@@ -19,11 +19,11 @@ namespace FusilliProject
 
         void Update()
         {
-            if(ingredient != null)
+            if(ingredientController != null)
             {
-                if(!ingredient.GetComponent<IngredientController>().isDragged)
+                if(!ingredientController.isDragged)
                 {
-                    ingredient.GetComponent<IngredientController>().setTransform(this.transform.position);
+                    ingredientController.transform.position = this.transform.position;
                     hasIngredient = true;
                 }
             }
@@ -31,14 +31,14 @@ namespace FusilliProject
 
         private void OnTriggerEnter2D(Collider2D col) {
             Debug.Log("enter");
-            ingredient = col.gameObject;
-            ingredient.GetComponent<IngredientController>().onBoard = true;
+            ingredientController = col.gameObject.GetComponent<IngredientController>();
+            ingredientController.onBoard = true;
         }
 
         private void OnTriggerExit2D(Collider2D col) {
             Debug.Log("exit");
-            ingredient.GetComponent<IngredientController>().onBoard = false;
-            ingredient = null;
+            ingredientController.onBoard = false;
+            ingredientController = null;
             hasIngredient = false;
         }
 
@@ -46,7 +46,7 @@ namespace FusilliProject
         {
             if(hasIngredient)
             {
-                ingredient.GetComponent<IngredientController>().chop();
+                ingredientController.chop();
             }
         }
 
