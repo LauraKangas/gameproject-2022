@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8629115264594360721}
   - component: {fileID: 8994537334973791653}
-  - component: {fileID: 7177652954097604614}
   - component: {fileID: 6778691662936537749}
   - component: {fileID: 76492107268389989}
   - component: {fileID: 6449582930564096886}
+  - component: {fileID: -8031611386894613805}
   m_Layer: 0
   m_Name: tomato
   m_TagString: Untagged
@@ -86,25 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &7177652954097604614
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6238120163375796832}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ca3a329a729a04641a54d3b50244f382, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &6778691662936537749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,6 +99,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chopState: 0
+  onBoard: 0
+  isDragged: 0
+  tomatoStages:
+  - {fileID: 21300000, guid: 97a9dd24033db6043bf80e0c7863cdc2, type: 3}
+  - {fileID: 21300000, guid: a3c1fd407515db14a9ce2383f177b5d5, type: 3}
+  - {fileID: 21300000, guid: 00ff393df056aff4f81bc1927fc02961, type: 3}
+  - {fileID: 21300000, guid: b4a8ab6f68cfc2a4cbcbf944f356ca71, type: 3}
+  - {fileID: 21300000, guid: 3dcff39d65fa03c4f97f7be7d03a7b20, type: 3}
 --- !u!114 &76492107268389989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,9 +131,30 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.44095802
+--- !u!50 &-8031611386894613805
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6238120163375796832}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
+  m_Constraints: 0

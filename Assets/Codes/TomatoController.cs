@@ -10,20 +10,30 @@ namespace FusilliProject
     {
         [SerializeField]
         private int chopState;
+        public bool onBoard;
 
-        private bool isDragged;
+        public bool isDragged;
 
-        private Animator chopAnimator;
+        [SerializeField]
+        public Sprite[] tomatoStages;
+
+        //private Animator chopAnimator;
+
+        private SpriteRenderer spriteRenderer;
 
         private void Awake()
         {
-            this.chopAnimator = GetComponent<Animator>();
+            //this.chopAnimator = GetComponent<Animator>();
         }
 
         private void Start()
         {
             this.isDragged = true;
+            this.onBoard = false;
             this.chopState = 0;
+            this.spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+            this.spriteRenderer.sprite = tomatoStages[0];
+
         }
 
         public void OnPointerDown(PointerEventData eventData)
@@ -50,6 +60,20 @@ namespace FusilliProject
 
             Vector3 coordinate = Camera.main.ScreenToWorldPoint(touchPosition);
             this.transform.position = new Vector3(coordinate.x, coordinate.y, 0);
+        }
+
+        public void setTransform(Vector3 newPos)
+        {
+            this.transform.position = newPos;
+        }
+
+        public void chop()
+        {
+            if(this.chopState < 5)
+            {
+                this.chopState++;
+            }
+            this.spriteRenderer.sprite = this.tomatoStages[this.chopState];
         }
     }
 }

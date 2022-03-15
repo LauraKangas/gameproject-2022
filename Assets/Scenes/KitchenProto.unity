@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc4a55f45dd361841a4c5e677813c866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredient: {fileID: 6238120163375796832, guid: c1e5eba977bea904aadad41bb5e0f681, type: 3}
+  ingredientPrefab: {fileID: 6238120163375796832, guid: c1e5eba977bea904aadad41bb5e0f681, type: 3}
 --- !u!212 &415763770
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -615,6 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f88f27976610ddc4799030907d57d61f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ingredient: {fileID: 0}
 --- !u!114 &1702308592
 MonoBehaviour:
   m_ObjectHideFlags: 0
