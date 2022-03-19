@@ -40,7 +40,7 @@ namespace FusilliProject
                    
                         if(num >= 2){
                             
-
+                    
                     ingredients.text = "Salaatti \n\nAinekset\n\nTomaatti\nKurkku";
                     recipe.text = "Pilko tomaatit\nPilko kurkku";
 
@@ -59,10 +59,10 @@ namespace FusilliProject
                      recipe.text = "Sekoita kaikki ainekset\nSekoita tehosekoittimessa";
 
                         }
-                    
-
-                    
+                         
         
         }
+
+       
     }
 }

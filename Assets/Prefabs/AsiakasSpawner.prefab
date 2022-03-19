@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5160931120790577778}
-  - component: {fileID: 5160931120790577781}
+  - component: {fileID: 5073413791215921432}
   m_Layer: 0
   m_Name: AsiakasSpawner
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5160931120790577781
+--- !u!114 &5073413791215921432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,8 +40,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5160931120790577780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63e3e2eebd828834d83dcbb79d2f8269, type: 3}
+  m_Script: {fileID: 11500000, guid: 87b4f47afb77790418fc68dee400092d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnTime: 0
-  prefab: {fileID: 4679154484590662780, guid: 9e6df7d8535eff0458da590f5bd9495f, type: 3}
+  spawnTime: 2
+  destroyTime: 5
+  prefab: {fileID: 1960751638438377947, guid: 583cb29802e86fc42937576f16b01b17, type: 3}
