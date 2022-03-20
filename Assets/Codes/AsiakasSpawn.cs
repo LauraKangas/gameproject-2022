@@ -23,7 +23,8 @@ namespace FusilliProject
 		
 
 		[SerializeField, Tooltip("A reference to the prefab we want to create copies from")]
-		private GameObject prefab;
+		private GameObject prefab, prefab1, prefab2;
+		int randomSpawn;
 
 		private float timer;
         private float timerDestroy;
@@ -36,6 +37,7 @@ namespace FusilliProject
 		{
 			timer = spawnTime;
             timerDestroy = destroyTime;
+			
 		}
 
 		void Update()
@@ -118,7 +120,36 @@ namespace FusilliProject
 
 		private void Spawn()
 		{
+			randomSpawn = Random.Range(1,6);
+
+			switch(randomSpawn){
+				case 1:
 			spawnedObject = Instantiate(prefab, transform.position, transform.rotation);
+			break;
+
+			case 2:
+			spawnedObject = Instantiate(prefab1, transform.position, transform.rotation);
+			break;
+
+			case 3:
+			spawnedObject = Instantiate(prefab2, transform.position, transform.rotation);
+			break;
+
+			case 4:
+			spawnedObject = Instantiate(prefab, transform.position, transform.rotation);
+			break;
+
+			case 5:
+			spawnedObject = Instantiate(prefab1, transform.position, transform.rotation);
+			break;
+
+			case 6:
+			spawnedObject = Instantiate(prefab2, transform.position, transform.rotation);
+			break;
+
+			
+
+			}
 		}
 	}
 
