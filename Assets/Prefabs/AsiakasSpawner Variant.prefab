@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3889051019155830209
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5073413791215921432, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 3658482763009445886, guid: b61ac517b0a29f94ab64bac438f0d61e, type: 3}
+    - target: {fileID: 5073413791215921432, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: prefab1
+      value: 
+      objectReference: {fileID: 3195309730179577024, guid: a8a28dc78c8b07c4082badb97ad81749, type: 3}
+    - target: {fileID: 5073413791215921432, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: prefab2
+      value: 
+      objectReference: {fileID: 1177776043972221048, guid: 73e365a0760459b46a2494c34c03fbb0, type: 3}
+    - target: {fileID: 5073413791215921432, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: destroyTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.43540153
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577778, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160931120790577780, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}
+      propertyPath: m_Name
+      value: AsiakasSpawner
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7726453dfe9f0884d86eac23a60c151e, type: 3}

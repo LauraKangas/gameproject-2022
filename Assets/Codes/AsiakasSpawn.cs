@@ -26,6 +26,8 @@ namespace FusilliProject
 		private GameObject prefab, prefab1, prefab2;
 		int randomSpawn;
 
+		
+
 		private float timer;
         private float timerDestroy;
 
