@@ -19,14 +19,15 @@ namespace FusilliProject
         
             num = 1;
             buttonText.text = "Page " + num;
-            ingredients.text = "Makaronilaatikko \n\nAinekset\n\nJauheliha\nMakaronit";
-            recipe.text = "Paista jauheliha\nKeitä makaronit";
+            
 
         }
 
         // Update is called once per frame
         void Update()
         {
+
+            
         
         }
 
@@ -55,10 +56,34 @@ namespace FusilliProject
 
                         if(num >= 4){
 
+                            
+
                      ingredients.text = "Tomaattikeitto \n\nAinekset\n\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
                      recipe.text = "Sekoita kaikki ainekset\nSekoita tehosekoittimessa";
 
                         }
+
+                        if(num >= 5){
+
+                     ingredients.text = "Makaronilaatikko \n\nAinekset\n\nJauheliha\nMakaronit";
+                     recipe.text = "Paista jauheliha\nKeitä makaronit";
+
+                        }
+                         
+        
+        }
+
+        public void pageFour()
+        {
+            
+                   
+                    num += 3;
+                    
+                    buttonText.text = "Page " + num;
+                    
+                     ingredients.text = "Tomaattikeitto \n\nAinekset\n\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
+                     recipe.text = "Sekoita kaikki ainekset\nSekoita tehosekoittimessa";
+                       
                          
         
         }
