@@ -56,10 +56,16 @@ namespace FusilliProject
                 }
             }
 
-            // Jos laudalla on ensisjainen aines joka ei ole leikeltävänä
+            // Jos laudalla on ensisjainen aines
             if (ingredientController != null)
             {
-                // eikä sitä olla liikuttamassa, otetaan se leikeltäväksi 
+                // Jos ensisijainen aines on raahattavana, päivitetään ettei se ole leikeltävänä
+                if (ingredientController.isDragged && hasIngredient)
+                {
+                    hasIngredient = false;
+                }
+
+                // Jos ensisijaista ainesta ei olla liikuttamassa, eikä se ole leikeltävänä otetaan se leikeltäväksi 
                 if (!ingredientController.isDragged && !hasIngredient)
                 {
                     ingredientController.transform.position = this.transform.position;
