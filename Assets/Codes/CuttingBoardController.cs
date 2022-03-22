@@ -77,7 +77,7 @@ namespace FusilliProject
                     if (!secondIngredientController.isDragged)
                     {
                         // !!Jostain syystä liikkuu ajoittain hitaammin, syy epäselvä!!
-                        Vector2 move = secondIngredientEnterPos * Time.deltaTime * 2;
+                        Vector2 move = (secondIngredientEnterPos - secondIngredientController.transform.position).normalized * Time.deltaTime * 2;
                         secondIngredientController.transform.Translate(move);
                     }
                 }
