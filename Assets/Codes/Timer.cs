@@ -19,6 +19,9 @@ namespace FusilliProject
         private float endTime = 0;
 
         public TMP_Text timer;
+
+        [SerializeField]
+        private GameObject scoreBoard;
         // Start is called before the first frame update
         void Start()
         {
@@ -46,7 +49,8 @@ namespace FusilliProject
 
              else  {
 
-                
+               
+               
 
                 }  
         
