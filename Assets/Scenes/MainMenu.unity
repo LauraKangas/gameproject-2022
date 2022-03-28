@@ -278,7 +278,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9107881719052811724, guid: ae907bf46ecb89f4abc82c2c7f5fb91d, type: 3}
   m_PrefabInstance: {fileID: 9107881717839917576}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824324995}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -715,11 +715,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461776547}
   m_CullTransparentMesh: 1
---- !u!1 &478242100 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9107881717775604291, guid: ae907bf46ecb89f4abc82c2c7f5fb91d, type: 3}
-  m_PrefabInstance: {fileID: 9107881717839917576}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &483888584
 GameObject:
   m_ObjectHideFlags: 0
@@ -2113,18 +2108,6 @@ MonoBehaviour:
           m_StringArgument: kirjaOpen
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 478242100}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &1559640246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2395,11 +2378,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677854804}
   m_CullTransparentMesh: 1
---- !u!1 &1709300126 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9107881718788066562, guid: ae907bf46ecb89f4abc82c2c7f5fb91d, type: 3}
-  m_PrefabInstance: {fileID: 9107881717839917576}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1749281839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,17 +2453,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749281839}
   m_CullTransparentMesh: 1
---- !u!1 &1824324995 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9107881719052811722, guid: ae907bf46ecb89f4abc82c2c7f5fb91d, type: 3}
-  m_PrefabInstance: {fileID: 9107881717839917576}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1828059894 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9107881718788066563, guid: ae907bf46ecb89f4abc82c2c7f5fb91d, type: 3}
   m_PrefabInstance: {fileID: 9107881717839917576}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709300126}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -2607,7 +2580,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9107881717775604293, guid: ae907bf46ecb89f4abc82c2c7f5fb91d, type: 3}
   m_PrefabInstance: {fileID: 9107881717839917576}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478242100}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -2672,6 +2645,7 @@ GameObject:
   - component: {fileID: 2080688264}
   - component: {fileID: 2080688263}
   - component: {fileID: 2080688262}
+  - component: {fileID: 2080688265}
   - component: {fileID: 2080688261}
   m_Layer: 5
   m_Name: Back
@@ -2786,34 +2760,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 478242100}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1709300126}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1824324995}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2080688265}
+        m_TargetAssemblyTypeName: FusilliProject.MainMenu, Assembly-CSharp
+        m_MethodName: resetScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2860,6 +2810,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080688259}
   m_CullTransparentMesh: 1
+--- !u!114 &2080688265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080688259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2098780777
 GameObject:
   m_ObjectHideFlags: 0

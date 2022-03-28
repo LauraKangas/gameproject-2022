@@ -14,5 +14,11 @@ namespace FusilliProject
             SceneManager.LoadScene("LevelSelection");
             Debug.Log("To level selection");
         }
+
+        public void resetScene()
+        {
+            SceneManager.LoadScene("MainMenu");
+            Debug.Log("reset");
+        }
     }
 }
