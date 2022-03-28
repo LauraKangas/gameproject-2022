@@ -687,7 +687,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 43000328}
-  scoreBoard: {fileID: 4679154484590662780, guid: 9e6df7d8535eff0458da590f5bd9495f, type: 3}
+  scoreboard: {fileID: 2510730096482374906, guid: da47d77863ae90b489b5f607c96903fe, type: 3}
+  scoreSpawned: 0
 --- !u!4 &412155384
 Transform:
   m_ObjectHideFlags: 0

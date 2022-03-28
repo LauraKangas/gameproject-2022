@@ -14,19 +14,15 @@ namespace FusilliProject
 			WaitingForDestroy
 		}
 
-		[SerializeField, Tooltip("The time after which an object is spawned (in seconds)")]
+		[SerializeField]
 		private float spawnTime;
         
-        
-[SerializeField, Tooltip("The time after which an object is spawned (in seconds)")]
+		[SerializeField]
 		private float destroyTime;
 		
-
-		[SerializeField, Tooltip("A reference to the prefab we want to create copies from")]
+		[SerializeField]
 		private GameObject prefab, prefab1, prefab2;
 		int randomSpawn;
-
-		
 
 		private float timer;
         private float timerDestroy;
@@ -59,8 +55,7 @@ namespace FusilliProject
 						Debug.Log("not Destroyed");
 					
 				}
-						
-					
+							
 				}
 
                 break;
@@ -88,27 +83,16 @@ namespace FusilliProject
 
             private void ChangeState()
 		{
-			// Vastaa if-else -rakennetta ja muuttujaan sijoittamista
+			
 			state = state == State.WaitingForDestroy
 				? State.WaitingForSpawn
 				: State.WaitingForDestroy;
 
 			
-			// if (state == State.WaitingForDestroy)
-			// {
-			// 	state = State.WaitingForSpawn;
-			// }
-			// else
-			// {
-			// 	state = State.WaitingForDestroy;
-			// }
-
-			// Alustetaan timer uudelleen
+			
 			timer = spawnTime;
             timerDestroy = destroyTime;
 		}
-		
-
 		
 
 		private void DoDestroy()
@@ -116,9 +100,6 @@ namespace FusilliProject
 			Destroy(spawnedObject);
 			spawnedObject = null;
 		}
-
-		
-		
 
 		private void Spawn()
 		{

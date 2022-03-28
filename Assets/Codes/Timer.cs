@@ -21,7 +21,9 @@ namespace FusilliProject
         public TMP_Text timer;
 
         [SerializeField]
-        private GameObject scoreBoard;
+        private GameObject scoreboard;
+
+        public bool scoreSpawned;
         // Start is called before the first frame update
         void Start()
         {
@@ -43,17 +45,29 @@ namespace FusilliProject
                 float seconds = Mathf.FloorToInt(gameTime%60);
 
                 gameTime -= Time.deltaTime;
+
                 timer.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+                scoreSpawned = false;
 
                 }
 
-             else  {
+             else  if (gameTime <= endTime){
 
-               
+                  Debug.Log("Time has run out!");
+
+                 if (scoreSpawned == false){
+
+
+                   Instantiate(scoreboard, transform.position, transform.rotation);
+                   scoreSpawned = true;
                
 
                 }  
+            } 
         
         }
+
+        
     }
 }
