@@ -113,13 +113,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chopState: 0
+  isCooked: 0
+  isBurned: 0
   onBoard: 0
+  beingCooked: 0
   isDragged: 0
   ingredientStages:
   - {fileID: 21300000, guid: d6229cc4b09bb7b4aa4044789758930c, type: 3}
   - {fileID: 21300000, guid: c749ec483fb0ef7498d2d9a3a2e3824c, type: 3}
   - {fileID: 21300000, guid: 069cf20ded3e3cc4d96f1a91a8da2e14, type: 3}
   - {fileID: 21300000, guid: 0795fe32097ca0e4e96a596d8ef91bd0, type: 3}
+  cookedSprite: {fileID: 21300000, guid: cffde940d1a220949a0ae1ff1a88a9c4, type: 3}
+  burnedSprite: {fileID: 21300000, guid: 178519fb569350a48b92d16d8d5eea68, type: 3}
 --- !u!50 &1163480262860798566
 Rigidbody2D:
   serializedVersion: 4

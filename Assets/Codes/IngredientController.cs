@@ -27,8 +27,20 @@ namespace FusilliProject
         // Aineksen pilkkomisvaiheen seuranta, yleensä 0-3
         private int chopState;
 
+        [SerializeField]
+        // Onko aines valmistettu
+        public bool isCooked;
+
+        [SerializeField]
+        // Onko aines poltettu
+        public bool isBurned;
+
         // Onko aines leikkuulaudalla
         public bool onBoard;
+
+        [SerializeField]
+        // Onko aines valmistumassa
+        public bool beingCooked;
 
         // Onko aines pelaajan vedeltävänä
         public bool isDragged;
@@ -36,6 +48,10 @@ namespace FusilliProject
         [SerializeField]
         // Aineksen pilkkomisasteiden spritet, pidettävä oikeassa järjestyksessä
         public Sprite[] ingredientStages;
+
+        public Sprite cookedSprite;
+
+        public Sprite burnedSprite;
 
         //private Animator chopAnimator;
 
@@ -56,6 +72,12 @@ namespace FusilliProject
 
             this.onBoard = false;
 
+            this.beingCooked = false;
+
+            this.isCooked = false;
+
+            this.isBurned = false;
+
             // Asetetaan aines ensimmäiseen pilkkomisvaiheensa, yleensä kokonainen
             this.chopState = 0;
 
@@ -64,6 +86,18 @@ namespace FusilliProject
 
             this.spriteRenderer.sprite = ingredientStages[0];
 
+        }
+
+        private void Update()
+        {
+            if (this.isBurned && burnedSprite != null)
+            {
+                this.spriteRenderer.sprite = burnedSprite;
+            }
+            else if (this.isCooked && cookedSprite != null)
+            {
+                this.spriteRenderer.sprite = cookedSprite;
+            }
         }
 
         // Kuuntelija, jos pelaaja painaa sormen ainekselle, asetetaan se raahattavaksi
