@@ -9,7 +9,7 @@ namespace FusilliProject
         [System.Serializable]
         public class Recipe
         {
-            public List<IngredientController> recipeIngredients;
+            public List<Ingredient> recipeIngredients;
         }
 
         // Lautasella olevan aterian kokonaispistemäärä
