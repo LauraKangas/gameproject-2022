@@ -53,7 +53,7 @@ namespace FusilliProject
                 // Jos viimeisintä ainesta ei olla liikuttamassa, eikä se ole valmistumassa otetaan se valmistettavaksi 
                 if (!ingredientControllers[ingredientControllers.Count - 1].isDragged && !ingredientControllers[ingredientControllers.Count - 1].beingCooked)
                 {
-                    ingredientControllers[ingredientControllers.Count - 1].transform.position = this.transform.position;
+                    ingredientControllers[ingredientControllers.Count - 1].transform.position = this.progressBar.transform.position;
                     ingredientControllers[ingredientControllers.Count - 1].beingCooked = true;
                     this.hasIngredient = true;
                     if (animator != null)

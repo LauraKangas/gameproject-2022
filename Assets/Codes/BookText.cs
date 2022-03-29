@@ -77,7 +77,7 @@ namespace FusilliProject
         {
             
                    
-                    num += 3;
+                    num = 4;
                     
                     buttonText.text = "Page " + num;
                     
