@@ -3010,7 +3010,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9107881717775604293, guid: ae907bf46ecb89f4abc82c2c7f5fb91d, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 0
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 9107881718297622213, guid: ae907bf46ecb89f4abc82c2c7f5fb91d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
