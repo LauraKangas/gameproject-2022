@@ -39,39 +39,38 @@ namespace FusilliProject
                     buttonText.text = "Page " + num;
 
                    
-                        if(num >= 2){
-                            
-                    
+            switch(num) 
+
+                {
+                  case 1:
+
+                    break;
+
+                  case 2:
+                   
                     ingredients.text = "Salaatti \n\nAinekset\n\nTomaatti\nKurkku";
                     recipe.text = "Pilko tomaatit\nPilko kurkku";
+                    break;
 
-                        }
-
-                         if(num >= 3){
-
-                     ingredients.text = "Uunifetapasta \n\nAinekset\n\nPasta\nKirsikkatomaatit\nFetajuusto\nOliviöljy";
+                    case 3:
+                    ingredients.text = "Uunifetapasta \n\nAinekset\n\nPasta\nKirsikkatomaatit\nFetajuusto\nOliviöljy";
                      recipe.text = "Sekoita kaikki ainekset uunivuoassa\nKeitä pasta n. 15 min";
+                    break;
 
-                        }
+                    case 4:
+                    ingredients.text = "Tomaattikeitto \n\nAinekset\n\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
+                    recipe.text = "Sekoita kaikki ainekset\nSekoita tehosekoittimessa";
+                    break;
 
-                        if(num >= 4){
+                    default:
+                    // code block
+                    break;
 
-                            
+                }
 
-                     ingredients.text = "Tomaattikeitto \n\nAinekset\n\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
-                     recipe.text = "Sekoita kaikki ainekset\nSekoita tehosekoittimessa";
-
-                        }
-
-                        if(num >= 5){
-
-                     ingredients.text = "Makaronilaatikko \n\nAinekset\n\nJauheliha\nMakaronit";
-                     recipe.text = "Paista jauheliha\nKeitä makaronit";
-
-                        }
-                         
-        
         }
+
+
 
         public void pageFour()
         {
