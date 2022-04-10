@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 8693339304114484976}
   - component: {fileID: 8078016296620318477}
   - component: {fileID: 1636293776768742485}
+  - component: {fileID: -751248752873979209}
   m_Layer: 0
   m_Name: Potato
-  m_TagString: Untagged
+  m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 9
   m_Sprite: {fileID: 21300000, guid: 5bba0dfadd3245b44bed32b042874119, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -112,14 +113,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 551fb9c464b68a249b60a007534f78e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
   chopState: 0
+  isCooked: 0
+  isBoiled: 0
+  isBurned: 0
   onBoard: 0
+  onPlate: 0
+  beingCooked: 0
   isDragged: 0
   ingredientStages:
   - {fileID: 21300000, guid: 5bba0dfadd3245b44bed32b042874119, type: 3}
   - {fileID: 21300000, guid: 6b21555fa54128f4a8d6a003be91f108, type: 3}
   - {fileID: 21300000, guid: fc023333b44dadf4b820a48e6c59f52b, type: 3}
   - {fileID: 21300000, guid: 3f800f9c20a92c144958746ff8ad60ed, type: 3}
+  cookedSprite: {fileID: 0}
+  burnedSprite: {fileID: 0}
+  points: 3
 --- !u!60 &8078016296620318477
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -180,3 +190,17 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-751248752873979209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129664611499908762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e00f3952aafa08408382e12bb5fb440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDragged: 0
+  startPos: {x: 0, y: 0}

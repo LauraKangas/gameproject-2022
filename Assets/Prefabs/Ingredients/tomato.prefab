@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 6675387682801501686}
   - component: {fileID: 6449582930564096886}
   - component: {fileID: -8031611386894613805}
+  - component: {fileID: -3036032322784032797}
   m_Layer: 0
   m_Name: tomato
-  m_TagString: Untagged
+  m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,10 +113,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 551fb9c464b68a249b60a007534f78e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 0
   chopState: 0
   isCooked: 0
+  isBoiled: 0
   isBurned: 0
   onBoard: 0
+  onPlate: 0
   beingCooked: 0
   isDragged: 0
   ingredientStages:
@@ -125,6 +129,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5183e07e60fdbc345bae57b86982ddac, type: 3}
   cookedSprite: {fileID: 0}
   burnedSprite: {fileID: 0}
+  points: 3
 --- !u!58 &6449582930564096886
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -162,3 +167,17 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-3036032322784032797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6238120163375796832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e00f3952aafa08408382e12bb5fb440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDragged: 0
+  startPos: {x: 0, y: 0}

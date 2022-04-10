@@ -17,7 +17,7 @@ Määrittää ainesten spawnauksen, spawnattavien objektien paikan, sekä kertoo
 
 namespace FusilliProject
 {
-    public class IngredientSpawner : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+    public class IngredientSpawner : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
     {
 
         [SerializeField]
@@ -26,7 +26,7 @@ namespace FusilliProject
         // Viittaus juuri spawnattuun ainekseen
         private GameObject ingredient;
         // Viittaus juuri spawnatun aineksen Controlleriin
-        private IngredientController ingredientScript;
+        private Draggable ingredientDragger;
 
 
         // Uuden aines-olion spawnaus metodi
@@ -38,25 +38,51 @@ namespace FusilliProject
 
         // Kuuntelija, kun pelaaja painaa sormen spawnerille
         // Kutsuu Spawn-metodia, asettaa viittauksen luodun olion Controlleriin ja ilmoittaa luodulle ainekselle, että sitä painetaan
-        public void OnPointerDown(PointerEventData eventData)
+        //!!Korvattu DragHandlereillä!!
+        // public void OnPointerDown(PointerEventData eventData)
+        // {
+        //     Spawn();
+
+        //     // !! Alla olevat tarpeettomia, jos halutaan aineksen spawnaavan muualle kuin mihin pelaaja painaa
+        //     // Asetetaan viittaus luodun aineksen Controlleriin
+        //     ingredientScript = ingredient.GetComponent<IngredientController>();
+
+        //     // Kutsutaan luodun aineksen Controllerin painamismetodia, jotta se tietää olevansa painettavana
+        //     ingredientScript.OnPointerDown(eventData);
+        // }
+
+        // !!Tarpeeton jos halutaan aineksen spawnaavan muualle kuin mihin pelaaja painaa!!
+        // Kuuntelija, kun pelaaja nostaa sormen ruudulta painettuaan spawneria
+        // Ilmoittaa luodulle ainekselle, että sitä ei enää paineta
+        //!!Korvattu DragHandlereillä!!
+        // public void OnPointerUp(PointerEventData eventData)
+        // {
+        //     // // Kutsutaan luodun aineksen Controllerin painamisen lopetus-metodia, jotta se tietää ettei sitä enää paineta
+        //     // ingredientScript.OnPointerUp(eventData);
+
+        //     this.OnEndDrag(eventData);
+            
+        // }
+
+        public void OnBeginDrag(PointerEventData eventData)
         {
             Spawn();
 
             // !! Alla olevat tarpeettomia, jos halutaan aineksen spawnaavan muualle kuin mihin pelaaja painaa
             // Asetetaan viittaus luodun aineksen Controlleriin
-            ingredientScript = ingredient.GetComponent<IngredientController>();
+            ingredientDragger = ingredient.GetComponent<Draggable>();
 
-            // Kutsutaan luodun aineksen Controllerin painamismetodia, jotta se tietää olevansa painettavana
-            ingredientScript.OnPointerDown(eventData);
+            ingredientDragger.OnBeginDrag(eventData);
         }
 
-        // !!Tarpeeton jos halutaan aineksen spawnaavan muualle kuin mihin pelaaja painaa!!
-        // Kuuntelija, kun pelaaja nostaa sormen ruudulta painettuaan spawneria
-        // Ilmoittaa luodulle ainekselle, että sitä ei enää paineta
-        public void OnPointerUp(PointerEventData eventData)
+        public void OnDrag(PointerEventData eventdata)
         {
-            // Kutsutaan luodun aineksen Controllerin painamisen lopetus-metodia, jotta se tietää ettei sitä enää paineta
-            ingredientScript.OnPointerUp(eventData);
+            ingredientDragger.OnDrag(eventdata);
+        }
+
+        public void OnEndDrag(PointerEventData eventData)
+        {
+            ingredientDragger.OnEndDrag(eventData);     
         }
     }
 }

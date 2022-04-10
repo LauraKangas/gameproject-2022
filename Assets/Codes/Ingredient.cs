@@ -7,13 +7,16 @@ namespace FusilliProject
     [System.Serializable]
     public class Ingredient
     {
-        enum ingredientType
+        public enum ingredientType
         {
             Tomato,
             Onion,
-            Garlic
+            Garlic,
+            Carrot,
+            Salt
         }
 
+        public ingredientType type;
         public int cookingState;
         public bool isCooked;
         public bool isBoiled;

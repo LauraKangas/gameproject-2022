@@ -10,9 +10,18 @@ namespace FusilliProject
         // Onko esineessä aines valmistumassa
         private bool hasIngredient;
 
+        public enum ToolType
+        {
+            pan,
+            kettle,
+            oven
+        }
+
+        public ToolType toolType;
+
         [SerializeField]
         // Ainesten Controllerit
-        private List<IngredientController> ingredientControllers;
+        private List<GameObject> ingredients;
 
         [SerializeField]
         // Kauan ainekset ovat olleet valmistumassa
@@ -37,8 +46,8 @@ namespace FusilliProject
         {
             this.hasIngredient = false;
             this.cookingTimer = 0;
-            this.timeToCooked = 20;
-            this.timeToBurned = 30;
+            this.timeToCooked = 5;
+            this.timeToBurned = 8;
             this.progressBar.SetTreshold(timeToBurned);
 
         }
@@ -47,14 +56,14 @@ namespace FusilliProject
         {
 
             // Jos esineellä on valmistuva aines
-            if (ingredientControllers.Count > 0)
+            if (ingredients.Count > 0)
             {
 
                 // Jos viimeisintä ainesta ei olla liikuttamassa, eikä se ole valmistumassa otetaan se valmistettavaksi 
-                if (!ingredientControllers[ingredientControllers.Count - 1].isDragged && !ingredientControllers[ingredientControllers.Count - 1].beingCooked)
+                if (!ingredients[ingredients.Count - 1].GetComponent<Draggable>().isDragged && !ingredients[ingredients.Count - 1].GetComponent<IngredientController>().beingCooked)
                 {
-                    ingredientControllers[ingredientControllers.Count - 1].transform.position = this.progressBar.transform.position;
-                    ingredientControllers[ingredientControllers.Count - 1].beingCooked = true;
+                    ingredients[ingredients.Count - 1].transform.position = this.progressBar.transform.position;
+                    ingredients[ingredients.Count - 1].GetComponent<IngredientController>().beingCooked = true;
                     this.hasIngredient = true;
                     if (animator != null)
                     {
@@ -69,16 +78,29 @@ namespace FusilliProject
 
                 if (cookingTimer >= timeToBurned)
                 {
-                    foreach (IngredientController ingredient in ingredientControllers)
+                    foreach (GameObject ingredient in ingredients)
                     {
-                        ingredient.isBurned = true;
+                        ingredient.GetComponent<IngredientController>().isBurned = true;
                     }
                 }
                 else if (cookingTimer >= timeToCooked)
                 {
-                    foreach (IngredientController ingredient in ingredientControllers)
+                    foreach (GameObject ingredient in ingredients)
                     {
-                        ingredient.isCooked = true;
+                        switch (toolType)
+                        {
+                            case ToolType.pan:
+                            ingredient.GetComponent<IngredientController>().isCooked = true;
+                            break;
+
+                            case ToolType.kettle:
+                            ingredient.GetComponent<IngredientController>().isBoiled = true;
+                            break;
+
+                            default:
+                            ingredient.GetComponent<IngredientController>().isCooked = true;
+                            break;
+                        }
                     }
 
                 }
@@ -95,11 +117,10 @@ namespace FusilliProject
         private void OnTriggerEnter2D(Collider2D col)
         {
             Debug.Log("enter");
-            // !!Ei tarkistusta onko tuleva objekti aines, tarkistus lisättävä!!
-            if (true)
+            if (col.tag == "Ingredient")
             {
                 // Lisätään aineksen Controller esineellä olevien ainesten controller listaan
-                ingredientControllers.Add(col.gameObject.GetComponent<IngredientController>());
+                ingredients.Add(col.gameObject);
             }
         }
 
@@ -107,14 +128,12 @@ namespace FusilliProject
         private void OnTriggerExit2D(Collider2D col)
         {
             Debug.Log("exit");
-
-            // !!Ei tarkistusta onko poistuva objekti aines, tarkistus lisättävä!!
-            if (true)
+            if (col.tag == "Ingredient")
             {
                 // Poistetaan pois vedetyn aineksen Controller listasta
-                ingredientControllers.Remove(col.gameObject.GetComponent<IngredientController>());
+                ingredients.Remove(col.gameObject);
                 col.gameObject.GetComponent<IngredientController>().beingCooked = false;
-                if (ingredientControllers.Count < 1) {
+                if (ingredients.Count < 1) {
                     this.hasIngredient = false;
                     if (animator != null)
                     {
