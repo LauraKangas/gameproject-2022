@@ -2795,8 +2795,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 2080688265}
-        m_TargetAssemblyTypeName: FusilliProject.MainMenu, Assembly-CSharp
-        m_MethodName: resetScene
+        m_TargetAssemblyTypeName: FusilliProject.SceneChanger, Assembly-CSharp
+        m_MethodName: ChangeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2856,6 +2856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scene: MainMenu
 --- !u!1 &2098780777
 GameObject:
   m_ObjectHideFlags: 0
@@ -3021,6 +3022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scene: LevelSelection
 --- !u!95 &6905443481476367071 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2441480629507805820, guid: d0c7d52c900a0bf4eaba02bd537145d2, type: 3}

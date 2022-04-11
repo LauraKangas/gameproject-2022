@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3096533145289492717}
   - component: {fileID: 3096533145289492690}
   - component: {fileID: 3096533145289492691}
-  - component: {fileID: 3096533145289492688}
+  - component: {fileID: 511759882973646067}
   - component: {fileID: 3096533145289492689}
   m_Layer: 5
   m_Name: "Kev\xE4t"
@@ -134,7 +134,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3096533145289492688
+--- !u!114 &511759882973646067
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,9 +143,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3096533145289492695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa37493cb7f8d60478b6927afc90bddf, type: 3}
+  m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scene: 
 --- !u!95 &3096533145289492689
 Animator:
   serializedVersion: 3

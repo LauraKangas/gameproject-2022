@@ -204,6 +204,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189644769}
   m_CullTransparentMesh: 1
+--- !u!114 &263882331 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 511759882973646067, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
+  m_PrefabInstance: {fileID: 1860497331}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &358668281 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 511759882973646067, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
+  m_PrefabInstance: {fileID: 2139322591}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &363433599 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 511759882973646067, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
+  m_PrefabInstance: {fileID: 704340385}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &401193550
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,6 +484,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &564110158 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 511759882973646067, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
+  m_PrefabInstance: {fileID: 2093433160}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &650482258
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,6 +636,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1179887935}
     m_Modifications:
+    - target: {fileID: 511759882973646067, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
+      propertyPath: scene
+      value: KitchenProto
+      objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492690, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -599,14 +647,14 @@ PrefabInstance:
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 704340387}
+      objectReference: {fileID: 363433599}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeScene
       objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: FusilliProject.LevelSelection, Assembly-CSharp
+      value: FusilliProject.SceneChanger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -707,17 +755,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3096533145289492694, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
   m_PrefabInstance: {fileID: 704340385}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &704340387 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3096533145289492688, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
-  m_PrefabInstance: {fileID: 704340385}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa37493cb7f8d60478b6927afc90bddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &766175388
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,17 +901,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3096533145289492694, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
   m_PrefabInstance: {fileID: 1860497331}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1110245752 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3096533145289492688, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
-  m_PrefabInstance: {fileID: 1860497331}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa37493cb7f8d60478b6927afc90bddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1117890983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,6 +1579,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 843155829}
     m_Modifications:
+    - target: {fileID: 511759882973646067, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
+      propertyPath: scene
+      value: KitchenProto
+      objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492690, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_Type
       value: 1
@@ -1580,14 +1610,14 @@ PrefabInstance:
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1110245752}
+      objectReference: {fileID: 263882331}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeScene
       objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: FusilliProject.LevelSelection, Assembly-CSharp
+      value: FusilliProject.SceneChanger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1690,6 +1720,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1179887935}
     m_Modifications:
+    - target: {fileID: 511759882973646067, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
+      propertyPath: scene
+      value: KitchenProto
+      objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492690, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1697,14 +1731,14 @@ PrefabInstance:
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2093433162}
+      objectReference: {fileID: 564110158}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeScene
       objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: FusilliProject.LevelSelection, Assembly-CSharp
+      value: FusilliProject.SceneChanger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1805,17 +1839,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3096533145289492694, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
   m_PrefabInstance: {fileID: 2093433160}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2093433162 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3096533145289492688, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
-  m_PrefabInstance: {fileID: 2093433160}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa37493cb7f8d60478b6927afc90bddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2098230740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,6 +1980,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1179887935}
     m_Modifications:
+    - target: {fileID: 511759882973646067, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
+      propertyPath: scene
+      value: KitchenProto
+      objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492690, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1964,14 +1991,14 @@ PrefabInstance:
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2139322593}
+      objectReference: {fileID: 358668281}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangeScene
       objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: FusilliProject.LevelSelection, Assembly-CSharp
+      value: FusilliProject.SceneChanger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3096533145289492691, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -2072,17 +2099,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3096533145289492694, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
   m_PrefabInstance: {fileID: 2139322591}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2139322593 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3096533145289492688, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
-  m_PrefabInstance: {fileID: 2139322591}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa37493cb7f8d60478b6927afc90bddf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &3096533145425867021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2206,5 +2222,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Kev\xE4t"
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3096533145289492688, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f85888cc0e7a7504b9810635ab2b2c17, type: 3}
