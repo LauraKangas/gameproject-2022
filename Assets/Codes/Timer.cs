@@ -20,6 +20,8 @@ namespace FusilliProject
 
         public TMP_Text timer;
 
+        public TMP_Text totalScore;
+
         [SerializeField]
         private GameObject scoreboard;
 
@@ -30,6 +32,7 @@ namespace FusilliProject
 
             gameTime = startTime;
             timer.text = "Time: " + startTime;
+            totalScore.enabled = false;
         
         }
 
@@ -61,6 +64,11 @@ namespace FusilliProject
 
                    Instantiate(scoreboard, transform.position, transform.rotation);
                    scoreSpawned = true;
+
+                   totalScore.enabled = true;
+                   totalScore.text = "Total score: " + ScoreController.textScore;
+
+
                
 
                 }  

@@ -77,6 +77,15 @@ namespace FusilliProject
 						
 					
 				}
+
+				if (spawnedObject == null)
+			{
+					    
+                        ChangeState();
+                        
+						
+					
+				}
                 break;
                 }
 			}
@@ -103,7 +112,7 @@ namespace FusilliProject
 
 		private void Spawn()
 		{
-			randomSpawn = Random.Range(1,6);
+			randomSpawn = Random.Range(1,7);
 
 			switch(randomSpawn){
 				case 1:
