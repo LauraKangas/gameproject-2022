@@ -52,7 +52,7 @@ namespace FusilliProject
 
                
 					    PlayerPrefs.SetInt("highscore", scoreNum);
-					    //highscoreText.text = "Highscore: " + highscore;
+					    highscoreText.text = "Highscore: " + highscore;
                         Debug.Log("Highscore: " + highscore);
                         
 				}

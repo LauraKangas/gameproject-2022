@@ -103,11 +103,11 @@ namespace FusilliProject
 
         private void Update()
         {
-            if (this.isBurned && burnedSprite != null)
+            if (this.isBurned && this.burnedSprite != null && !this.onPlate)
             {
                 this.spriteRenderer.sprite = burnedSprite;
             }
-            else if (this.isCooked && cookedSprite != null)
+            else if ((this.isCooked || this.isBoiled) && this.cookedSprite != null && !this.onPlate)
             {
                 this.spriteRenderer.sprite = cookedSprite;
             }

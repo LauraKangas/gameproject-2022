@@ -9,7 +9,7 @@ namespace FusilliProject
     {
         public bool isDragged;
 
-        public Vector2 startPos;
+        public Vector3 startPos;
 
         public void OnDrag(PointerEventData eventData)
         {
@@ -35,12 +35,14 @@ namespace FusilliProject
 
         public void OnEndDrag(PointerEventData eventData)
         {
-            this.isDragged = false;      
+            this.isDragged = false;
         }
 
         public void returnToStart()
         {
             this.transform.position = this.startPos;
+            // Vector2 move = (startPos - this.transform.position).normalized * Time.deltaTime * 10;
+            // this.transform.Translate(move);
         }
     }
 }
