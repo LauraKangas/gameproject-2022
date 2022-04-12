@@ -8,10 +8,23 @@ namespace FusilliProject
 {
     public class LevelSelection : MonoBehaviour
     {
-        public void ChangeScene()
+
+        [SerializeField]
+		public GameObject[] info;
+        int randomSpawn;
+        void Start()
         {
-            SceneManager.LoadScene("KitchenProto");
-            Debug.Log("To Game");
+            
+            SpawnInfo();
+        }
+
+        private void SpawnInfo()
+		{
+			randomSpawn = Random.Range(1,6);
+
+			Instantiate(info[randomSpawn], transform.position, transform.rotation);
+
+			
         }
     }
 }
