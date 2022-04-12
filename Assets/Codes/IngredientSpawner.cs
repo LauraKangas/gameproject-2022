@@ -28,6 +28,9 @@ namespace FusilliProject
         // Viittaus juuri spawnatun aineksen Controlleriin
         private Draggable ingredientDragger;
 
+        [SerializeField]
+        private Sprite sprite;
+
 
         // Uuden aines-olion spawnaus metodi
         private void Spawn()
@@ -61,7 +64,7 @@ namespace FusilliProject
         //     // ingredientScript.OnPointerUp(eventData);
 
         //     this.OnEndDrag(eventData);
-            
+
         // }
 
         public void OnBeginDrag(PointerEventData eventData)
@@ -73,6 +76,14 @@ namespace FusilliProject
             ingredientDragger = ingredient.GetComponent<Draggable>();
 
             ingredientDragger.OnBeginDrag(eventData);
+
+            if (this.tag != null)
+            {
+                if (this.tag == "PersistentSpawner")
+                {
+                    this.gameObject.GetComponent<SpriteRenderer>().sprite = null;
+                }
+            }
         }
 
         public void OnDrag(PointerEventData eventdata)
@@ -82,7 +93,14 @@ namespace FusilliProject
 
         public void OnEndDrag(PointerEventData eventData)
         {
-            ingredientDragger.OnEndDrag(eventData);     
+            ingredientDragger.OnEndDrag(eventData);
+            if (this.tag != null)
+            {
+                if (this.tag == "PersistentSpawner")
+                {
+                    this.gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
+                }
+            }
         }
     }
 }

@@ -111,12 +111,17 @@ namespace FusilliProject
             {
                 this.spriteRenderer.sprite = cookedSprite;
             }
+
+            if (this.tag == "Spice" && !this.onPlate && !this.gameObject.GetComponent<Draggable>().isDragged)
+            {
+                Destroy(this.gameObject);
+            }
         }
 
         // Kuuntelija, jos pelaaja painaa sormen ainekselle, kun se on leikkuulaudalla, leikataan ainesta
         public void OnPointerDown(PointerEventData eventData)
         {
-            if(this.onBoard)
+            if (this.onBoard)
             {
                 chop();
             }
