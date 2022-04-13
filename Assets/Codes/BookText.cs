@@ -9,10 +9,12 @@ namespace FusilliProject
     public class BookText : MonoBehaviour
     {
 
-        public TMP_Text buttonText;
+        public TMP_Text pageNum;
+        public TMP_Text pageNum2;
         public TMP_Text recipe;
         public TMP_Text ingredients;
-        public int num;
+        public TMP_Text instructions;
+        public int num, num2;
 
         public Button next;
         public Button previous;
@@ -21,7 +23,9 @@ namespace FusilliProject
         {
         
             num = 1;
-            buttonText.text = "Page " + num;
+            num2 = 2;
+            pageNum.text = "Page " + num;
+            pageNum2.text = "Page " + num2;
             
             
         }
@@ -38,37 +42,42 @@ namespace FusilliProject
         {
             
                     
-                    num += 1;
-                    buttonText.text = "Page " + num;
+                    num += 2;
+                    num2 += 2;
+                    pageNum.text = "Page " + num;
+                    pageNum2.text = "Page " + num2;
 
                    
             switch(num) 
 
                 {
                   case 1:
-                    ingredients.text = "first page";
-                    recipe.text = "first page";
-                    previous.enabled = false;
+                    ingredients.text = "4 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    recipe.text = "Juuressosekeitto";
+                    instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
+                    
                     break;
 
                   case 2:
                    
-                    ingredients.text = "Salaatti \n\nAinekset\n\nTomaatti\nKurkku";
-                    recipe.text = "Pilko tomaatit\nPilko kurkku";
-                    previous.enabled = true;
+                    ingredients.text = "4 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    recipe.text = "Juuressosekeitto";
+                    instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
+                    
                     break;
 
                     case 3:
-                    ingredients.text = "Uunifetapasta \n\nAinekset\n\nPasta\nKirsikkatomaatit\nFetajuusto\nOliviöljy";
-                     recipe.text = "Sekoita kaikki ainekset uunivuoassa\nKeitä pasta n. 15 min";
-                     previous.enabled = true;
+                    ingredients.text = "4 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    recipe.text = "Juuressosekeitto";
+                    instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
+                     
                     break;
 
                     case 4:
-                    ingredients.text = "Tomaattikeitto \n\nAinekset\n\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
-                    recipe.text = "Sekoita kaikki ainekset\nSekoita tehosekoittimessa";
-                    next.enabled = false;
-                    previous.enabled = true;
+                   ingredients.text = "4 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    recipe.text = "Juuressosekeitto";
+                    instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
+                   
                     break;
 
                     default:
@@ -84,7 +93,7 @@ namespace FusilliProject
             
                     
                     num -= 1;
-                    buttonText.text = "Page " + num;
+                    pageNum.text = "Page " + num;
                     
 
                    
@@ -94,30 +103,26 @@ namespace FusilliProject
                   case 1:
                     ingredients.text = "first page";
                     recipe.text = "first page";
-                    previous.enabled = false;
-                    next.enabled = true;
+                    
                     break;
 
                   case 2:
                    
-                    ingredients.text = "Salaatti \n\nAinekset\n\nTomaatti\nKurkku";
+                    ingredients.text = "Salaatti \nAinekset\nTomaatti\nKurkku";
                     recipe.text = "Pilko tomaatit\nPilko kurkku";
-                    next.enabled = true;
-                    previous.enabled = true;
+                    
                     break;
 
                     case 3:
-                    ingredients.text = "Uunifetapasta \n\nAinekset\n\nPasta\nKirsikkatomaatit\nFetajuusto\nOliviöljy";
+                    ingredients.text = "Uunifetapasta \nAinekset\nPasta\nKirsikkatomaatit\nFetajuusto\nOliviöljy";
                      recipe.text = "Sekoita kaikki ainekset uunivuoassa\nKeitä pasta n. 15 min";
-                     next.enabled = true;
-                     previous.enabled = true;
+                     
                     break;
 
                     case 4:
-                    ingredients.text = "Tomaattikeitto \n\nAinekset\n\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
+                    ingredients.text = "Tomaattikeitto \nAinekset\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
                     recipe.text = "Sekoita kaikki ainekset\nSekoita tehosekoittimessa";
-                    next.enabled = false;
-                    previous.enabled = true;
+                    
                     break;
 
                     default:
@@ -136,9 +141,9 @@ namespace FusilliProject
                    
                     num = 4;
                     
-                    buttonText.text = "Page " + num;
+                    pageNum.text = "Page " + num;
                     
-                     ingredients.text = "Tomaattikeitto \n\nAinekset\n\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
+                     ingredients.text = "Tomaattikeitto \nAinekset\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
                      recipe.text = "Sekoita kaikki ainekset\nSekoita tehosekoittimessa";
                        
                          
