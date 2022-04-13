@@ -105,7 +105,8 @@ namespace FusilliProject
                     {
                         ingredients[i].GetComponent<Draggable>().DestroyIngredient();
                     }
-                    else{
+                    else
+                    {
                         Destroy(ingredients[i]);
                     }
                     ingredients.RemoveAt(i);
@@ -118,7 +119,23 @@ namespace FusilliProject
 
         private int RateIngredient(IngredientController ingredient)
         {
+            bool sameIngredientFound = false;
             int flaws = 0;
+
+            for (int i = 0; i < ingredients.Count - 1; i++)
+            {
+                if (ingredients[i].GetComponent<IngredientController>().type == ingredient.type)
+                {
+                    flaws += 4;
+                    sameIngredientFound = true;
+                }
+            }
+
+            if (sameIngredientFound)
+            {
+                return flaws;
+            }
+
             foreach (Ingredient orderIngredient in order.GetComponent<Order>().ingredients)
             {
                 if (orderIngredient.type == ingredient.type)
@@ -150,18 +167,6 @@ namespace FusilliProject
 
                     return flaws;
                 }
-            }
-
-            foreach (GameObject earlierIngredient in ingredients)
-            {
-                if (earlierIngredient.GetComponent<IngredientController>().type == ingredient.type)
-                {
-                    flaws += 4;
-                }
-            }
-            if (flaws > 0)
-            {
-                return flaws;
             }
 
             // Aines ei edes kuulu reseptiin
