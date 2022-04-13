@@ -94,9 +94,6 @@ namespace FusilliProject
 
             this.isBurned = false;
 
-            // Asetetaan aines ensimmäiseen pilkkomisvaiheensa, yleensä kokonainen
-            this.chopState = 0;
-
             // Asetetaan viittaus aineksen SpriteRenderer-komponenttiin
             this.spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
 
