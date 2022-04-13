@@ -31,6 +31,8 @@ namespace FusilliProject
         [SerializeField]
         private Sprite sprite;
 
+        public GameObject tableSurface;
+
 
         // Uuden aines-olion spawnaus metodi
         private void Spawn()
@@ -74,6 +76,11 @@ namespace FusilliProject
             // !! Alla olevat tarpeettomia, jos halutaan aineksen spawnaavan muualle kuin mihin pelaaja painaa
             // Asetetaan viittaus luodun aineksen Controlleriin
             ingredientDragger = ingredient.GetComponent<Draggable>();
+
+            if (ingredientDragger.tag != "Spice")
+            {
+                ingredientDragger.setTableSlot(tableSurface);
+            }
 
             ingredientDragger.OnBeginDrag(eventData);
 

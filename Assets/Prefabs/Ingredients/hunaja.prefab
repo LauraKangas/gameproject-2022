@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2542601705911415455
+--- !u!1 &4311361705627682990
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2542601705911415452}
-  - component: {fileID: 2542601705911415453}
-  - component: {fileID: 2542601705911415454}
-  - component: {fileID: 2542601705911415443}
-  - component: {fileID: 7525854979539910882}
-  - component: {fileID: 4166681818336862883}
-  - component: {fileID: 9060893827058545134}
+  - component: {fileID: 5114678538012752301}
+  - component: {fileID: 365886510522038179}
+  - component: {fileID: 3334440460881888922}
+  - component: {fileID: 2385015988362007560}
+  - component: {fileID: 3302480924908043537}
+  - component: {fileID: 967408456896231660}
   m_Layer: 0
-  m_Name: tilauslapputomaattikeitto
-  m_TagString: Order
+  m_Name: hunaja
+  m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2542601705911415452
+--- !u!4 &5114678538012752301
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2542601705911415455}
+  m_GameObject: {fileID: 4311361705627682990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.91, y: -1.83, z: 0}
+  m_LocalPosition: {x: -16.951784, y: 1.7963014, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2542601705911415453
+--- !u!212 &365886510522038179
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2542601705911415455}
+  m_GameObject: {fileID: 4311361705627682990}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -75,114 +74,26 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: d2c3f2adef3516349896ee66c552a5b0, type: 3}
+  m_SortingOrder: 9
+  m_Sprite: {fileID: 21300000, guid: c4a91939854d79243b534e7404b9773e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.14, y: 1.41}
+  m_Size: {x: 1, y: 1.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2542601705911415454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2542601705911415455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 718e502fb7a638a4f96b5fa8a1b055b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  orderLarge: {fileID: 5219257886320421923, guid: 6cf8c91932fcda347b375294dba25c76, type: 3}
---- !u!61 &2542601705911415443
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2542601705911415455}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.14, y: 1.41}
-    newSize: {x: 1.14, y: 1.41}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.14, y: 1.41}
-  m_EdgeRadius: 0
---- !u!114 &7525854979539910882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2542601705911415455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a54317412a0bc14eb4953f074220285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ingredients:
-  - type: 0
-    cookingState: 3
-    isCooked: 0
-    isBoiled: 1
-    isBurned: 0
-  - type: 1
-    cookingState: 3
-    isCooked: 0
-    isBoiled: 1
-    isBurned: 0
-  - type: 2
-    cookingState: 3
-    isCooked: 0
-    isBoiled: 1
-    isBurned: 0
-  - type: 4
-    cookingState: 0
-    isCooked: 0
-    isBoiled: 0
-    isBurned: 0
-  points: 0
-  meal: {fileID: 2467179445192839682, guid: b3bcb606c7e1f7e40afc50223a16af95, type: 3}
---- !u!114 &4166681818336862883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2542601705911415455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e00f3952aafa08408382e12bb5fb440, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDragged: 0
-  startPos: {x: 0, y: 0}
---- !u!50 &9060893827058545134
+--- !u!50 &3334440460881888922
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2542601705911415455}
+  m_GameObject: {fileID: 4311361705627682990}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -196,3 +107,87 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!60 &2385015988362007560
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4311361705627682990}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1.5}
+    newSize: {x: 1, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.39, y: 0.63}
+      - {x: 0.29999998, y: 0.65}
+      - {x: -0.22999999, y: 0.65}
+      - {x: -0.45999998, y: 0.63}
+      - {x: -0.45999998, y: -0.64}
+      - {x: -0.45, y: -0.72999996}
+      - {x: 0.42, y: -0.72999996}
+      - {x: 0.47, y: -0.69}
+      - {x: 0.47, y: 0.59}
+--- !u!114 &3302480924908043537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4311361705627682990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551fb9c464b68a249b60a007534f78e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 7
+  chopState: 3
+  isCooked: 0
+  isBoiled: 0
+  isBurned: 0
+  onBoard: 0
+  onPlate: 0
+  beingCooked: 0
+  isDragged: 0
+  isOvenCooked: 0
+  isFried: 0
+  ingredientStages:
+  - {fileID: 21300000, guid: c4a91939854d79243b534e7404b9773e, type: 3}
+  - {fileID: 21300000, guid: c4a91939854d79243b534e7404b9773e, type: 3}
+  - {fileID: 21300000, guid: c4a91939854d79243b534e7404b9773e, type: 3}
+  - {fileID: 21300000, guid: c4a91939854d79243b534e7404b9773e, type: 3}
+  cookedSprite: {fileID: 0}
+  burnedSprite: {fileID: 0}
+  points: 3
+--- !u!114 &967408456896231660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4311361705627682990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e00f3952aafa08408382e12bb5fb440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDragged: 0
+  fixedInPlace: 1
+  speed: 10
+  startPos: {x: 0, y: 0, z: 0}
+  tableSlot: 0
+  tableSurface: {fileID: 0}
+  draggable: 1

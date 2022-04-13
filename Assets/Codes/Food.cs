@@ -1,21 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace FusilliProject
 {
-    public class Food : MonoBehaviour
+    public class Food : MonoBehaviour, IPointerClickHandler
     {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        public PlateController plate;
 
-        // Update is called once per frame
-        void Update()
+        public void OnPointerClick(PointerEventData eventData)
         {
-        
+            plate.DeliverOrder();
         }
     }
 }

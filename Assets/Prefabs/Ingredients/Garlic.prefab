@@ -122,13 +122,15 @@ MonoBehaviour:
   onPlate: 0
   beingCooked: 0
   isDragged: 0
+  isOvenCooked: 0
+  isFried: 0
   ingredientStages:
   - {fileID: 21300000, guid: 1eb644ef7fc96144a8c7c9287a75eccd, type: 3}
   - {fileID: 21300000, guid: 6b2e7f2d1d4b9eb4c8359ff5bbeeaad2, type: 3}
   - {fileID: 21300000, guid: c614de3d68ede2e4aa7c6657d955eb3e, type: 3}
   - {fileID: 21300000, guid: b12948ac5ee71584b96fde90d2241036, type: 3}
-  cookedSprite: {fileID: 0}
-  burnedSprite: {fileID: 0}
+  cookedSprite: {fileID: 21300000, guid: bab248efe656c374c8f22ad85c17ba4e, type: 3}
+  burnedSprite: {fileID: 21300000, guid: 208b7435e482abc47aa3ab6d6c0bb2c3, type: 3}
   points: 3
 --- !u!60 &98955147486589635
 PolygonCollider2D:
@@ -206,4 +208,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDragged: 0
-  startPos: {x: 0, y: 0}
+  fixedInPlace: 1
+  speed: 10
+  startPos: {x: 0, y: 0, z: 0}
+  tableSlot: 0
+  tableSurface: {fileID: 0}
+  draggable: 1

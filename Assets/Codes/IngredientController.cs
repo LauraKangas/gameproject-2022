@@ -52,6 +52,9 @@ namespace FusilliProject
         // Onko aines pelaajan vedeltävänä
         public bool isDragged;
 
+        public bool isOvenCooked;
+        public bool isFried;
+
         [SerializeField]
         // Aineksen pilkkomisasteiden spritet, pidettävä oikeassa järjestyksessä
         public Sprite[] ingredientStages;
@@ -107,7 +110,7 @@ namespace FusilliProject
             {
                 this.spriteRenderer.sprite = burnedSprite;
             }
-            else if ((this.isCooked || this.isBoiled) && this.cookedSprite != null && !this.onPlate)
+            else if ((this.isCooked) && this.cookedSprite != null && !this.onPlate)
             {
                 this.spriteRenderer.sprite = cookedSprite;
             }

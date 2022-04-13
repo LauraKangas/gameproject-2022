@@ -26,18 +26,18 @@ namespace FusilliProject
 
             if (order != null)
             {
-                if (!orderDragger.isDragged && !hasOrder)
+                if (orderDragger.isDragged && hasOrder)
+                {
+                    hasOrder = false;
+                    orderDragger.fixedInPlace = false;
+                }
+                else if (!orderDragger.isDragged && !hasOrder)
                 {
                     order.transform.position = this.transform.position;
                     plateController.order = this.order;
+                    hasOrder = true;
+                    orderDragger.fixedInPlace = true;
                     plateController.prepareIngredientSlots();
-                }
-                if (extraOrder != null)
-                {
-                    if (!extraOrderDragger.isDragged)
-                    {
-                        extraOrderDragger.returnToStart();
-                    }
                 }
             }
         }
@@ -46,17 +46,12 @@ namespace FusilliProject
         private void OnTriggerEnter2D(Collider2D col)
         {
             Debug.Log("enter");
-            if (col.tag == "Order")
+            if (col.tag == "Order" && col.gameObject.GetComponent<Draggable>().isDragged)
             {
                 if (order == null)
                 {
                     order = col.gameObject;
                     orderDragger = order.GetComponent<Draggable>();
-                }
-                else
-                {
-                    extraOrder = col.gameObject;
-                    extraOrderDragger = extraOrder.GetComponent<Draggable>();
                 }
             }
         }
@@ -68,17 +63,11 @@ namespace FusilliProject
 
             if (col.tag == "Order")
             {
-                if (col.gameObject.Equals(order))
-                {
-                    order = null;
-                    orderDragger = null;
-                    plateController.order = null;
-                }
-                else if (col.gameObject.Equals(extraOrder))
-                {
-                    extraOrder = null;
-                    extraOrderDragger = null;
-                }
+                order = null;
+                orderDragger = null;
+                plateController.order = null;
+                hasOrder = false;
+
             }
         }
     }

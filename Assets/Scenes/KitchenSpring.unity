@@ -630,7 +630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.38399935}
+  m_AnchoredPosition: {x: 0, y: -0.38399982}
   m_SizeDelta: {x: -6.649, y: -5.882}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &101951694
@@ -1063,8 +1063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.1, y: -19.398}
-  m_SizeDelta: {x: 23.788, y: 9.819}
+  m_AnchoredPosition: {x: 17.4, y: -19.3}
+  m_SizeDelta: {x: 31.62, y: 16.446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &260705033
 MonoBehaviour:
@@ -1087,7 +1087,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.5764507, g: 0.95126957, b: 0.9622642, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1154,8 +1154,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 332bd447072ed1748ac2699e76b6b52a, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1244,7 +1244,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cdcc51af7a7180845858025a7a20d934, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2839,7 +2839,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 74deb96ed133f0846858da0f3dcd9cdc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a41af202ac18e6147b7de6d758d55caf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6139,8 +6139,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.2, y: -20.001}
-  m_SizeDelta: {x: 21.982, y: 8.614}
+  m_AnchoredPosition: {x: -15.81, y: -19.3}
+  m_SizeDelta: {x: 31.62, y: 16.446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1786230510
 MonoBehaviour:
@@ -6163,7 +6163,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.3504361, g: 0.73107976, b: 0.990566, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -6230,8 +6230,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1af78839271d58448a518148302c8381, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6631,7 +6631,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.38399935}
+  m_AnchoredPosition: {x: 0, y: -0.38399982}
   m_SizeDelta: {x: -6.649, y: -5.882}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1843378108
@@ -6984,7 +6984,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 655ef6608e53a1247be55eeeaed85cb4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 401adee83d5a8214995aa798d0533305, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8573,10 +8573,6 @@ PrefabInstance:
     - target: {fileID: 5098244013050973941, guid: c6b5967cb56001f41abe3daed8ded118, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5098244013050973947, guid: c6b5967cb56001f41abe3daed8ded118, type: 3}
-      propertyPath: m_MovementType
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5098244013711440801, guid: c6b5967cb56001f41abe3daed8ded118, type: 3}
       propertyPath: m_Sprite

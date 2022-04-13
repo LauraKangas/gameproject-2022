@@ -7,6 +7,7 @@ TagManager:
   - Order
   - Ingredient
   - Spice
+  - PersistentSpawner
   layers:
   - Default
   - TransparentFX

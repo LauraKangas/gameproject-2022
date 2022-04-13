@@ -36,6 +36,9 @@ namespace FusilliProject
         // Ylimääräisen aineksen Controller
         private GameObject secondIngredient;
 
+        [SerializeField]
+        private List<GameObject> ingredients;
+
         void Start()
         {
             hasIngredient = false;
@@ -43,67 +46,90 @@ namespace FusilliProject
 
         void Update()
         {
-            /*
-            Jos laudalla ei ole ensisijaista ainesta,
-            mutta on ylimääräinen aines, otetaan ylimääräinen aines ensisijaiseksi
-            */
-            if (ingredient == null)
+
+            // Jos esineellä on valmistuva aines
+            if (ingredients.Count > 0)
             {
-                if (secondIngredient != null)
+
+                if (ingredients[0].GetComponent<Draggable>().isDragged && ingredients[0].GetComponent<IngredientController>().onBoard)
                 {
-                    ingredient = secondIngredient;
-                    secondIngredient = null;
+                    ingredients[0].GetComponent<IngredientController>().onBoard = false;
+                    ingredients[0].GetComponent<Draggable>().fixedInPlace = false;
+                    this.hasIngredient = false;
+                }
+                // Jos ensimmäistä ainesta ei olla liikuttamassa, eikä se ole valmistumassa otetaan se valmistukseen
+                else if (!ingredients[0].GetComponent<Draggable>().isDragged && !ingredients[0].GetComponent<IngredientController>().onBoard)
+                {
+                    ingredients[0].transform.position = this.transform.position;
+                    ingredients[0].GetComponent<IngredientController>().onBoard = true;
+                    ingredients[0].GetComponent<Draggable>().fixedInPlace = true;
+                    this.hasIngredient = true;
                 }
             }
 
-            // Jos laudalla on ensisjainen aines
-            if (ingredient != null)
-            {
-                // Jos ensisijainen aines on raahattavana, päivitetään ettei se ole leikeltävänä
-                if (ingredient.GetComponent<Draggable>().isDragged && hasIngredient)
-                {
-                    hasIngredient = false;
-                }
+            // /*
+            // Jos laudalla ei ole ensisijaista ainesta,
+            // mutta on ylimääräinen aines, otetaan ylimääräinen aines ensisijaiseksi
+            // */
+            // if (ingredient == null)
+            // {
+            //     if (secondIngredient != null)
+            //     {
+            //         ingredient = secondIngredient;
+            //         secondIngredient = null;
+            //     }
+            // }
 
-                // Jos ensisijaista ainesta ei olla liikuttamassa, eikä se ole leikeltävänä otetaan se leikeltäväksi 
-                if (!ingredient.GetComponent<Draggable>().isDragged && !hasIngredient)
-                {
-                    ingredient.transform.position = this.transform.position;
-                    hasIngredient = true;
-                }
-                // Jos laudalla on myös ylimääräinen aines, jota pelaaja ei ole liikuttamassa, työnnetään sitä ulos laudalta
-                else if (secondIngredient != null)
-                {
-                    if (!secondIngredient.GetComponent<Draggable>().isDragged)
-                    {
-                        Vector2 move = (secondIngredientEnterPos - secondIngredient.transform.position).normalized * Time.deltaTime * 10;
-                        secondIngredient.transform.Translate(move);
-                    }
-                }
-            }
+            // // Jos laudalla on ensisjainen aines
+            // if (ingredient != null)
+            // {
+            //     // Jos ensisijainen aines on raahattavana, päivitetään ettei se ole leikeltävänä
+            //     if (ingredient.GetComponent<Draggable>().isDragged && hasIngredient)
+            //     {
+            //         hasIngredient = false;
+            //     }
+
+            //     // Jos ensisijaista ainesta ei olla liikuttamassa, eikä se ole leikeltävänä otetaan se leikeltäväksi 
+            //     if (!ingredient.GetComponent<Draggable>().isDragged && !hasIngredient)
+            //     {
+            //         ingredient.transform.position = this.transform.position;
+            //         hasIngredient = true;
+            //     }
+            //     // Jos laudalla on myös ylimääräinen aines, jota pelaaja ei ole liikuttamassa, työnnetään sitä ulos laudalta
+            //     else if (secondIngredient != null)
+            //     {
+            //         if (!secondIngredient.GetComponent<Draggable>().isDragged)
+            //         {
+            //             Vector2 move = (secondIngredientEnterPos - secondIngredient.transform.position).normalized * Time.deltaTime * 10;
+            //             secondIngredient.transform.Translate(move);
+            //         }
+            //     }
+            // }
         }
 
         // Kuuntelija, kun jokin objekti tulee laudalle
         private void OnTriggerEnter2D(Collider2D col)
         {
             Debug.Log("enter");
-            if (col.tag == "Ingredient")
+            if (col.tag == "Ingredient" && col.gameObject.GetComponent<Draggable>().isDragged)
             {
-                // Jos laudalla ei ole ensisijaista ainesta, asetetaan laudalle vedetty aines ensisijaiseksi ainekseksi
-                if (ingredient == null)
-                {
-                    ingredient = col.gameObject;
-                    // Merkitään ainekselle sen olevan laudalla
-                    ingredient.GetComponent<IngredientController>().onBoard = true;
-                }
-                // Jos laudalla on jo ensisijainen aines, asetetaan laudalle vedetty aines ylimääräiseksi
-                else
-                {
-                    secondIngredient = col.gameObject;
-                    secondIngredientEnterPos = secondIngredient.transform.position;
-                    // Merkitään ainekselle sen olevan laudalla
-                    secondIngredient.GetComponent<IngredientController>().onBoard = true;
-                }
+                ingredients.Add(col.gameObject);
+
+                // // Jos laudalla ei ole ensisijaista ainesta, asetetaan laudalle vedetty aines ensisijaiseksi ainekseksi
+                // if (ingredient == null)
+                // {
+                //     ingredient = col.gameObject;
+                //     // Merkitään ainekselle sen olevan laudalla
+                //     ingredient.GetComponent<IngredientController>().onBoard = true;
+                // }
+                // // Jos laudalla on jo ensisijainen aines, asetetaan laudalle vedetty aines ylimääräiseksi
+                // else
+                // {
+                //     secondIngredient = col.gameObject;
+                //     secondIngredientEnterPos = secondIngredient.transform.position;
+                //     // Merkitään ainekselle sen olevan laudalla
+                //     secondIngredient.GetComponent<IngredientController>().onBoard = true;
+                // }
             }
         }
 
@@ -114,20 +140,24 @@ namespace FusilliProject
 
             if (col.tag == "Ingredient")
             {
-                // Jos poistuva aines on ensisijainen aines, merkitään sen poistuminen ainekselle itselleen ja poistetaan viittaus laudalta
-                if (col.gameObject.Equals(ingredient))
-                {
-                    ingredient.GetComponent<IngredientController>().onBoard = false;
-                    ingredient = null;
-                    hasIngredient = false;
-                }
+                ingredients.Remove(col.gameObject);
+                col.gameObject.GetComponent<IngredientController>().onBoard = false;
+                hasIngredient = false;
 
-                // Jos poistuva aines on on toissijainen aines, merkitään sen poistuminen ainekselle itselleen ja poistetaan viittaus laudalta
-                else if (col.gameObject.GetComponent<IngredientController>().Equals(secondIngredient))
-                {
-                    secondIngredient.GetComponent<IngredientController>().onBoard = false;
-                    secondIngredient = null;
-                }
+                // // Jos poistuva aines on ensisijainen aines, merkitään sen poistuminen ainekselle itselleen ja poistetaan viittaus laudalta
+                // if (col.gameObject.Equals(ingredient))
+                // {
+                //     ingredient.GetComponent<IngredientController>().onBoard = false;
+                //     ingredient = null;
+                //     hasIngredient = false;
+                // }
+
+                // // Jos poistuva aines on on toissijainen aines, merkitään sen poistuminen ainekselle itselleen ja poistetaan viittaus laudalta
+                // else if (col.gameObject.GetComponent<IngredientController>().Equals(secondIngredient))
+                // {
+                //     secondIngredient.GetComponent<IngredientController>().onBoard = false;
+                //     secondIngredient = null;
+                // }
             }
         }
 
@@ -137,7 +167,7 @@ namespace FusilliProject
             // Jos laudalla on leikeltävä aines, kutsutaan sen pilkkomismetodia
             if (hasIngredient)
             {
-                ingredient.GetComponent<IngredientController>().chop();
+                ingredients[0].GetComponent<IngredientController>().chop();
             }
         }
 

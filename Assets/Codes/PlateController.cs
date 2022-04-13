@@ -43,6 +43,8 @@ namespace FusilliProject
                         {
                             ingredient.gameObject.GetComponent<SpriteRenderer>().sprite = null;
                             ingredient.GetComponent<IngredientController>().onPlate = true;
+                            ingredient.GetComponent<Draggable>().fixedInPlace = true;
+                            ingredient.GetComponent<Draggable>().draggable = false;
                             int flaws = RateIngredient(ingredient.GetComponent<IngredientController>());
                             ingredient.GetComponent<IngredientController>().points -= flaws;
                             int ingCount = IngredientToSlot(ingredient.GetComponent<IngredientController>(), flaws);
@@ -61,7 +63,7 @@ namespace FusilliProject
         private void OnTriggerEnter2D(Collider2D col)
         {
             Debug.Log("enter");
-            if (col.tag == "Ingredient" || col.tag == "Spice")
+            if ((col.tag == "Ingredient" || col.tag == "Spice") && col.gameObject.GetComponent<Draggable>().isDragged)
             {
                 ingredients.Add(col.gameObject);
             }
@@ -74,11 +76,19 @@ namespace FusilliProject
 
             if (col.tag == "Ingredient" || col.tag == "Spice")
             {
-                ingredients.RemoveAt(ingredients.Count - 1);
+                if (!col.gameObject.GetComponent<IngredientController>().onPlate)
+                {
+                    ingredients.Remove(col.gameObject);
+                }
             }
         }
 
         public void OnPointerClick(PointerEventData eventData)
+        {
+            DeliverOrder();
+        }
+
+        public void DeliverOrder()
         {
             if (meal != null)
             {
@@ -91,7 +101,14 @@ namespace FusilliProject
 
                 for (int i = ingredients.Count - 1; i >= 0; i--)
                 {
-                    Destroy(ingredients[i]);
+                    if (ingredients[i].tag == "Ingredient")
+                    {
+                        ingredients[i].GetComponent<Draggable>().DestroyIngredient();
+                    }
+                    else{
+                        Destroy(ingredients[i]);
+                    }
+                    ingredients.RemoveAt(i);
                 }
 
                 Destroy(order);
@@ -114,20 +131,41 @@ namespace FusilliProject
                     {
                         flaws++;
                     }
-                    if (orderIngredient.isCooked != ingredient.isCooked)
+                    if (orderIngredient.isOvenCooked != ingredient.isOvenCooked)
                     {
                         flaws++;
                     }
-                    if (ingredient.isBurned)
+                    if (orderIngredient.isFried != ingredient.isFried)
                     {
                         flaws++;
+                    }
+                    if (orderIngredient.isCooked != ingredient.isCooked)
+                    {
+                        flaws += 2;
+                    }
+                    if (ingredient.isBurned)
+                    {
+                        flaws += 3;
                     }
 
                     return flaws;
                 }
             }
+
+            foreach (GameObject earlierIngredient in ingredients)
+            {
+                if (earlierIngredient.GetComponent<IngredientController>().type == ingredient.type)
+                {
+                    flaws += 4;
+                }
+            }
+            if (flaws > 0)
+            {
+                return flaws;
+            }
+
             // Aines ei edes kuulu reseptiin
-            flaws = 5;
+            flaws = 6;
             return flaws;
         }
 
@@ -140,17 +178,19 @@ namespace FusilliProject
                 if (ingredientSlot.transform.GetChild(1).gameObject.GetComponent<Image>().sprite == null)
                 {
                     ingredientSlot.transform.GetChild(1).gameObject.GetComponent<Image>().sprite = ingredient.ingredientStages[0];
+                    ingredientSlot.transform.GetChild(1).gameObject.GetComponent<Image>().preserveAspect = true;
                     ingredientSlot.transform.GetChild(1).gameObject.SetActive(true);
+                    ingredient.transform.position = ingredientSlot.transform.position;
 
                     if (flaws <= 0)
                     {
                         ingredientSlot.transform.GetChild(0).gameObject.GetComponent<Image>().color = new Color32(107, 238, 37, 170);
                     }
-                    else if (flaws >= 1 && flaws <= 4)
+                    else if (flaws >= 1 && flaws <= 5)
                     {
                         ingredientSlot.transform.GetChild(0).gameObject.GetComponent<Image>().color = new Color32(214, 238, 37, 170);
                     }
-                    else if (flaws >= 5)
+                    else if (flaws >= 6)
                     {
                         ingredientSlot.transform.GetChild(0).gameObject.GetComponent<Image>().color = new Color32(238, 51, 37, 170);
                     }
@@ -164,6 +204,7 @@ namespace FusilliProject
         private void CompleteMeal()
         {
             meal = Instantiate(order.GetComponent<Order>().meal, (transform.position + new Vector3(0.07f, 0.08f, 0)), transform.rotation);
+            meal.GetComponent<Food>().plate = this;
             foreach (GameObject ingredientSlot in ingredientSlots)
             {
                 ingredientSlot.transform.GetChild(0).gameObject.GetComponent<Image>().color = new Color32(255, 255, 255, 150);

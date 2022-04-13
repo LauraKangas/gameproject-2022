@@ -13,7 +13,15 @@ namespace FusilliProject
             Onion,
             Garlic,
             Carrot,
-            Salt
+            Salt,
+            Manna,
+            Berries,
+            Honey,
+            Milk,
+            Potato,
+            Pike,
+            Egg,
+            Pepper
         }
 
         public ingredientType type;
@@ -21,5 +29,7 @@ namespace FusilliProject
         public bool isCooked;
         public bool isBoiled;
         public bool isBurned;
+        public bool isOvenCooked;
+        public bool isFried;
     }
 }

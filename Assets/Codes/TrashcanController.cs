@@ -14,7 +14,7 @@ namespace FusilliProject
             {
                 if (!draggedTrash.GetComponent<Draggable>().isDragged)
                 {
-                    Destroy(draggedTrash);
+                    draggedTrash.GetComponent<Draggable>().DestroyIngredient();
                 }
             }
         }

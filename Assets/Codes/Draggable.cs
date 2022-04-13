@@ -9,7 +9,33 @@ namespace FusilliProject
     {
         public bool isDragged;
 
+        public bool fixedInPlace = true;
+
+        public int speed = 10;
+
         public Vector3 startPos;
+
+        public int tableSlot;
+
+        public GameObject tableSurface;
+
+        public bool draggable = true;
+
+        void Start()
+        {
+            if (tag == "Order")
+            {
+                startPos = this.transform.position;
+            }
+        }
+
+        void Update()
+        {
+            if (!this.fixedInPlace && !this.isDragged)
+            {
+                returnToStart();
+            }
+        }
 
         public void OnDrag(PointerEventData eventData)
         {
@@ -29,8 +55,15 @@ namespace FusilliProject
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            startPos = this.transform.position;
-            this.isDragged = true;
+            // if (inPlace)
+            // {
+            //     startPos = this.transform.position;
+            // }
+            if (draggable)
+            {
+                fixedInPlace = false;
+                this.isDragged = true;
+            }
         }
 
         public void OnEndDrag(PointerEventData eventData)
@@ -40,9 +73,32 @@ namespace FusilliProject
 
         public void returnToStart()
         {
-            this.transform.position = this.startPos;
-            // Vector2 move = (startPos - this.transform.position).normalized * Time.deltaTime * 10;
-            // this.transform.Translate(move);
+            // this.transform.position = this.startPos;
+            Vector2 path = (startPos - this.transform.position);
+
+            Vector2 move = path.normalized * Time.deltaTime * speed;
+            float distanceToStart = path.magnitude;
+            if (distanceToStart > move.magnitude)
+            {
+                this.transform.Translate(move);
+            }
+            else
+            {
+                this.transform.position = startPos;
+                this.fixedInPlace = true;
+            }
+        }
+
+        public void DestroyIngredient()
+        {
+            tableSurface.GetComponent<SurfaceController>().availabilities[tableSlot] = true;
+            Destroy(this.gameObject);
+        }
+
+        public void setTableSlot(GameObject tableSurface)
+        {
+            this.tableSurface = tableSurface;
+            tableSlot = this.tableSurface.GetComponent<SurfaceController>().FindSlot(this);
         }
     }
 }
