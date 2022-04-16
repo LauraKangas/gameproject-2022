@@ -2834,8 +2834,8 @@ MonoBehaviour:
   recipe: {fileID: 1083084398}
   ingredients: {fileID: 1728404742}
   instructions: {fileID: 1322096409}
-  page1: {fileID: 0}
-  page2: {fileID: 0}
+  page1: {fileID: 1908005186}
+  page2: {fileID: 699715012}
 --- !u!1 &1536038083
 GameObject:
   m_ObjectHideFlags: 0

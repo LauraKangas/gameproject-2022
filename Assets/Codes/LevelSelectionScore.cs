@@ -10,11 +10,13 @@ namespace FusilliProject
         public TMP_Text hs;
 
         public int HS;
+
+        public int num;
         // Start is called before the first frame update
         void Start()
         {
             
-            hs.text = "Highscore: " + PlayerPrefs.GetInt("highscore", HS);
+            hs.text = "Highscore: " + PlayerPrefs.GetInt(("highscore" + num), HS);
         }
 
         // Update is called once per frame

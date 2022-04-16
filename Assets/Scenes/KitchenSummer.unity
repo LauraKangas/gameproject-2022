@@ -7573,6 +7573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 6369115}
   highscoreText: {fileID: 1818307620}
+  lvlNum: 2
 --- !u!1 &2027710391
 GameObject:
   m_ObjectHideFlags: 0
