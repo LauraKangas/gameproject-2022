@@ -18,6 +18,8 @@ namespace FusilliProject
 
         public Button next;
         public Button previous;
+
+        
         
         void Start()
         {
@@ -56,28 +58,26 @@ namespace FusilliProject
                     recipe.text = "Juuressosekeitto";
                     instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
                     
-                    break;
-
-                  case 2:
-                   
-                    ingredients.text = "4 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
-                    recipe.text = "Juuressosekeitto";
-                    instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
                     
                     break;
 
+                  
+
                     case 3:
-                    ingredients.text = "4 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    ingredients.text = "6 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
                     recipe.text = "Juuressosekeitto";
                     instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
-                     
+                    previous.interactable = true;
+                    
+                    
                     break;
 
-                    case 4:
-                   ingredients.text = "4 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    case 5:
+                    ingredients.text = "7 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
                     recipe.text = "Juuressosekeitto";
                     instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
-                   
+                    next.interactable = false;
+                    
                     break;
 
                     default:
@@ -92,36 +92,45 @@ namespace FusilliProject
         {
             
                     
-                    num -= 1;
+                    num -= 2;
+                    num2 -= 2;
                     pageNum.text = "Page " + num;
-                    
+                    pageNum2.text = "Page " + num2;
 
                    
             switch(num) 
 
                 {
                   case 1:
-                    ingredients.text = "first page";
-                    recipe.text = "first page";
+                    ingredients.text = "1 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    recipe.text = "Juuressosekeitto";
+                    instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
+                    previous.interactable = false;
+                    
                     
                     break;
 
                   case 2:
                    
-                    ingredients.text = "Salaatti \nAinekset\nTomaatti\nKurkku";
-                    recipe.text = "Pilko tomaatit\nPilko kurkku";
+                    ingredients.text = "2 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    recipe.text = "Juuressosekeitto";
+                    instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
+                    
                     
                     break;
 
                     case 3:
-                    ingredients.text = "Uunifetapasta \nAinekset\nPasta\nKirsikkatomaatit\nFetajuusto\nOliviöljy";
-                     recipe.text = "Sekoita kaikki ainekset uunivuoassa\nKeitä pasta n. 15 min";
-                     
+                    ingredients.text = "3 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    recipe.text = "Juuressosekeitto";
+                    instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
+                    next.interactable = true;
+                    
                     break;
 
                     case 4:
-                    ingredients.text = "Tomaattikeitto \nAinekset\nTomaatti\nLiemikuutio\nSipuli\nOliviöljy";
-                    recipe.text = "Sekoita kaikki ainekset\nSekoita tehosekoittimessa";
+                    ingredients.text = "4 annosta \n\n300 g jauhoista perunaa \n200 g porkkanaa \n100 g juuriselleriä \n100 g palsternakka \n6 dl kasvislientä1 dl kermaa tai maitoa \n2 tl Valkopippuria \nSuolaa maun mukaan";
+                    recipe.text = "Juuressosekeitto";
+                    instructions.text = "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset tasakokoisiksi paloiksi. \n2. Kaada kasvisliemi kattilaan, lisää juurekset. Keitä juureksia, kunnes ne ovat pehmenneitä ja kypsiä. \n3. Kun juurekset ovat kypsiä, soseuta keitto blenderillä tai sauvasekoittimella. Ole varovainen, kuuma keitto roiskuu helposti! \n4. Kaada tarvittaessa keitto takaisin kattilaan. Lisää mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lisää tarvittaessa. Jos keitto tuntuu liian paksulta, lisää runsaammin kermaa.";
                     
                     break;
 

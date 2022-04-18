@@ -8,7 +8,7 @@ namespace FusilliProject
     public class RecipeBook : MonoBehaviour
     {
          [SerializeField]
-        private GameObject button, button2;
+        private GameObject button, button2, page_left;
 
          public TMP_Text recipe, ingredients, instructions, page1, page2;
 
@@ -35,7 +35,7 @@ namespace FusilliProject
     public void startAnimation()
     {
         
-        button.SetActive(false);
+            button.SetActive(false);
             button2.SetActive(false);
             recipe.enabled = false;
             ingredients.enabled = false;
@@ -44,11 +44,26 @@ namespace FusilliProject
             page2.enabled = false;
     }
 
-    public void WaitAnimaitonEnds()
+    public void endAnimation()
     {
         
         button.SetActive(true);
         button2.SetActive(true);
+        recipe.enabled = true;
+        ingredients.enabled = true;
+        instructions.enabled = true;
+        page1.enabled = true;
+        page2.enabled = true;
+        page_left.SetActive(false);
+    }
+
+    
+
+    public void WaitAnimaitonEnds()
+    {
+        
+        button.SetActive(true);
+        button2.SetActive(false);
         recipe.enabled = true;
         ingredients.enabled = true;
         instructions.enabled = true;
