@@ -12,7 +12,7 @@ namespace FusilliProject
     public class Timer : MonoBehaviour
     {
 
-         private float gameTime;
+        private float gameTime;
 
         private float startTime = 301;
 
@@ -23,9 +23,12 @@ namespace FusilliProject
         public TMP_Text totalScore;
 
         [SerializeField]
-        private GameObject scoreboard;
+        private GameObject scoreboard, reminder;
+
+        private GameObject spawnedObject;
 
         public bool scoreSpawned;
+        public bool reminderSpawned;
         // Start is called before the first frame update
         void Start()
         {
@@ -33,7 +36,7 @@ namespace FusilliProject
             gameTime = startTime;
             timer.text = "Time: " + startTime;
             totalScore.enabled = false;
-        
+            reminderSpawned = false;
         }
 
         // Update is called once per frame
@@ -73,6 +76,29 @@ namespace FusilliProject
 
                 }  
             } 
+
+            if (gameTime <= 120)
+			{
+                if (!reminderSpawned){
+
+
+                spawnedObject = Instantiate(reminder, new Vector2 (7.2f, -3.8f), transform.rotation);
+                reminderSpawned = true;
+
+                }
+
+                
+            }
+
+            if (gameTime <= 115){
+
+                if (reminderSpawned){
+
+                Destroy(spawnedObject);
+                reminderSpawned = false;
+
+                }
+            }
         
         }
 

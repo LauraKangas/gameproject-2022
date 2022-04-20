@@ -72,7 +72,7 @@ namespace FusilliProject
                     break;
                     
                     
-                    break;
+                    
 
                     case 5:
                     ingredients.text = "4 annosta \n\n8dl Marja / hedelmämehua, sokeroimatonta \n1 dl valitsemiasi marjoja tai hedelmänpaloja \n1dl sokeria \n5 rlk perunajauhoa";
