@@ -68,6 +68,7 @@ namespace FusilliProject
                     recipe.text = "Silakkalaatikko";
                     instructions.text = "1. Kuori perunat ja siivuta ne ohuiksi siivuiksi. Leikkaa silakkafileet paloiksi. \n2. Keitä perunaviipaleita kattilassa n. 10min. Viipaleiden ei tarvitse olla kypsiä! Valuta viipaleet ja jätä odottamaan. \n3. Leikkaa sipuli pieniksi kuutioiksi. \n4. Lorauta syvälle paistinpannulle öljyä ja lisää sipulit. Kuullota, kunnes sipuli on hiukan läpikuultavaa. \n5. Lisää pannulle perunat, kala sekä nesteet. Mausta. Peitä kannella ja hauduta kunnes kala kypsää ja perunat pehmeitä haarukalla tuikatessa. Kypsennysaika riippuu vahvasti siitä, kuinka ohuiksi perunat on leikattu.";
                     next.interactable = true;
+                    previous.interactable = true;
                     
                     break;
                     

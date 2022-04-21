@@ -17,17 +17,24 @@ namespace FusilliProject
         private float startTime = 301;
 
         private float endTime = 0;
+        
 
         public TMP_Text timer;
 
         public TMP_Text totalScore;
 
+        public TMP_Text win, lose;
+
         [SerializeField]
-        private GameObject scoreboard, reminder;
+        private GameObject scoreboard, reminder, next;
+
+        
+
+        
 
         private GameObject spawnedObject;
 
-        public bool scoreSpawned;
+        
         public bool reminderSpawned;
         // Start is called before the first frame update
         void Start()
@@ -35,8 +42,12 @@ namespace FusilliProject
 
             gameTime = startTime;
             timer.text = "Time: " + startTime;
-            totalScore.enabled = false;
+            
+            
             reminderSpawned = false;
+            scoreboard.SetActive(false);
+
+            
         }
 
         // Update is called once per frame
@@ -54,7 +65,7 @@ namespace FusilliProject
 
                 timer.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-                scoreSpawned = false;
+                
 
                 }
 
@@ -62,20 +73,35 @@ namespace FusilliProject
 
                   Debug.Log("Time has run out!");
 
-                 if (scoreSpawned == false){
+                 
 
+                     scoreboard.SetActive(true);
+                     Time.timeScale = 0f;
 
-                   Instantiate(scoreboard, transform.position, transform.rotation);
-                   scoreSpawned = true;
+                   
+                   totalScore.text = "Pisteet: " + ScoreController.textScore;
 
-                   totalScore.enabled = true;
-                   totalScore.text = "Total score: " + ScoreController.textScore;
+                   if (ScoreController.textScore < 5){
 
-
+                    win.enabled = false;
+                   lose.enabled = true;
+                   next.SetActive(false);
                
 
                 }  
-            } 
+
+                if (ScoreController.textScore >= 5){
+
+                   lose.enabled = false;
+                   win.enabled = true;
+                   next.SetActive(true);
+               
+
+                }  
+                 
+
+                } 
+            
 
             if (gameTime <= 120)
 			{
