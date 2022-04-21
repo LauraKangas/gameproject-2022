@@ -20,9 +20,9 @@ namespace FusilliProject
 
         private void SpawnInfo()
 		{
-			randomSpawn = Random.Range(1,6);
+			randomSpawn = Random.Range(1,18);
 
-			Instantiate(info[randomSpawn], transform.position, transform.rotation);
+			info[randomSpawn].SetActive(true);
 
 			
         }

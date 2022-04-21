@@ -10,6 +10,8 @@ namespace FusilliProject
 
         public Button[] lvlButtons;
 
+        public GameObject[] locks;
+
         int lvl;
         // Start is called before the first frame update
         void Start()
@@ -22,12 +24,14 @@ namespace FusilliProject
                 if (i + 3 > lvl) {
 
                     lvlButtons[i].interactable = false;
+                    locks[i].SetActive(true);
 
                 }
 
                 else {
 
                     lvlButtons[i].interactable = true;
+                    locks[i].SetActive(false);
 
                 } 
             }
