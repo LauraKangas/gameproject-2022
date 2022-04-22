@@ -74,15 +74,17 @@ namespace FusilliProject
                     ingredients[0].GetComponent<IngredientController>().beingCooked = false;
                     ingredients[0].GetComponent<Draggable>().fixedInPlace = false;
                     this.hasIngredient = false;
+
+                    if (audio_cook != null)
+				        {
+					        audio_cook.Stop();
+					
+				        } 
+                        
                     if (animator != null)
                     {
                         animator.SetBool("hasIngredient", this.hasIngredient);
 
-                        if (audio_cook != null)
-				        {
-					        audio_cook.Stop();
-					
-				            } 
                     }
                 }
                 // Jos ensimmäistä ainesta ei olla liikuttamassa, eikä se ole valmistumassa otetaan se valmistukseen
@@ -92,15 +94,16 @@ namespace FusilliProject
                     ingredients[0].GetComponent<IngredientController>().beingCooked = true;
                     ingredients[0].GetComponent<Draggable>().fixedInPlace = true;
                     this.hasIngredient = true;
-                    if (animator != null)
-                    {
-                        animator.SetBool("hasIngredient", this.hasIngredient);
 
-                        if (audio_cook != null)
+                    if (audio_cook != null)
 				        {
 					        audio_cook.Play();
 					
-				            } 
+				        }
+
+                    if (animator != null)
+                    {
+                        animator.SetBool("hasIngredient", this.hasIngredient); 
                     }
                 }
 
