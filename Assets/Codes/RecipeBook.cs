@@ -63,7 +63,7 @@ namespace FusilliProject
     {
         
         button.SetActive(true);
-        button2.SetActive(false);
+        button2.SetActive(true);
         recipe.enabled = true;
         ingredients.enabled = true;
         instructions.enabled = true;

@@ -39,6 +39,9 @@ namespace FusilliProject
         [SerializeField]
         private List<GameObject> ingredients;
 
+        [SerializeField]
+        private AudioSource audio_cutting;
+
         void Start()
         {
             hasIngredient = false;
@@ -168,6 +171,12 @@ namespace FusilliProject
             if (hasIngredient)
             {
                 ingredients[0].GetComponent<IngredientController>().chop();
+
+                 if (audio_cutting != null)
+				{
+					audio_cutting.Play();
+					
+				} 
             }
         }
 

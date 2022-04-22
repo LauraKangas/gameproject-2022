@@ -46,6 +46,9 @@ namespace FusilliProject
         [SerializeField]
         private Animator animator;
 
+        [SerializeField]
+        private AudioSource audio_cook;
+
         void Start()
         {
             this.hasIngredient = false;
@@ -74,6 +77,12 @@ namespace FusilliProject
                     if (animator != null)
                     {
                         animator.SetBool("hasIngredient", this.hasIngredient);
+
+                        if (audio_cook != null)
+				        {
+					        audio_cook.Stop();
+					
+				            } 
                     }
                 }
                 // Jos ensimmäistä ainesta ei olla liikuttamassa, eikä se ole valmistumassa otetaan se valmistukseen
@@ -86,6 +95,12 @@ namespace FusilliProject
                     if (animator != null)
                     {
                         animator.SetBool("hasIngredient", this.hasIngredient);
+
+                        if (audio_cook != null)
+				        {
+					        audio_cook.Play();
+					
+				            } 
                     }
                 }
 

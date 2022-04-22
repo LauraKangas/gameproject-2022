@@ -64,6 +64,14 @@ namespace FusilliProject
                 fixedInPlace = false;
                 this.isDragged = true;
             }
+
+            AudioSource audio = GetComponent<AudioSource>();
+
+                if (audio != null)
+				{
+					audio.Play();
+					
+				} 
         }
 
         public void OnEndDrag(PointerEventData eventData)

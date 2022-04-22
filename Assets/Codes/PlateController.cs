@@ -30,6 +30,9 @@ namespace FusilliProject
 
         public GameObject scoreCounter;
 
+        [SerializeField]
+        private AudioSource audio_plate, audio_meal;
+
         private void Update()
         {
 
@@ -48,6 +51,12 @@ namespace FusilliProject
                             int flaws = RateIngredient(ingredient.GetComponent<IngredientController>());
                             ingredient.GetComponent<IngredientController>().points -= flaws;
                             int ingCount = IngredientToSlot(ingredient.GetComponent<IngredientController>(), flaws);
+
+                            if (audio_plate != null)
+				            {
+					            audio_plate.Play();
+					
+				            } 
 
                             if (ingCount >= order.GetComponent<Order>().ingredients.Count)
                             {
@@ -86,6 +95,12 @@ namespace FusilliProject
         public void OnPointerClick(PointerEventData eventData)
         {
             DeliverOrder();
+
+
+                if (audio_meal != null)
+				{
+					audio_meal.Play();
+				} 
         }
 
         public void DeliverOrder()

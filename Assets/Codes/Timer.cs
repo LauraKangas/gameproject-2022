@@ -26,26 +26,36 @@ namespace FusilliProject
         public TMP_Text win, lose;
 
         [SerializeField]
-        private GameObject scoreboard, reminder, next;
+        private GameObject scoreboard, next;
 
-        
-
-        
+        [SerializeField]
+        private AudioSource audio_bg, win_audio, lose_audio, time_audio;
 
         private GameObject spawnedObject;
-
-        
-        public bool reminderSpawned;
+        private bool isPlaying;
+        private bool reminder;
         // Start is called before the first frame update
         void Start()
         {
 
             gameTime = startTime;
             timer.text = "Time: " + startTime;
+
+            Time.timeScale = 1f;
             
             
-            reminderSpawned = false;
+            
             scoreboard.SetActive(false);
+
+           
+
+                if (audio_bg != null)
+				{
+					audio_bg.Play();
+					
+				} 
+
+            isPlaying = false;
 
             
         }
@@ -64,6 +74,8 @@ namespace FusilliProject
                 gameTime -= Time.deltaTime;
 
                 timer.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+                
 
                 
 
@@ -86,6 +98,16 @@ namespace FusilliProject
                     win.enabled = false;
                    lose.enabled = true;
                    next.SetActive(false);
+
+                if (!isPlaying){
+
+                   if (lose_audio != null)
+				{
+					lose_audio.Play();
+					isPlaying = true;
+				    } 
+
+                }
                
 
                 }  
@@ -95,6 +117,16 @@ namespace FusilliProject
                    lose.enabled = false;
                    win.enabled = true;
                    next.SetActive(true);
+
+                   if (!isPlaying){
+
+                   if (win_audio != null)
+				{
+					win_audio.Play();
+					isPlaying = true;
+				    } 
+
+                }
                
 
                 }  
@@ -105,11 +137,18 @@ namespace FusilliProject
 
             if (gameTime <= 120)
 			{
-                if (!reminderSpawned){
+                
 
 
-                spawnedObject = Instantiate(reminder, new Vector2 (7.2f, -3.8f), transform.rotation);
-                reminderSpawned = true;
+                timer.color = new Color (255,0,0,255);
+
+                if (!reminder){
+
+                   if (time_audio != null)
+				{
+					time_audio.Play();
+					reminder = true;
+				    } 
 
                 }
 
@@ -118,12 +157,22 @@ namespace FusilliProject
 
             if (gameTime <= 115){
 
-                if (reminderSpawned){
+                
 
-                Destroy(spawnedObject);
-                reminderSpawned = false;
+                timer.color = new Color (255,255,255,255);
+
+                if (reminder){
+
+                   if (time_audio != null)
+				{
+					time_audio.Stop();
+					reminder = false;
+
+				    } 
 
                 }
+
+                
             }
         
         }
