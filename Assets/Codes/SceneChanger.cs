@@ -11,11 +11,20 @@ namespace FusilliProject
 
         [SerializeField]
         private string scene;
+
+        
         
         public void ChangeScene()
         {
             SceneManager.LoadScene(scene);
             Debug.Log("To " + scene);
+            Time.timeScale = 1f;
+        }
+
+        public void quit()
+        {
+            
+            Time.timeScale = 1f;
         }
 
        
