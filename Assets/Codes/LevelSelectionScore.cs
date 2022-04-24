@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 namespace FusilliProject
 {
@@ -12,11 +14,14 @@ namespace FusilliProject
         public int HS;
 
         public int num;
+
+        [SerializeField]
+        private LocalizedString localizedHS;
         // Start is called before the first frame update
         void Start()
         {
             
-            hs.text = "Highscore: " + PlayerPrefs.GetInt(("highscore" + num), HS);
+            hs.text = localizedHS.GetLocalizedString() + ": " + PlayerPrefs.GetInt(("highscore" + num), HS);
         }
 
         // Update is called once per frame
@@ -24,5 +29,24 @@ namespace FusilliProject
         {
         
         }
+
+        private void OnEnable()
+        {
+
+            LocalizationSettings.SelectedLocaleChanged += OnLocalizationChanged;
+
+        }
+
+         private void OnDisable()
+        {
+
+            LocalizationSettings.SelectedLocaleChanged -= OnLocalizationChanged;
+
+        }
+
+        private void OnLocalizationChanged(Locale obj)
+		{
+			hs.text = localizedHS.GetLocalizedString() + ": " + PlayerPrefs.GetInt(("highscore" + num), HS);
+		}
     }
 }

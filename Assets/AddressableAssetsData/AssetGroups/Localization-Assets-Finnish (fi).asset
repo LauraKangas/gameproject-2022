@@ -17,13 +17,143 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 9be5fa474ae5e5348abc4669c4e8b332
   m_SerializeEntries:
-  - m_GUID: 60c6129363bbffb44ad9f2c846b4ff1d
-    m_Address: Musiikki_Suomi
+  - m_GUID: bec6d6c3f14322a43975e29c6675d72b
+    m_Address: Play_Suomi_1
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
-  - m_GUID: c4339e54bf5c24d4893728a4758f9034
-    m_Address: "\xC4\xE4net_Suomi"
+  - m_GUID: 90f2ee9e1c01fe049b3ed75f640ed2a4
+    m_Address: Asetukset_Suomi_1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: b76ec1b3fde967045882869011c0bb2b
+    m_Address: Resepti_Suomi_1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 332bd447072ed1748ac2699e76b6b52a
+    m_Address: Takaisin_Suomi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: e51a98a7de2e3124dbed50bf9b5f042a
+    m_Address: Musiikki_Suomi_1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 55f843e86a70144429918bb61a79b038
+    m_Address: "\xC4\xE4net_Suomi_1"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: c7b699804ac8d674986b84adef2ba418
+    m_Address: "kev\xE4tisotaulu"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 745b394d037bfb0478f2d5a5c226ba32
+    m_Address: "kes\xE4isotaulu"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 5bf7a144734911b4e97d7f85ce8805ff
+    m_Address: syksyisotaulu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 8229a9d26abbd294eb87b574827a0fe1
+    m_Address: talviisotaulu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: fca7945020e81074190d34ac2ddc7fec
+    m_Address: Info1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: aeeb9b8e096d60444a81e11e028d623f
+    m_Address: Info2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: e79149fcf13f5904fb511614b4f739a7
+    m_Address: Info3
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: b7a0cf44f75c8194797a187c2f23579d
+    m_Address: Info4
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 0a2e19a6d8597434eb4fe27bb42f574d
+    m_Address: Info5
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: bcf681fa42a884f4585bcf097c6da045
+    m_Address: Info6
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 4402b250996e5a247aa743d0ddbe0ac7
+    m_Address: Info7
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: a02678b09ce4a394d8f0b9996246bbc4
+    m_Address: Info8
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 8d35f77941dd8154f9a181ebae5f4b49
+    m_Address: Info9
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 2530c927bc428a748829ec7de212c59a
+    m_Address: Info10
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 3cb37f5258307e74a9af41798cbe6034
+    m_Address: Info11
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 5384f9a7e85cbf74bacc05165c859ee6
+    m_Address: Info12
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 64e53b58cf5832c489852e8dbcc9238d
+    m_Address: Info13
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: d5eda8112c0348543b062903c1bbc4a2
+    m_Address: Info14
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: a6e4a92e419bfe14390b2a544aac2957
+    m_Address: Info15
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 5b8e05ff293ca094a8d15fee7d4e3f01
+    m_Address: Info16
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 121f3054d6a33e147a43bae2854d4ac3
+    m_Address: Info17
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 9475ed7bc1f54ca458936dc97c1fd6a7
+    m_Address: Info18
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi

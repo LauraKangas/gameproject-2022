@@ -15,12 +15,116 @@ MonoBehaviour:
   m_TableCollectionName: Assets
   m_TableCollectionNameGuidString: a35ad5265128c1e4abd0867d1bde00f0
   m_Entries:
-  - m_Id: 53165617152
+  - m_Id: 307058958856192
+    m_Key: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307271362605056
+    m_Key: Recipes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307379848278016
+    m_Key: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 309403100835840
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312575269728256
     m_Key: Music
     m_Metadata:
       m_Items: []
-  - m_Id: 18610276462592
+  - m_Id: 312726575050752
     m_Key: Sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321740939653120
+    m_Key: Spring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321967021027328
+    m_Key: Summer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322236207263744
+    m_Key: Fall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322381221130240
+    m_Key: Winter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322725116309504
+    m_Key: Info1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322855236202496
+    m_Key: Info2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322997599268864
+    m_Key: Info3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323140939608064
+    m_Key: Info4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323267695669248
+    m_Key: Info5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323435606241280
+    m_Key: Info6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323529395073024
+    m_Key: Info7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323736782434304
+    m_Key: Info8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323841426124800
+    m_Key: Info9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323962796699648
+    m_Key: Info10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324077229895680
+    m_Key: Info11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324183408701440
+    m_Key: Info12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324308747087872
+    m_Key: Info13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324432856543232
+    m_Key: Info14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324529015156736
+    m_Key: Info15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324636812963840
+    m_Key: Info16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324723437924352
+    m_Key: Info17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324813703540736
+    m_Key: Info18
     m_Metadata:
       m_Items: []
   m_Metadata:
@@ -34,15 +138,119 @@ MonoBehaviour:
       type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
         m_Entries:
-        - m_KeyId: 53165617152
+        - m_KeyId: 307058958856192
           m_TableCodes:
           - en
           - fi
-        - m_KeyId: 18610276462592
+        - m_KeyId: 307271362605056
           m_TableCodes:
           - en
           - fi
-        m_TypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+        - m_KeyId: 307379848278016
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 309403100835840
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 312575269728256
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 312726575050752
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 321740939653120
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 321967021027328
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 322236207263744
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 322381221130240
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 322725116309504
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 322855236202496
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 322997599268864
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 323140939608064
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 323267695669248
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 323435606241280
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 323529395073024
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 323736782434304
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 323841426124800
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 323962796699648
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 324077229895680
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 324183408701440
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 324308747087872
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 324432856543232
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 324529015156736
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 324636812963840
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 324723437924352
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 324813703540736
+          m_TableCodes:
+          - fi
+          - en
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
     00000001:
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}

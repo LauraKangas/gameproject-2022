@@ -19,6 +19,10 @@ MonoBehaviour:
     m_Key: Score
     m_Metadata:
       m_Items: []
+  - m_Id: 331348106211328
+    m_Key: Highscore
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
