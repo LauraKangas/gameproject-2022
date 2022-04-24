@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Finnish (fi)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Finnish (fi)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9be5fa474ae5e5348abc4669c4e8b332
+  m_SerializeEntries:
+  - m_GUID: 60c6129363bbffb44ad9f2c846b4ff1d
+    m_Address: Musiikki_Suomi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: c4339e54bf5c24d4893728a4758f9034
+    m_Address: "\xC4\xE4net_Suomi"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 26fdabc6b5c87c745a6c1b1138389920, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d2aa1e0d1173fe44eb4f2502dfeba698, type: 2}
+    - {fileID: 11400000, guid: 366bf2afd8b79f5439b5a7d029303e71, type: 2}

@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 namespace FusilliProject
 {
@@ -19,6 +21,9 @@ namespace FusilliProject
         private int lvlNum;
         public int nextScene;
 
+        [SerializeField]
+        private LocalizedString localizedScore;
+
         
         // Start is called before the first frame update
         void Start()
@@ -26,7 +31,7 @@ namespace FusilliProject
            scoreNum = 0;
            highscore = PlayerPrefs.GetInt(("highscore" + lvlNum), scoreNum);
 
-           scoreText.text = "Score: " + scoreNum;
+           scoreText.text = localizedScore.GetLocalizedString() + ": " + scoreNum;
            Debug.Log("Starting score: " + scoreNum);
            highscoreText.text = "Highscore: " + highscore;
 
@@ -42,6 +47,24 @@ namespace FusilliProject
 
         }
 
+        private void OnEnable()
+        {
+
+            LocalizationSettings.SelectedLocaleChanged += OnLocalizationChanged;
+
+        }
+
+         private void OnDisable()
+        {
+
+            LocalizationSettings.SelectedLocaleChanged -= OnLocalizationChanged;
+
+        }
+
+        private void OnLocalizationChanged(Locale obj)
+		{
+			scoreText.text = localizedScore.GetLocalizedString() + ": " + scoreNum;
+		}
 
         public void AddPoint(int num)
 		{
@@ -49,7 +72,7 @@ namespace FusilliProject
             
 
 			scoreNum += num;
-            scoreText.text = "Score: " + scoreNum;
+            scoreText.text = localizedScore.GetLocalizedString() + ": " + scoreNum;
             Debug.Log("Current score: " + scoreNum);
 
             if (highscore < scoreNum)
