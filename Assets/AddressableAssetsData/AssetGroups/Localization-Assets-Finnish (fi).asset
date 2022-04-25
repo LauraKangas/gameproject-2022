@@ -157,6 +157,41 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
+  - m_GUID: ab5a3a2ad3f4a734f9a71cfee8b7a9b9
+    m_Address: "keitti\xF6\xF6n_nappi"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 654d98fbcc49f81428c5269827441611
+    m_Address: "Jatka_N\xE4pp\xE4in_1"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 454d57944330ac74f9ef8116b49d0311
+    m_Address: "Lopeta_N\xE4pp\xE4in_1"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 43345e5392b406c45bbd9358ffad2c63
+    m_Address: "Pys\xE4ytetty_N\xE4pp\xE4in_1"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 490462d938ead204b8f1a1fa01f803dd
+    m_Address: "Seuraava_N\xE4pp\xE4in_1"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 4e3bb248f7f267e419a4146053a2a21a
+    m_Address: "PelaaUudelleen_N\xE4pp\xE4in_1"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 12cc56d029ccf964f80667e8f491f6e7
+    m_Address: "Lopeta_N\xE4pp\xE4in_2"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 26fdabc6b5c87c745a6c1b1138389920, type: 2}
   m_SchemaSet:

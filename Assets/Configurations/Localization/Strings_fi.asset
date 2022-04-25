@@ -26,5 +26,13 @@ MonoBehaviour:
     m_Localized: "Enn\xE4tys"
     m_Metadata:
       m_Items: []
+  - m_Id: 370138904457216
+    m_Localized: "  Yrit\xE4\nUudestaan!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370288716607488
+    m_Localized: VOITTAJA
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

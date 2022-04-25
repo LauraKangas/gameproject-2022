@@ -23,6 +23,14 @@ MonoBehaviour:
     m_Key: Highscore
     m_Metadata:
       m_Items: []
+  - m_Id: 370138904457216
+    m_Key: Lose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370288716607488
+    m_Key: Win
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

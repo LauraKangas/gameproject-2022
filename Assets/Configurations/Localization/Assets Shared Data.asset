@@ -127,6 +127,34 @@ MonoBehaviour:
     m_Key: Info18
     m_Metadata:
       m_Items: []
+  - m_Id: 332167555772416
+    m_Key: ToKitchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344739847794688
+    m_Key: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344981078994944
+    m_Key: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348748763557888
+    m_Key: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360438569824256
+    m_Key: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360560334663680
+    m_Key: Replay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360719374282752
+    m_Key: Quit_1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - id: 0
@@ -250,6 +278,34 @@ MonoBehaviour:
           m_TableCodes:
           - fi
           - en
+        - m_KeyId: 332167555772416
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 344739847794688
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 344981078994944
+          m_TableCodes:
+          - fi
+          - en
+        - m_KeyId: 348748763557888
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 360438569824256
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 360560334663680
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 360719374282752
+          m_TableCodes:
+          - en
+          - fi
         m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
     00000001:

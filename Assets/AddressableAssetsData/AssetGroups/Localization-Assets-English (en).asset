@@ -157,6 +157,41 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+  - m_GUID: 7163d21527575b04a839598d3e52e5dc
+    m_Address: tothekitchen_nappi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 3abe02f8de83c6c429ca4ba4fc03dd37
+    m_Address: "Resume_N\xE4pp\xE4in"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 70f8736730512b1409869b101f3c9494
+    m_Address: "Quit_N\xE4pp\xE4in"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 06e1d952e3f7b1446ba29e4c91f3b92a
+    m_Address: "Paused_N\xE4pp\xE4in_1"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 7834329a1a84e164b9c837e0178b0473
+    m_Address: "Next_N\xE4pp\xE4in_1"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: da3aef8f247fce544839d3c97b9786af
+    m_Address: "Replay_N\xE4pp\xE4in_1"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: c779b0b56d496114a8446aaf14eb85eb
+    m_Address: "Quit_N\xE4pp\xE4in_2"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 26fdabc6b5c87c745a6c1b1138389920, type: 2}
   m_SchemaSet:

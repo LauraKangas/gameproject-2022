@@ -26,5 +26,15 @@ MonoBehaviour:
     m_Localized: Highscore
     m_Metadata:
       m_Items: []
+  - m_Id: 370138904457216
+    m_Localized: '  Try
+
+      Again!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370288716607488
+    m_Localized: ' WINNER'
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

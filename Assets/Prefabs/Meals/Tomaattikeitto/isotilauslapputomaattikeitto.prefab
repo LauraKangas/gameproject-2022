@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2976410796368694567}
   - component: {fileID: 4535893997948822515}
   - component: {fileID: -6270487873200704620}
+  - component: {fileID: -4938157063227251088}
   m_Layer: 0
   m_Name: isotilauslapputomaattikeitto
   m_TagString: Untagged
@@ -122,3 +123,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.5, y: 8}
   m_EdgeRadius: 0
+--- !u!114 &-4938157063227251088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5219257886320421923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f55fcc3768689a4f9cf863b8c11c618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls: []
