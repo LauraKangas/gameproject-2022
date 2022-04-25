@@ -31,14 +31,7 @@ namespace FusilliProject
         void Start()
         {
         
-            num = 1;
-            num2 = 2;
-            num3 = 0;
-            pageNum.text = "Page " + num;
-            pageNum2.text = "Page " + num2;
-
-          texts.text = localizedtext[num3].GetLocalizedString();
-          texts2.text = localizedtext2[num3].GetLocalizedString();
+           BookEnter();
         }
 
         // Update is called once per frame
@@ -66,40 +59,49 @@ namespace FusilliProject
         private void OnLocalizationChanged(Locale obj)
 		{
 			texts.text = localizedtext[num3].GetLocalizedString();
-      texts2.text = localizedtext2[num3].GetLocalizedString();
+            texts2.text = localizedtext2[num3].GetLocalizedString();
       
 		}
+
+        public void BookEnter()
+        {
+            
+            num = 1;
+            num2 = 2;
+            num3 = 0;
+            pageNum.text = "Page " + num;
+            pageNum2.text = "Page " + num2;
+
+            texts.text = localizedtext[num3].GetLocalizedString();
+            texts2.text = localizedtext2[num3].GetLocalizedString();
+
+            
+
+        }
 
         public void NewText()
         {
             
-                    num3 += 1;
-                    num += 2;
-                    num2 += 2;
-                    pageNum.text = "Page " + num;
-                    pageNum2.text = "Page " + num2;
+            num3 += 1;
+            num += 2;
+            num2 += 2;
+            pageNum.text = "Page " + num;
+            pageNum2.text = "Page " + num2;
 
-                   Debug.Log(num3);
+            Debug.Log(num3);
 
             texts.text = localizedtext[num3].GetLocalizedString();
             texts2.text = localizedtext2[num3].GetLocalizedString();
 
             if (num2 == 6) {
 
-                    next.interactable = false;
-                   
+                next.interactable = false;
+            }
 
-                }
+            if (num > 1){
 
-                if (num > 1){
-
-                    previous.interactable = true;
-                   
-
-                }
-
-
-            
+                previous.interactable = true;
+            }
 
         }
 
@@ -107,34 +109,25 @@ namespace FusilliProject
         {
             
                     
-                     num3 -= 1;
-                    num -= 2;
-                    num2 -= 2;
-                    pageNum.text = "Page " + num;
-                    pageNum2.text = "Page " + num2;
+            num3 -= 1;
+            num -= 2;
+            num2 -= 2;
+            pageNum.text = "Page " + num;
+            pageNum2.text = "Page " + num2;
         
-                  texts.text = localizedtext[num3].GetLocalizedString();
+            texts.text = localizedtext[num3].GetLocalizedString();
             texts2.text = localizedtext2[num3].GetLocalizedString();
             
             if (num == 1) {
 
                     previous.interactable = false;
-                   
+            }
 
-                }
+            if (num2 < 6){
 
-                if (num2 < 6){
-
-                    next.interactable = true;
-                   
-
-                }
+                next.interactable = true;
+            }
         }
-
-
-
-        
-
        
     }
 }

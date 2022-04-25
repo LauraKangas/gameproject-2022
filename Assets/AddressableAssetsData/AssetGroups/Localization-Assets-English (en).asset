@@ -192,6 +192,21 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+  - m_GUID: 48450dc262ebd3c468a6259418c37f56
+    m_Address: tomatosoup
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: a9215695ba3bdff4face33169cdb09ae
+    m_Address: berryjuicefool
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: b1318c62ff1e1424bb7b17c9d40c3cf9
+    m_Address: pikepatty
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 26fdabc6b5c87c745a6c1b1138389920, type: 2}
   m_SchemaSet:

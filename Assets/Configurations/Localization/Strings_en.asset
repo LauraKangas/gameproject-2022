@@ -52,21 +52,21 @@ MonoBehaviour:
 
       4 servings
 
-      
 
-      200g herring
-      fillet
 
-      800g potatoes
+      200g herring fillet
+
+      800g
+      potatoes
 
       1 onion
 
-      1dl heavy cream or milk
-      3dl fish stock
+      1dl heavy cream or milk 3dl fish stock
 
       Oil
 
-      1 tsp black pepper
+      1
+      tsp black pepper
 
       Salt
 
@@ -78,19 +78,23 @@ MonoBehaviour:
   - m_Id: 503248316985344
     m_Localized: 'Juice fool
 
-      
+
 
       4 servings
 
-      8dl berry or fruit
-      juice, sugarfree
+      8dl berry or fruit juice,
+      sugarfree
 
       1 dl berries or fruit pieces
 
       1dl sugar
 
-      5
-      tbsp potato flour'
+      5 tbsp
+      potato flour'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715627176849408
+    m_Localized: Select level to play!
     m_Metadata:
       m_Items: []
   references:

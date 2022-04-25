@@ -192,6 +192,21 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
+  - m_GUID: 1c4cb70111f035b4691ad46931db813e
+    m_Address: isotilauslapputomaattikeitto
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: b09fc4156f342014d85465d0d7a0be7f
+    m_Address: isotilauslappumannavanukas
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 65c0dd10aa903d249ab8e62c2012ce57
+    m_Address: isotilauslappuhauki
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 26fdabc6b5c87c745a6c1b1138389920, type: 2}
   m_SchemaSet:

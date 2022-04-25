@@ -65,5 +65,9 @@ MonoBehaviour:
       rlk perunajauhoa\r"
     m_Metadata:
       m_Items: []
+  - m_Id: 715627176849408
+    m_Localized: '     Valitse taso!'
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
