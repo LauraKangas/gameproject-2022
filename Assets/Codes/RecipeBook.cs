@@ -18,9 +18,8 @@ namespace FusilliProject
         {
             button.SetActive(false);
             button2.SetActive(false);
-            recipe.enabled = false;
-            ingredients.enabled = false;
             instructions.enabled = false;
+            recipe.enabled = false;
             page1.enabled = false;
             page2.enabled = false;
         }
@@ -37,9 +36,8 @@ namespace FusilliProject
         
             button.SetActive(false);
             button2.SetActive(false);
-            recipe.enabled = false;
-            ingredients.enabled = false;
             instructions.enabled = false;
+            recipe.enabled = false;
             page1.enabled = false;
             page2.enabled = false;
     }
@@ -49,9 +47,8 @@ namespace FusilliProject
         
         button.SetActive(true);
         button2.SetActive(true);
-        recipe.enabled = true;
-        ingredients.enabled = true;
         instructions.enabled = true;
+        recipe.enabled = true;
         page1.enabled = true;
         page2.enabled = true;
         page_left.SetActive(false);
@@ -64,11 +61,10 @@ namespace FusilliProject
         
         button.SetActive(true);
         button2.SetActive(true);
+       instructions.enabled = true;
         recipe.enabled = true;
-        ingredients.enabled = true;
-        instructions.enabled = true;
-        page1.enabled = true;
-        page2.enabled = true;
+       page1.enabled = true;
+            page2.enabled = true;
     }
 
   }

@@ -2288,8 +2288,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -498, y: 269}
-  m_SizeDelta: {x: 442.99, y: 158.52}
+  m_AnchoredPosition: {x: -581.64, y: 29.82}
+  m_SizeDelta: {x: 275.7, y: 636.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1083084398
 MonoBehaviour:
@@ -2311,7 +2311,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Juuressosekeitto
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8077d8dcc50c57a4e9f9ba2a0be69db7, type: 2}
   m_sharedMaterial: {fileID: 3909213365851545734, guid: 8077d8dcc50c57a4e9f9ba2a0be69db7, type: 2}
@@ -2338,8 +2338,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2907,13 +2907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa juurekset
-    tasakokoisiksi paloiksi.\r\n2. Kaada kasvisliemi kattilaan, lis\xE4\xE4 juurekset.
-    Keit\xE4 juureksia, kunnes ne ovat pehmenneit\xE4 ja kypsi\xE4.\r\n3. Kun juurekset
-    ovat kypsi\xE4, soseuta keitto blenderill\xE4 tai sauvasekoittimella. Ole varovainen,
-    kuuma keitto roiskuu helposti!\r\n4. Kaada tarvittaessa keitto takaisin kattilaan.
-    Lis\xE4\xE4 mausteet ja kerma, sekoita huolellisesti. Maista ja mausta lis\xE4\xE4
-    tarvittaessa. Jos keitto tuntuu liian paksulta, lis\xE4\xE4 runsaammin kermaa.\r\n"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8077d8dcc50c57a4e9f9ba2a0be69db7, type: 2}
   m_sharedMaterial: {fileID: 3909213365851545734, guid: 8077d8dcc50c57a4e9f9ba2a0be69db7, type: 2}
@@ -4120,7 +4114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1728404741
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4160,9 +4154,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "4 annosta\r\n\r\n300 g jauhoista perunaa \r\n200 g porkkanaa\r\n100 g
-    juuriselleri\xE4\r\n100 g palsternakka\r\n6 dl kasvislient\xE4\r\n1 dl kermaa
-    tai maitoa\r\n2 tl Valkopippuria\r\n"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8077d8dcc50c57a4e9f9ba2a0be69db7, type: 2}
   m_sharedMaterial: {fileID: 3909213365851545734, guid: 8077d8dcc50c57a4e9f9ba2a0be69db7, type: 2}
@@ -4189,8 +4181,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4579,13 +4571,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pageNum: {fileID: 1908005186}
   pageNum2: {fileID: 699715012}
-  recipe: {fileID: 1083084398}
-  ingredients: {fileID: 1728404742}
-  instructions: {fileID: 1322096409}
   num: 0
   num2: 0
+  num3: 0
   next: {fileID: 83671641}
   previous: {fileID: 423012603}
+  texts: {fileID: 1322096409}
+  texts2: {fileID: 1083084398}
+  localizedtext:
+  - m_TableReference:
+      m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
+    m_TableEntryReference:
+      m_KeyId: 497425108889600
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
+    m_TableEntryReference:
+      m_KeyId: 370288716607488
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
+    m_TableEntryReference:
+      m_KeyId: 370138904457216
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  localizedtext2:
+  - m_TableReference:
+      m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
+    m_TableEntryReference:
+      m_KeyId: 502906833530880
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
+    m_TableEntryReference:
+      m_KeyId: 503101168218112
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
+    m_TableEntryReference:
+      m_KeyId: 503248316985344
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 1
 --- !u!1 &1883907730
 GameObject:
   m_ObjectHideFlags: 0
