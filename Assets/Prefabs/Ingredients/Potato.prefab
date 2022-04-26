@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 551fb9c464b68a249b60a007534f78e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 9
   chopState: 0
   isCooked: 0
   isBoiled: 0

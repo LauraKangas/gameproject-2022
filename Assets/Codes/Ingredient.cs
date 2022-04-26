@@ -21,7 +21,23 @@ namespace FusilliProject
             Potato,
             Pike,
             Egg,
-            Pepper
+            Pepper,
+            Chicken,
+            Rosemary,
+            Pear,
+            Turnip,
+            Beet,
+            Parsnip,
+            Celeriac,
+            Herring,
+            Sugar,
+            Berryjuice,
+            Cabbage,
+            Harkis,
+            Pork,
+            Oats,
+            Apple,
+            Barley
         }
 
         public ingredientType type;
