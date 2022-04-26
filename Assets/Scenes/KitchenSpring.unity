@@ -7745,7 +7745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc4a55f45dd361841a4c5e677813c866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredientPrefab: {fileID: 2734829589002724151, guid: 442797f6253d53545b04fb1cc29766be, type: 3}
+  ingredientPrefab: {fileID: 743239678473316245, guid: 59138fab43e4d424aa18694d125c1965, type: 3}
   sprite: {fileID: 0}
   tableSurface: {fileID: 2069833182}
 --- !u!114 &1543424483
@@ -7768,7 +7768,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c6c69a62b9225d04aba61a8c13a8f999, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 17370b6572e64554a94523c79a3963c3, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
