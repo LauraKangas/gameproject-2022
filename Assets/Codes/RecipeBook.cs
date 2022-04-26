@@ -34,12 +34,12 @@ namespace FusilliProject
     public void startAnimation()
     {
         
-            button.SetActive(false);
-            button2.SetActive(false);
-            instructions.enabled = false;
-            recipe.enabled = false;
-            page1.enabled = false;
-            page2.enabled = false;
+        button.SetActive(false);
+        button2.SetActive(false);
+        instructions.enabled = false;
+        recipe.enabled = false;
+        page1.enabled = false;
+        page2.enabled = false;
     }
 
     public void endAnimation()
@@ -60,11 +60,11 @@ namespace FusilliProject
     {
         
         button.SetActive(true);
-        button2.SetActive(true);
-       instructions.enabled = true;
+        button2.SetActive(false);
+        instructions.enabled = true;
         recipe.enabled = true;
-       page1.enabled = true;
-            page2.enabled = true;
+        page1.enabled = true;
+        page2.enabled = true;
     }
 
   }

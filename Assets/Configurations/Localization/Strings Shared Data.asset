@@ -51,6 +51,50 @@ MonoBehaviour:
     m_Key: SelectLevel
     m_Metadata:
       m_Items: []
+  - m_Id: 727814037499904
+    m_Key: JuuressosekeittoOhje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727955251326976
+    m_Key: JuuressosekeittoOhje2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728812680310784
+    m_Key: SilakkalaatikkoOhje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728912517328896
+    m_Key: SilakkalaatikkoOhje2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729059468963840
+    m_Key: MehukiisseliOhje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 735188345352192
+    m_Key: PorkkanaPerunasosekeitto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 735374941548544
+    m_Key: PorkkanaPerunasosekeittoOhje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 736902045691904
+    m_Key: PorkkanaPerunasosekeittoOhje2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 737894975860736
+    m_Key: Haukipihvi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 738275734777856
+    m_Key: HaukipihviOhje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 738589678432256
+    m_Key: HaukipihviOhje2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

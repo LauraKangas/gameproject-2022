@@ -97,5 +97,106 @@ MonoBehaviour:
     m_Localized: Select level to play!
     m_Metadata:
       m_Items: []
+  - m_Id: 727814037499904
+    m_Localized: '1. Peel the potatoes, carrots, celeriac and parsnip. Chop all the
+      vegetables roughly the same size for even cooking.
+
+      2. Add the vegetable
+      stock and the vegetables to a large pot and cook until the vegetables are tender
+      and cooked through.
+
+      3. Once the vegetables are cooked, puree the soup
+      with an immersion blender or a food processor until smooth and creamy. Be careful,
+      the hot soup splashes easily!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727955251326976
+    m_Localized: 4. Stir in the heavy cream or milk and taste for seasoning. If the
+      soup feels too thick, you can add more heavy cream/milk.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728812680310784
+    m_Localized: "1.Peel the potatoes and cut them into thin slices. Cut the herring
+      fillets into smaller pieces\n2. Boil the potato slices for approximately 10
+      minutes. The slices don\u2019t have to be fully cooked yet. Pour the water
+      out and put the potato slices aside.\n3. Cut the onion into small cubes\n4.
+      Put oil into a deep frying pan and add the diced onions. Saut\xE9 until the
+      onions are sligthly translucent."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728912517328896
+    m_Localized: 5. Add the potatoes, herring, heavy cream/milk and fish stock into
+      the pan. Season to taste. Cover the pan with a lid and let the ingredients
+      simmer until the fish is cooked and the potatoes are soft. The cooking time
+      depends on how thin the potatoes are cut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729059468963840
+    m_Localized: '1. Add all of the ingredients into a pot and mix.
+
+      2. Heat
+      the fool on a low heat, constantly stirring until you see the first bubbles
+      forming.
+
+      3. When the fool is bubbling, take it off the heat and let
+      it cool.
+
+      4. Serve the fool with e.g. sugar and berries.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 735188345352192
+    m_Localized: "Carrot and potato soup\n\n4 servings\r\n\r\n400 g starchy potatoes\r\n\r400
+      g carrots\r\n\r1 onion\r\n\r6 dl vegetable stock\r\n\r2 tsp black pepper\r\n\rSalt\r\n\rTwo
+      branches of chervil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 735374941548544
+    m_Localized: '1. Peel and chop the potatoes, carrots and onions. The smaller
+      the pieces, the faster your soup will be done!
+
+      2. Pour the vegetable
+      stock into a large pot and add the chopped vegetables. Bring the soup to a
+      boil and let it simmer until the vegetables are soft.
+
+      3. Puree the soup
+      with either a blender or a hand blender. If you used a blender, pour the soup
+      back into the pot.
+
+      4. Chop the chevril.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 736902045691904
+    m_Localized: 5. Season the soup to taste, add the chevril and serve immediately.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 737894975860736
+    m_Localized: "Pike patties & boiled new potatoes\n\n4 servings\r\n\r\n500 g filleted
+      or ground pike\r\n\r1-1,2 kg new potatoes\r\n\r120g sour cream\r\n\r1 dl breadcrumbs\r\n\r1
+      egg\r\n\r1 tsp white pepper\r\n\rOil\r\n\rTwo branches of dill\r\n\rSalt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 738275734777856
+    m_Localized: "1. Wash the new potatoes. You don\u2019t have to peel them, thorough
+      cleaning is enough.\r\n2. Put the potatoes into a pot filled with cold water
+      and add salt. Boil the potatoes until cooked through, this usually takes 15
+      to 20 minutes.\n3. If you have pike fillets instead of ground pike, you can
+      grind the pike up with a blender yourself."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 738589678432256
+    m_Localized: '4. Prepare the patty mixture by mixing together the ground pike,
+      sour cream, breadcrumbs, egg and spices. Divide the mixture into 4 equal amounts
+      (or more if you want smaller steaks) and form them into patties. If the mixture
+      feels too soft, add more breadcrumbs.
+
+      5. Fry the patties in oil until
+      they are cooked through.
+
+      6. Serve the patties and potatoes with butter
+      and fresh dill!'
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

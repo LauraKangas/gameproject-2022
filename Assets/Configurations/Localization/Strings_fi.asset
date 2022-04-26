@@ -69,5 +69,86 @@ MonoBehaviour:
     m_Localized: '     Valitse taso!'
     m_Metadata:
       m_Items: []
+  - m_Id: 727814037499904
+    m_Localized: "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa
+      juurekset tasakokoisiksi paloiksi.\r\n2. Kaada kasvisliemi kattilaan, lis\xE4\xE4
+      juurekset. Keit\xE4 juureksia, kunnes ne ovat pehmenneit\xE4 ja kypsi\xE4.\r\n3.
+      Kun juurekset ovat kypsi\xE4, soseuta keitto blenderill\xE4 tai sauvasekoittimella.
+      Ole varovainen, kuuma keitto roiskuu helposti!\r\n\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727955251326976
+    m_Localized: "4. Kaada tarvittaessa keitto takaisin kattilaan. Lis\xE4\xE4 mausteet
+      ja kerma, sekoita huolellisesti. Maista ja mausta lis\xE4\xE4 tarvittaessa.
+      Jos keitto tuntuu liian paksulta, lis\xE4\xE4 runsaammin kermaa.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728812680310784
+    m_Localized: "1. Kuori perunat ja siivuta ne ohuiksi siivuiksi. Leikkaa silakkafileet
+      paloiksi.\n2. Keit\xE4 perunaviipaleita kattilassa n. 10min. Viipaleiden ei
+      tarvitse olla kypsi\xE4! Valuta viipaleet ja j\xE4t\xE4 odottamaan.\n3. Leikkaa
+      sipuli pieniksi kuutioiksi.\n4. Lorauta syv\xE4lle paistinpannulle \xF6ljy\xE4
+      ja lis\xE4\xE4 sipulit. Kuullota, kunnes sipuli on hiukan l\xE4pikuultavaa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728912517328896
+    m_Localized: "5. Lis\xE4\xE4 pannulle perunat, kala sek\xE4 nesteet. Mausta.
+      Peit\xE4 kannella ja hauduta kunnes kala kyps\xE4\xE4 ja perunat pehmeit\xE4
+      haarukalla tuikatessa. Kypsennysaika riippuu vahvasti siit\xE4, kuinka ohuiksi.
+      perunat on leikattu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729059468963840
+    m_Localized: "1. Sekoita kattilassa kaikki ainesosat sekaisin.\n2. Kuumenna miedolla
+      l\xE4mm\xF6ll\xE4 kiisseli\xE4 sekoittaen jatkuvasti, kunnes n\xE4et ensimm\xE4isen
+      kuplan pulpahtavan pintaan.\n3. Kun ensimm\xE4inen iso kupla n\xE4kyy, ota
+      kiisseli pois l\xE4mm\xF6lt\xE4 ja anna sen j\xE4\xE4hty\xE4.\n4. Tarjoile
+      esimerkiksi sokerin tai marjojen kanssa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 735188345352192
+    m_Localized: "Porkkana-perunasosekeitto\n\n4 annosta\r\n\r\n400 g Jauhoista perunaa\r\n400
+      g Varhaisporkkanaa\r\n1 sipuli\r\n6 dl Kasvislient\xE4\r\n2 tl mustapippuria\r\nsuolaa
+      maun mukaan\r\nkaksi oksaa kirveli\xE4\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 735374941548544
+    m_Localized: "1. Kuori ja pilko peruna, porkkana ja sipuli paloiksi. Mit\xE4
+      pienempi\xE4 paloja leikkaat, sit\xE4 nopeammin keittosi valmistuu!\n2. Kaada
+      kasvisliemi kattilaan ja lis\xE4\xE4 vihannekset. Keit\xE4 kyps\xE4ksi. Tunnistat
+      kyps\xE4n kasviksen siit\xE4, ett\xE4 se on veitsell\xE4 tuikatessa pehme\xE4.\n3.
+      Soseuta keitto joko blenderill\xE4 tai sauvasekoittimella. Jos k\xE4ytit blenderi\xE4,
+      kaada keitto takaisin kattilaan.\n4. Hienonna kirveli.\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 736902045691904
+    m_Localized: "5. Mausta keitto suolalla, pippurilla ja kirvelill\xE4. Tarjoile
+      heti."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 737894975860736
+    m_Localized: "Haukipihvit & keitetyt uudet perunat\r\n\n\n4 annosta\r\n\r\n500
+      g Fileoitua/jauhettua haukea\r\n1 prk (120g) smetanaa\r\n1 dl korppujauhoa\r\n1
+      kananmuna\r\n1 tl valkopippuria\r\n\xD6ljy\xE4 paistamiseen\r\nkaksi oksaa
+      tilli\xE4\r\nsuolaa maun mukaan\r\nn. 1-1,2 kg uusia perunoita\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 738275734777856
+    m_Localized: "1. Pese uudet perunat. Uusia perunoita ei tarvitse kuoria, vaan
+      huolellinen puhdistus riitt\xE4\xE4. Laita perunat kattilaan kylm\xE4\xE4n
+      veteen ja suolaa vesi. Keit\xE4 perunat kypsiksi. T\xE4m\xE4 vie tavallisesti
+      n. 15-20 minuuttia. Kyps\xE4 peruna tuntuu pehme\xE4lt\xE4 kun sit\xE4 t\xF6kk\xE4isee
+      haarukalla!\r\n2. Jos k\xE4yt\xE4t pihveihin haukifileit\xE4 jauhetun hauen
+      sijaan, voit jauhaa hauen ruotoineen joko blenderill\xE4 tai sauvasekoittimella."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 738589678432256
+    m_Localized: "3. Valmista pihvimassa sekoittamalla yhteen jauhettu hauki, smetana,
+      korppujauho, muna ja mausteet. Muotoile pihveiksi. Jos pihvitaikina tuntuu
+      liian l\xF6ys\xE4lt\xE4, lis\xE4\xE4 enemm\xE4n korppujauhoa. Paista pihvit
+      \xF6ljyss\xE4 pannulla kypsiksi.\n4. Perunoiden ja haukipihvien kylkeen sopii
+      erinomaisesti voi ja tuore tilli!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
