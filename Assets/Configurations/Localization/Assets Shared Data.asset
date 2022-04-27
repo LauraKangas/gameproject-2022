@@ -167,6 +167,10 @@ MonoBehaviour:
     m_Key: Haukipihvi
     m_Metadata:
       m_Items: []
+  - m_Id: 1059692229619712
+    m_Key: Silakkalaatikko
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - id: 0
@@ -327,6 +331,10 @@ MonoBehaviour:
           - en
           - fi
         - m_KeyId: 700243182809088
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1059692229619712
           m_TableCodes:
           - en
           - fi

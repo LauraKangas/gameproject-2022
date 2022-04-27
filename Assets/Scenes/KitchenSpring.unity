@@ -1270,7 +1270,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2988434772814478007, guid: f203c267f5aaacf43a5e4a392f14acba, type: 2}
-  m_audioClip: {fileID: 8300000, guid: eb990382e9955c74c9839b5fc1404587, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ed8192507e358654e91678dbd83db55e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6496,8 +6496,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73.19001, y: 189}
-  m_SizeDelta: {x: 102.89, y: 111.18}
+  m_AnchoredPosition: {x: 73.189995, y: 193.49997}
+  m_SizeDelta: {x: 112.85, y: 120.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1138463155
 BoxCollider2D:
@@ -7690,8 +7690,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -114.16, y: 26.18}
-  m_SizeDelta: {x: 117.2, y: 155.64}
+  m_AnchoredPosition: {x: -113.63, y: 25.72}
+  m_SizeDelta: {x: 93.01, y: 117.74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1543424480
 BoxCollider2D:
@@ -12691,19 +12691,19 @@ PrefabInstance:
       objectReference: {fileID: 129664611499908762, guid: ab1fb76fc43dffd4c88f595443ffa71c, type: 3}
     - target: {fileID: 5098244013711440861, guid: c6b5967cb56001f41abe3daed8ded118, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 120.38
+      value: 97.62
       objectReference: {fileID: 0}
     - target: {fileID: 5098244013711440861, guid: c6b5967cb56001f41abe3daed8ded118, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 126.54
+      value: 118.29
       objectReference: {fileID: 0}
     - target: {fileID: 5098244013711440861, guid: c6b5967cb56001f41abe3daed8ded118, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 73.19001
+      value: 71.36501
       objectReference: {fileID: 0}
     - target: {fileID: 5098244013711440861, guid: c6b5967cb56001f41abe3daed8ded118, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 374.67996
+      value: 370.56
       objectReference: {fileID: 0}
     - target: {fileID: 5098244013711440862, guid: c6b5967cb56001f41abe3daed8ded118, type: 3}
       propertyPath: m_IsActive

@@ -207,6 +207,11 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
+  - m_GUID: 7bbbe3331e3e9e148b5a03b7569cb53f
+    m_Address: isotilauslappusilakkalaatikko
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 26fdabc6b5c87c745a6c1b1138389920, type: 2}
   m_SchemaSet:

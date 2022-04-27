@@ -21,6 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/KitchenSpring.unity
     guid: 86db848e11750174da99f38b05d515bd
   - enabled: 1
+    path: Assets/Scenes/KitchenSummer.unity
+    guid: 0fe8e570382506a4ebaf8970d93d853e
+  - enabled: 1
+    path: Assets/Scenes/KitchenFall.unity
+    guid: 6eeefc976410c7a4f835e4dfd9fcc002
+  - enabled: 1
+    path: Assets/Scenes/KitchenWinter.unity
+    guid: 759810614a9a108428e9c57f79c69627
+  - enabled: 1
     path: Assets/Scenes/OldKitchenSummer.unity
     guid: 04469ed3b73ecf24ea6f46e185357dc4
   - enabled: 1
@@ -29,15 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OldKitchenWinter.unity
     guid: 523e77140005695469a739e158d3e6d8
-  - enabled: 1
-    path: Assets/Scenes/KitchenSummer.unity
-    guid: 0fe8e570382506a4ebaf8970d93d853e
-  - enabled: 1
-    path: Assets/Scenes/KitchenWinter.unity
-    guid: 759810614a9a108428e9c57f79c69627
-  - enabled: 1
-    path: Assets/Scenes/KitchenFall.unity
-    guid: 6eeefc976410c7a4f835e4dfd9fcc002
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 263042caa1cbcb14097669666ff10f41, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: a36a6d85beeae4544ad9e11d9b2da8e3, type: 2}

@@ -93,7 +93,7 @@ namespace FusilliProject
             texts.text = localizedtext[num3].GetLocalizedString();
             texts2.text = localizedtext2[num3].GetLocalizedString();
 
-            if (num2 == 20) {
+            if (num2 == 30) {
 
                 next.interactable = false;
             }
@@ -123,7 +123,7 @@ namespace FusilliProject
                     previous.interactable = false;
             }
 
-            if (num2 < 20){
+            if (num2 < 30){
 
                 next.interactable = true;
             }
