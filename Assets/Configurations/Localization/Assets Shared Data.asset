@@ -203,6 +203,10 @@ MonoBehaviour:
     m_Key: "P\xE4\xE4ryn\xE4"
     m_Metadata:
       m_Items: []
+  - m_Id: 1966479770316800
+    m_Key: TIKO
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - id: 0
@@ -399,6 +403,10 @@ MonoBehaviour:
           - en
           - fi
         - m_KeyId: 1850954062950400
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1966479770316800
           m_TableCodes:
           - en
           - fi

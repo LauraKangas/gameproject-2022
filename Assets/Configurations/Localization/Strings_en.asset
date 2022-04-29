@@ -90,7 +90,7 @@ MonoBehaviour:
       1dl sugar
 
       5 tbsp
-      potato flour'
+      potato starch'
     m_Metadata:
       m_Items: []
   - m_Id: 715627176849408
@@ -145,30 +145,49 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 735188345352192
-    m_Localized: "Carrot and potato soup\n\n4 servings\r\n\r\n400 g starchy potatoes\r\n\r400
-      g carrots\r\n\r1 onion\r\n\r6 dl vegetable stock\r\n\r2 tsp black pepper\r\n\rSalt\r\n\rTwo
-      branches of chervil"
+    m_Localized: 'Tomato Soup
+
+
+      4 servings
+
+
+
+      1kg Tomatoes
+
+      2 Onions
+
+      6
+      Garlic cloves
+
+      2 tbsp Olive oil
+
+      1 tbsp Sugar
+
+      1 tsp Salt
+
+      Black
+      pepper
+
+      4dl Vegetable or chicken stock'
     m_Metadata:
       m_Items: []
   - m_Id: 735374941548544
-    m_Localized: '1. Peel and chop the potatoes, carrots and onions. The smaller
-      the pieces, the faster your soup will be done!
-
-      2. Pour the vegetable
-      stock into a large pot and add the chopped vegetables. Bring the soup to a
-      boil and let it simmer until the vegetables are soft.
-
-      3. Puree the soup
-      with either a blender or a hand blender. If you used a blender, pour the soup
-      back into the pot.
-
-      4. Chop the chevril.
-
-'
+    m_Localized: "1. Preheat the oven to 220 degrees celcius.\n2. Peel the onions
+      (Don\u2019t peel the garlic). Chop the onion into rough pieces. Flatten the
+      garlic with the peel still on.\n3. Split the tomatoes in half. Put them onto
+      a baking tray, add the onions and garlic. Add olive oil, sugar, salt and black
+      pepper.\n4. Roast them in the oven for 40 minutes. Remove the peels from the
+      garlic and add the ingredients in to a pot."
     m_Metadata:
       m_Items: []
   - m_Id: 736902045691904
-    m_Localized: 5. Season the soup to taste, add the chevril and serve immediately.
+    m_Localized: '5. Add the vegeatble or chicken stock.
+
+      6. Let the soup simmer
+      for about 30 minutes. Season the soup with salt, sugar and black pepper.
+
+      7.
+      Puree the soup and serve!'
     m_Metadata:
       m_Items: []
   - m_Id: 737894975860736
@@ -492,6 +511,91 @@ MonoBehaviour:
   - m_Id: 1120063858601984
     m_Localized: "5. Serve the pears with whipped cream or cr\xE8me fra\xEEche. You
       can also drizzle some of the leftover honey syrup on the pears."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1985404776148992
+    m_Localized: "Carrot and rosemary soup\r\n\r\n4 servings\r\n\r\n800 g carrots\r\n\r8
+      dl vegetable stock\r\n\rFive branches of rosemary\r\n\r2 tsp white pepper\r\n\rSalt\r\n\r1
+      tsp white vinegar\r\n\r2 dl heavy cream"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1985554907066368
+    m_Localized: '1. Wash, peel and chop the carrots into small pieces. The smaller
+      the pieces, the faster you soup will cook!
+
+      2. Boil the carrots in vegetable
+      stock until cooked through and soft.
+
+      3. Puree the soup with a blender
+      or a hand blender. If you used a blender, pour the soup back into the pot.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1985804979859456
+    m_Localized: '4. Add the whole rosemary branches, vinegar and spices to the soup.
+      Let the soup simmer on low heat, stirring occasionally for 15 minutes. Pick
+      the rosemary branches out of the soup.
+
+      5. Add the cream to the soup
+      just before serving, mix it in thoroughly. Season if necessary.
+
+      6. When
+      serving the soup, you can chop a little fresh rosemary on top.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1989257554751488
+    m_Localized: 'Tap on the ingredient containers to open the inventory. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1989303159418880
+    m_Localized: 'Tap on the ingredient to drag it. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1989313380937728
+    m_Localized: 'Keep your finger on the ingredient to move it. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1989324562952192
+    m_Localized: 'To chop the ingredient, drag it onto the chopping board. Tap on
+      the board to chop the ingredient. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1989335942098944
+    m_Localized: 'Drag the ingredient onto the pot, pan or oven to cook it. Wait
+      for the progress bar to complete one round, which indicates that the ingredient
+      has been cooked. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1989353247797248
+    m_Localized: 'After completing one round, the progress bar will start another
+      round. If the ingredient is not removed before the second round is completed,
+      the food will get burnt. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1989363540619264
+    m_Localized: 'Drag the ingredients onto the plate to assemble the meal. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1989390648406016
+    m_Localized: 'Tap on the plate to serve the finished meal. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1990662063583232
+    m_Localized: 'Drag the orders to the slot in the kitchen window to assemble meal. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1990674583580672
+    m_Localized: 'Tap on the order to see the recipe. Tap on the recipe to close
+      it. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1990693294370816
+    m_Localized: 'If food gets burned, drag the food to the recycling bin. There
+      will be a penalty for throwing away food. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1990705323634688
+    m_Localized: 'The pause button, score and timer are located in the upper, left
+      corner. '
     m_Metadata:
       m_Items: []
   references:
