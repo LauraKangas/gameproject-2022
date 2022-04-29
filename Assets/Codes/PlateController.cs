@@ -30,6 +30,10 @@ namespace FusilliProject
 
         public GameObject scoreCounter;
 
+        private bool mealComplete = false;
+
+        public bool ingredientSlotsHidden = true;
+
         [SerializeField]
         private AudioSource audio_plate, audio_meal;
 
@@ -42,7 +46,7 @@ namespace FusilliProject
                 {
                     foreach (GameObject ingredient in ingredients)
                     {
-                        if (!ingredient.GetComponent<Draggable>().isDragged && !ingredient.GetComponent<IngredientController>().onPlate)
+                        if (!ingredient.GetComponent<Draggable>().isDragged && !ingredient.GetComponent<IngredientController>().onPlate && !mealComplete)
                         {
                             ingredient.gameObject.GetComponent<SpriteRenderer>().sprite = null;
                             ingredient.GetComponent<IngredientController>().onPlate = true;
@@ -53,10 +57,10 @@ namespace FusilliProject
                             int ingCount = IngredientToSlot(ingredient.GetComponent<IngredientController>(), flaws);
 
                             if (audio_plate != null)
-				            {
-					            audio_plate.Play();
-					
-				            } 
+                            {
+                                audio_plate.Play();
+
+                            }
 
                             if (ingCount >= order.GetComponent<Order>().ingredients.Count)
                             {
@@ -65,6 +69,11 @@ namespace FusilliProject
                         }
                     }
                 }
+            }
+            else if (order == null && !ingredientSlotsHidden)
+            {
+                hideIngredientSlots();
+                destroyIngredients();
             }
         }
 
@@ -97,10 +106,10 @@ namespace FusilliProject
             DeliverOrder();
 
 
-                if (audio_meal != null)
-				{
-					audio_meal.Play();
-				} 
+            if (audio_meal != null)
+            {
+                audio_meal.Play();
+            }
         }
 
         public void DeliverOrder()
@@ -114,19 +123,9 @@ namespace FusilliProject
                 }
                 scoreCounter.GetComponent<AddScore>().AddPoint(score);
 
-                for (int i = ingredients.Count - 1; i >= 0; i--)
-                {
-                    if (ingredients[i].tag == "Ingredient")
-                    {
-                        ingredients[i].GetComponent<Draggable>().DestroyIngredient();
-                    }
-                    else
-                    {
-                        Destroy(ingredients[i]);
-                    }
-                    ingredients.RemoveAt(i);
-                }
+                destroyIngredients();
 
+                mealComplete = false;
                 Destroy(order);
                 Destroy(meal);
             }
@@ -225,13 +224,8 @@ namespace FusilliProject
         {
             meal = Instantiate(order.GetComponent<Order>().meal, (transform.position + new Vector3(0.07f, 0.08f, 0)), transform.rotation);
             meal.GetComponent<Food>().plate = this;
-            foreach (GameObject ingredientSlot in ingredientSlots)
-            {
-                ingredientSlot.transform.GetChild(0).gameObject.GetComponent<Image>().color = new Color32(255, 255, 255, 150);
-                ingredientSlot.transform.GetChild(0).gameObject.SetActive(false);
-                ingredientSlot.transform.GetChild(1).gameObject.GetComponent<Image>().sprite = null;
-                ingredientSlot.transform.GetChild(1).gameObject.SetActive(false);
-            }
+            mealComplete = true;
+            hideIngredientSlots();
         }
 
         public void prepareIngredientSlots()
@@ -239,6 +233,37 @@ namespace FusilliProject
             for (int i = 0; i < order.GetComponent<Order>().ingredients.Count; i++)
             {
                 ingredientSlots[i].transform.GetChild(0).gameObject.SetActive(true);
+            }
+
+            ingredientSlotsHidden = false;
+        }
+
+        private void hideIngredientSlots()
+        {
+            foreach (GameObject ingredientSlot in ingredientSlots)
+            {
+                ingredientSlot.transform.GetChild(0).gameObject.GetComponent<Image>().color = new Color32(255, 255, 255, 150);
+                ingredientSlot.transform.GetChild(0).gameObject.SetActive(false);
+                ingredientSlot.transform.GetChild(1).gameObject.GetComponent<Image>().sprite = null;
+                ingredientSlot.transform.GetChild(1).gameObject.SetActive(false);
+            }
+
+            ingredientSlotsHidden = true;
+        }
+
+        private void destroyIngredients()
+        {
+            for (int i = ingredients.Count - 1; i >= 0; i--)
+            {
+                if (ingredients[i].tag == "Ingredient")
+                {
+                    ingredients[i].GetComponent<Draggable>().DestroyIngredient();
+                }
+                else
+                {
+                    Destroy(ingredients[i]);
+                }
+                ingredients.RemoveAt(i);
             }
         }
     }
