@@ -23,10 +23,10 @@ namespace FusilliProject
         
 
         [SerializeField]
-        private LocalizedString[] localizedtext;
+        private LocalizedString[] localizedRecipeRight;
 
         [SerializeField]
-        private LocalizedString[] localizedtext2;
+        private LocalizedString[] localizedRecipeLeft;
         
         void Start()
         {
@@ -58,8 +58,8 @@ namespace FusilliProject
 
         private void OnLocalizationChanged(Locale obj)
 		{
-			texts.text = localizedtext[num3].GetLocalizedString();
-            texts2.text = localizedtext2[num3].GetLocalizedString();
+			texts.text = localizedRecipeRight[num3].GetLocalizedString();
+            texts2.text = localizedRecipeLeft[num3].GetLocalizedString();
       
 		}
 
@@ -72,8 +72,8 @@ namespace FusilliProject
             pageNum.text = "Page " + num;
             pageNum2.text = "Page " + num2;
 
-            texts.text = localizedtext[num3].GetLocalizedString();
-            texts2.text = localizedtext2[num3].GetLocalizedString();
+            texts.text = localizedRecipeRight[num3].GetLocalizedString();
+            texts2.text = localizedRecipeLeft[num3].GetLocalizedString();
 
             
 
@@ -90,10 +90,10 @@ namespace FusilliProject
 
             Debug.Log(num3);
 
-            texts.text = localizedtext[num3].GetLocalizedString();
-            texts2.text = localizedtext2[num3].GetLocalizedString();
+            texts.text = localizedRecipeRight[num3].GetLocalizedString();
+            texts2.text = localizedRecipeLeft[num3].GetLocalizedString();
 
-            if (num2 == 30) {
+            if (num2 == 34) {
 
                 next.interactable = false;
             }
@@ -115,15 +115,15 @@ namespace FusilliProject
             pageNum.text = "Page " + num;
             pageNum2.text = "Page " + num2;
         
-            texts.text = localizedtext[num3].GetLocalizedString();
-            texts2.text = localizedtext2[num3].GetLocalizedString();
+            texts.text = localizedRecipeRight[num3].GetLocalizedString();
+            texts2.text = localizedRecipeLeft[num3].GetLocalizedString();
             
             if (num == 1) {
 
                     previous.interactable = false;
             }
 
-            if (num2 < 30){
+            if (num2 < 34){
 
                 next.interactable = true;
             }

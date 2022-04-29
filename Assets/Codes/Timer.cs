@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 namespace FusilliProject
 {
@@ -33,7 +35,11 @@ namespace FusilliProject
 
         private GameObject spawnedObject;
         private bool isPlaying;
+
         private bool reminder;
+
+        [SerializeField]
+        private LocalizedString localizedPoints;
         // Start is called before the first frame update
         void Start()
         {
@@ -91,9 +97,9 @@ namespace FusilliProject
                      Time.timeScale = 0f;
 
                    
-                   totalScore.text = "Pisteet: " + ScoreController.textScore;
+                   totalScore.text = localizedPoints.GetLocalizedString() + ": " + ScoreController.textScore;
 
-                   if (ScoreController.textScore < 5){
+                   if (ScoreController.textScore < 50){
 
                     win.enabled = false;
                    lose.enabled = true;
@@ -112,7 +118,7 @@ namespace FusilliProject
 
                 }  
 
-                if (ScoreController.textScore >= 5){
+                if (ScoreController.textScore >= 50){
 
                    lose.enabled = false;
                    win.enabled = true;

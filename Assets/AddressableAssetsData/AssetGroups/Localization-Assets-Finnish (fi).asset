@@ -212,6 +212,46 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
+  - m_GUID: 1acfe62f6dc741e4d82c1f6c46888a4d
+    m_Address: isotilauslappuomenakaurapaistos
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: bd5fbd7f8351a4d43b16afe3526ade6b
+    m_Address: "isotilauslappuh\xE4rkiskaalik\xE4\xE4ryleet"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: c6e4ab60a23bf6b448ddca3a1144614c
+    m_Address: isotilauslappuborssi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: e89e42389a392794aac49ea588cd3357
+    m_Address: isotilauslappukiisseli
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: d403faf4083571d4bb1db7fa91a26f7f
+    m_Address: isotilauslappusosekeitto
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 8752cdd2dfdfd9d45bb50be7cb2d38f7
+    m_Address: isotilauslappuporkkanarosmariinikeitto
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 25025e2575a155443b987ba23e24b4e8
+    m_Address: isotilauslappukanapullat
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+  - m_GUID: 544dfd62e2adf2f4e9510f964a1dfcad
+    m_Address: "isotilauslappuhunajap\xE4\xE4ryn\xE4t"
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 26fdabc6b5c87c745a6c1b1138389920, type: 2}
   m_SchemaSet:

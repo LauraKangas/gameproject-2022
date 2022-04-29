@@ -212,6 +212,41 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+  - m_GUID: 6183f716d9efcb946900b51c50b06899
+    m_Address: appleoatcobbler
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: d79af50ae2f5c644685c2dc1190e56b7
+    m_Address: isotilauslappufavabean
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 58a4de6550666ea46b49b5394107d229
+    m_Address: borscht
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 2163c4d0ba4e66a44800fe208dc34d70
+    m_Address: vegetablesoup
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 0668f0c79bd9aac4d9b4081d1456467f
+    m_Address: carrot-rosemarysoup
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: 354d559012872464ca7ae11b1998e8cc
+    m_Address: chickenballs
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+  - m_GUID: e154ee683c1edb84090078da53537dd4
+    m_Address: honey-caramelpears
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 26fdabc6b5c87c745a6c1b1138389920, type: 2}
   m_SchemaSet:

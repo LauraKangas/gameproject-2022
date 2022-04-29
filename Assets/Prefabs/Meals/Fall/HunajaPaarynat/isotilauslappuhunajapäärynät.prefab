@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 567043352395109207}
   - component: {fileID: 6909746316644979454}
   - component: {fileID: 3088262322326239854}
+  - component: {fileID: 4982616927884048619}
   m_Layer: 0
   m_Name: "isotilauslappuhunajap\xE4\xE4ryn\xE4t"
   m_TagString: Untagged
@@ -122,3 +123,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.5, y: 8}
   m_EdgeRadius: 0
+--- !u!114 &4982616927884048619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698688586160783481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f55fcc3768689a4f9cf863b8c11c618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a35ad5265128c1e4abd0867d1bde00f0
+    m_TableEntryReference:
+      m_KeyId: 1850954062950400
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 567043352395109207}
+        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+        m_MethodName: set_sprite
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

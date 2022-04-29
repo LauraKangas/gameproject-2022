@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8499806241227531726}
   - component: {fileID: 3301054932847830119}
   - component: {fileID: 6408723883921788151}
+  - component: {fileID: 6132796297027594067}
   m_Layer: 0
   m_Name: isotilauslappuomenakaurapaistos
   m_TagString: Untagged
@@ -122,3 +123,38 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.5, y: 8}
   m_EdgeRadius: 0
+--- !u!114 &6132796297027594067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8906386973195368160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f55fcc3768689a4f9cf863b8c11c618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocalizedAssetReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:a35ad5265128c1e4abd0867d1bde00f0
+    m_TableEntryReference:
+      m_KeyId: 1848335198253056
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+  m_UpdateAsset:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8499806241227531726}
+        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+        m_MethodName: set_sprite
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

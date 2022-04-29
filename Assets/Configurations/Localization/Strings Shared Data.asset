@@ -171,6 +171,122 @@ MonoBehaviour:
     m_Key: OmenaKauraherkkuOhje3
     m_Metadata:
       m_Items: []
+  - m_Id: 1781388687372288
+    m_Key: TotalScore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802256847138816
+    m_Key: Peruna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802347515408384
+    m_Key: Porkkana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802408160849920
+    m_Key: Juuriselleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802443632078848
+    m_Key: Palsternakka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802502318780416
+    m_Key: Maito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802561919840256
+    m_Key: Silakka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802639573184512
+    m_Key: Sipuli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802684297048064
+    m_Key: Marjat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802702844260352
+    m_Key: Sokeri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802746934784000
+    m_Key: Mehu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802804887482368
+    m_Key: Hauki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804727980060672
+    m_Key: Kananmuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804776646569984
+    m_Key: Hunajaa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804825510211584
+    m_Key: Manna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804867360976896
+    m_Key: Rosmariini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804927737982976
+    m_Key: Kana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805004703461376
+    m_Key: Punajuuri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805083808034816
+    m_Key: Kaali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805150031900672
+    m_Key: Porsas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805226921881600
+    m_Key: Omena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805346488905728
+    m_Key: Ohra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805361072500736
+    m_Key: "P\xE4\xE4ryn\xE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805557282041856
+    m_Key: "H\xE4rkis"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1813897617797120
+    m_Key: Valkosipuli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1815509421715456
+    m_Key: Kaura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1821329521831936
+    m_Key: Lanttu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1821591653249024
+    m_Key: Tomaatti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848248921419776
+    m_Key: "H\xE4rkiskaalik\xE4\xE4ryleetOhje4"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

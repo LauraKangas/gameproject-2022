@@ -171,6 +171,38 @@ MonoBehaviour:
     m_Key: Silakkalaatikko
     m_Metadata:
       m_Items: []
+  - m_Id: 1848335198253056
+    m_Key: Omena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848822672846848
+    m_Key: "H\xE4rkis"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1849224516530176
+    m_Key: Borssi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1849549734473728
+    m_Key: Mehukiisseli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1849973170434048
+    m_Key: Juuressosekeitto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1850381179744256
+    m_Key: Rosmariinikeitto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1850797720268800
+    m_Key: Broileri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1850954062950400
+    m_Key: "P\xE4\xE4ryn\xE4"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - id: 0
@@ -335,6 +367,38 @@ MonoBehaviour:
           - en
           - fi
         - m_KeyId: 1059692229619712
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1848335198253056
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1848822672846848
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1849224516530176
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1849549734473728
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1849973170434048
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1850381179744256
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1850797720268800
+          m_TableCodes:
+          - en
+          - fi
+        - m_KeyId: 1850954062950400
           m_TableCodes:
           - en
           - fi

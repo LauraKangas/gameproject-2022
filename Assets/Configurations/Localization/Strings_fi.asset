@@ -171,7 +171,9 @@ MonoBehaviour:
   - m_Id: 1115173639876608
     m_Localized: "Kana-porkkanapullat\n\n4 annosta\r\n\r\n400 porkkanaa\r\n400 g
       kanan jauhelihaa\r\n0,5 dl korppujauhoa\r\n1 muna\r\n 1 tl mustapippuria\r\n1
-      tl suolaa\r\n 10 lehte\xE4 tuoretta basilikaa\r\n"
+      tl suolaa\r\n10 lehte\xE4 tuoretta basilikaa\r\n100 g Lanttua\r\n200 g Punajuurta\r\n100
+      g Palsternakkaa\r\n200 g Porkkanaa\r\n50 g Hunajaa\r\n0,5 dl \xF6ljy\xE4\r\n1
+      tl kuivattua timjamia\r"
     m_Metadata:
       m_Items: []
   - m_Id: 1115247170220032
@@ -189,8 +191,7 @@ MonoBehaviour:
       ja muotoile tasakokoisiksi pulliksi. Jos pullat tuntuvat hajoavan, voit kokeilla
       puristaa niit\xE4 k\xE4sien v\xE4liss\xE4 paremmin muotoonsa.\n6. Kuumenna
       pannulla loraus \xF6ljy\xE4 ja paista pullat kypsiksi joka puolelta.\n7. L\xE4mmit\xE4
-      tarvittaessa juureksia uudelleen pannulla, jos ne ovat ehtineet j\xE4\xE4hty\xE4
-      pullia odottaessa."
+      tarvittaessa juureksia uudelleen pannulla."
     m_Metadata:
       m_Items: []
   - m_Id: 1116180927148032
@@ -205,7 +206,7 @@ MonoBehaviour:
       nelj\xE4\xE4n osaan. Poista mahdolliset huonot kohdat ja kannat.\n3. Lis\xE4\xE4
       p\xE4\xE4ryn\xE4t kuumalle pannulle, ja py\xF6rittele hunajaseoksessa kunnes
       p\xE4\xE4ryn\xE4t alkavat pehmet\xE4. Voit k\xE4ytt\xE4\xE4 pannulle j\xE4\xE4v\xE4n
-      hunajasiirapin muuhun kokkaukseen, eli sit\xE4 ei kannata heitt\xE4\xE4 pois!\n"
+      hunajasiirapin muuhun kokkaukseen, eli sit\xE4 ei kannata heitt\xE4\xE4 pois!"
     m_Metadata:
       m_Items: []
   - m_Id: 1116652551467008
@@ -257,8 +258,7 @@ MonoBehaviour:
       kuiviin pannulta! Voit k\xE4\xE4nt\xE4\xE4 k\xE4\xE4ryleet haudutusajan puoliv\xE4liss\xE4
       ymp\xE4ri, ettei yksi puoli pala ja toinen j\xE4\xE4 raa\u2019aksi.\r\n kaalik\xE4\xE4ryleiden
       p\xE4\xE4lle. Peit\xE4 paistinpannu kannella ja anna k\xE4\xE4ryleiden hautua
-      matalalla l\xE4mm\xF6ll\xE4 pannulla nesteess\xE4 n. 1-1.5h\n9. Pese, kuori
-      ja raasta porkkana. Hienonna sipuli."
+      matalalla l\xE4mm\xF6ll\xE4 pannulla nesteess\xE4 n. 1-1.5h."
     m_Metadata:
       m_Items: []
   - m_Id: 1119433299521536
@@ -271,21 +271,143 @@ MonoBehaviour:
     m_Localized: "1. Kaada paistinpannulle vesi ja sokeri. Anna sokerin karamellisoitua.
       Lis\xE4\xE4 pannulle mausteet, omenamehu ja hunaja. Sekoita tasaiseksi kastikkeeksi.
       Lis\xE4\xE4 voi ja anna sen sulaa.\n2. Lis\xE4\xE4 pannulle kaurahiutaleet,
-      sekoita tasaiseksi.\n3. Kuori ja raasta omenat karkeaksi raasteeksi.\n4.Lis\xE4\xE4
-      raaste pannulle ja sekoita ne tasaiseksi kaurahiutaleiden sekaan. Mik\xE4li
-      seos tuntuu kuivalta, voit lis\xE4t\xE4 pannulle lis\xE4\xE4 omenamehua. Liian
-      kosteuden taas saat hallintaan lis\xE4\xE4m\xE4ll\xE4 lis\xE4\xE4 kaurahiutaletta."
+      sekoita tasaiseksi.\n3. Kuori ja raasta omenat karkeaksi raasteeksi.\n"
     m_Metadata:
       m_Items: []
   - m_Id: 1119960875855872
-    m_Localized: "5. Hauduta seosta matalalla l\xE4mm\xF6ll\xE4, kunnes omenat pehmenev\xE4t.
-      Tarjoile omena-kauraherkku esimerkiksi vaniljakastikkeen, j\xE4\xE4tel\xF6n
+    m_Localized: "4.Lis\xE4\xE4 raaste pannulle ja sekoita ne tasaiseksi kaurahiutaleiden
+      sekaan. Mik\xE4li seos tuntuu kuivalta, voit lis\xE4t\xE4 pannulle lis\xE4\xE4
+      omenamehua. Liian kosteuden taas saat hallintaan lis\xE4\xE4m\xE4ll\xE4 lis\xE4\xE4
+      kaurahiutaletta.\n6. Hauduta seosta matalalla l\xE4mm\xF6ll\xE4, kunnes omenat
+      pehmenev\xE4t. Tarjoile omena-kauraherkku esimerkiksi vaniljakastikkeen, j\xE4\xE4tel\xF6n
       tai kermavaahdon kanssa."
     m_Metadata:
       m_Items: []
   - m_Id: 1120063858601984
-    m_Localized: "4. Tarjoile p\xE4\xE4ryn\xE4t esimerkiksi kermavaahdon tai ranskankerman
+    m_Localized: "5. Tarjoile p\xE4\xE4ryn\xE4t esimerkiksi kermavaahdon tai ranskankerman
       kera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1781388687372288
+    m_Localized: Pisteet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802256847138816
+    m_Localized: Peruna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802347515408384
+    m_Localized: Porkkana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802408160849920
+    m_Localized: Juuriselleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802443632078848
+    m_Localized: Palsternakka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802502318780416
+    m_Localized: Maito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802561919840256
+    m_Localized: Silakka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802639573184512
+    m_Localized: Sipuli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802684297048064
+    m_Localized: Marjat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802702844260352
+    m_Localized: Sokeri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802746934784000
+    m_Localized: Mehu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805004703461376
+    m_Localized: Punajuuri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805083808034816
+    m_Localized: Kaali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805150031900672
+    m_Localized: Sika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805226921881600
+    m_Localized: Omena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805346488905728
+    m_Localized: Ohra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805361072500736
+    m_Localized: "P\xE4\xE4ryn\xE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1805557282041856
+    m_Localized: "H\xE4rkis"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1802804887482368
+    m_Localized: Hauki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804727980060672
+    m_Localized: Kananmuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804776646569984
+    m_Localized: Hunaja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804825510211584
+    m_Localized: Manna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804867360976896
+    m_Localized: Rosmariini
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1804927737982976
+    m_Localized: Kana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1813897617797120
+    m_Localized: Valkosipuli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1815509421715456
+    m_Localized: Kaurahiutale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1821329521831936
+    m_Localized: Lanttu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1821591653249024
+    m_Localized: Tomaatti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1848248921419776
+    m_Localized: "9. Seuraa, ettei neste p\xE4\xE4se haihtumaan kuiviin pannulta!
+      Voit k\xE4\xE4nt\xE4\xE4 k\xE4\xE4ryleet haudutusajan puoliv\xE4liss\xE4 ymp\xE4ri,
+      ettei yksi puoli pala ja toinen j\xE4\xE4 raa\u2019aksi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1121640908517376
+    m_Localized: 
     m_Metadata:
       m_Items: []
   references:
