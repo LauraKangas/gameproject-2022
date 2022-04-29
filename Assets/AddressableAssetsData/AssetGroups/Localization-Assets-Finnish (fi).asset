@@ -242,13 +242,13 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
-  - m_GUID: 25025e2575a155443b987ba23e24b4e8
-    m_Address: isotilauslappukanapullat
+  - m_GUID: 544dfd62e2adf2f4e9510f964a1dfcad
+    m_Address: "isotilauslappuhunajap\xE4\xE4ryn\xE4t"
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
-  - m_GUID: 544dfd62e2adf2f4e9510f964a1dfcad
-    m_Address: "isotilauslappuhunajap\xE4\xE4ryn\xE4t"
+  - m_GUID: 9e7a0e1789ae184409b215866ded5865
+    m_Address: isotilauslappukanapullat
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-fi
