@@ -30,6 +30,7 @@ namespace FusilliProject
                 {
                     hasOrder = false;
                     orderDragger.fixedInPlace = false;
+                    plateController.order = null;
                 }
                 else if (!orderDragger.isDragged && !hasOrder)
                 {
@@ -39,6 +40,10 @@ namespace FusilliProject
                     orderDragger.fixedInPlace = true;
                     plateController.prepareIngredientSlots();
                 }
+            }
+            if (order == null && plateController.order != null)
+            {
+                plateController.order = null;
             }
         }
 
