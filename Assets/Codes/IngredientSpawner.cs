@@ -33,6 +33,9 @@ namespace FusilliProject
 
         public GameObject tableSurface;
 
+        [SerializeField]
+        private GameObject pauseHandler;
+
 
         // Uuden aines-olion spawnaus metodi
         private void Spawn()
@@ -71,41 +74,52 @@ namespace FusilliProject
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            Spawn();
 
-            // !! Alla olevat tarpeettomia, jos halutaan aineksen spawnaavan muualle kuin mihin pelaaja painaa
-            // Asetetaan viittaus luodun aineksen Controlleriin
-            ingredientDragger = ingredient.GetComponent<Draggable>();
-
-            if (ingredientDragger.tag != "Spice")
+            if (!this.pauseHandler.GetComponent<PauseGame>().isPaused)
             {
-                ingredientDragger.setTableSlot(tableSurface);
-            }
+                Spawn();
 
-            ingredientDragger.OnBeginDrag(eventData);
+                // !! Alla olevat tarpeettomia, jos halutaan aineksen spawnaavan muualle kuin mihin pelaaja painaa
+                // Asetetaan viittaus luodun aineksen Controlleriin
+                ingredientDragger = ingredient.GetComponent<Draggable>();
+                ingredientDragger.pauseHandler = this.pauseHandler.GetComponent<PauseGame>();
 
-            if (this.tag != null)
-            {
-                if (this.tag == "PersistentSpawner")
+                if (ingredientDragger.tag != "Spice")
                 {
-                    this.gameObject.GetComponent<SpriteRenderer>().sprite = null;
+                    ingredientDragger.setTableSlot(tableSurface);
+                }
+
+                ingredientDragger.OnBeginDrag(eventData);
+
+                if (this.tag != null)
+                {
+                    if (this.tag == "PersistentSpawner")
+                    {
+                        this.gameObject.GetComponent<SpriteRenderer>().sprite = null;
+                    }
                 }
             }
         }
 
         public void OnDrag(PointerEventData eventdata)
         {
-            ingredientDragger.OnDrag(eventdata);
+            if (ingredientDragger != null)
+            {
+                ingredientDragger.OnDrag(eventdata);
+            }
         }
 
         public void OnEndDrag(PointerEventData eventData)
         {
-            ingredientDragger.OnEndDrag(eventData);
-            if (this.tag != null)
+            if (ingredientDragger != null)
             {
-                if (this.tag == "PersistentSpawner")
+                ingredientDragger.OnEndDrag(eventData);
+                if (this.tag != null)
                 {
-                    this.gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
+                    if (this.tag == "PersistentSpawner")
+                    {
+                        this.gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
+                    }
                 }
             }
         }

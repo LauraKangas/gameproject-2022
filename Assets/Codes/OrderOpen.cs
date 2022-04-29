@@ -11,20 +11,18 @@ namespace FusilliProject
         [SerializeField]
         private GameObject orderLarge;
 
+        private GameObject spawnedOrder;
+
         
 
         public void OnPointerClick(PointerEventData pointerEventData)
         {
-            if (!GetComponent<Draggable>().isDragged)
+            if (spawnedOrder == null && !GetComponent<Draggable>().isDragged && !GetComponent<Draggable>().pauseHandler.isPaused)
             {
                 
-
-                Instantiate(orderLarge, new Vector2(-0.2f, 0.2f), transform.rotation);
+                spawnedOrder = Instantiate(orderLarge, new Vector2(-0.2f, 0.2f), transform.rotation);
                 Debug.Log(name + " is larger");
 
-                
-
-                
             }
 
             

@@ -21,6 +21,8 @@ namespace FusilliProject
 
         public bool draggable = true;
 
+        public PauseGame pauseHandler;
+
         void Start()
         {
             if (tag == "Order")
@@ -31,7 +33,7 @@ namespace FusilliProject
 
         void Update()
         {
-            if (!this.fixedInPlace && !this.isDragged)
+            if (!this.fixedInPlace && !this.isDragged && !pauseHandler.isPaused)
             {
                 returnToStart();
             }
@@ -55,11 +57,7 @@ namespace FusilliProject
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            // if (inPlace)
-            // {
-            //     startPos = this.transform.position;
-            // }
-            if (draggable)
+            if (draggable && !pauseHandler.isPaused)
             {
                 fixedInPlace = false;
                 this.isDragged = true;
@@ -83,7 +81,7 @@ namespace FusilliProject
 
         public void returnToStart()
         {
-            // this.transform.position = this.startPos;
+            
             Vector2 path = (startPos - this.transform.position);
 
             Vector2 move = path.normalized * Time.deltaTime * speed;

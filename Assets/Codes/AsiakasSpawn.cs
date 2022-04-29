@@ -31,6 +31,9 @@ namespace FusilliProject
 
 		private GameObject spawnedObject;
 
+		[SerializeField]
+		private GameObject pauseHandler;
+
 		void Start()
 		{
 			timer = spawnTime;
@@ -139,9 +142,9 @@ namespace FusilliProject
 			spawnedObject = Instantiate(prefab2, transform.position, transform.rotation);
 			break;
 
-			
-
 			}
+
+			spawnedObject.GetComponent<Draggable>().pauseHandler = this.pauseHandler.GetComponent<PauseGame>();
 		}
 	}
 

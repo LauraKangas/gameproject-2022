@@ -38,6 +38,8 @@ namespace FusilliProject
 
         private bool reminder;
 
+        public bool startedTimer = false;
+
         [SerializeField]
         private LocalizedString localizedPoints;
         // Start is called before the first frame update
@@ -45,7 +47,7 @@ namespace FusilliProject
         {
 
             gameTime = startTime;
-            timer.text = "Time: " + startTime;
+            //timer.text = "Time: " + startTime;
 
             Time.timeScale = 1f;
             
@@ -71,7 +73,7 @@ namespace FusilliProject
         {
 
 
-            if (gameTime > endTime)
+            if (gameTime > endTime  && startedTimer)
 			{
 
                 float minutes = Mathf.FloorToInt(gameTime/60);

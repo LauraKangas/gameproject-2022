@@ -38,6 +38,7 @@ namespace FusilliProject
                     plateController.order = this.order;
                     hasOrder = true;
                     orderDragger.fixedInPlace = true;
+                    orderDragger.draggable = false;
                     plateController.prepareIngredientSlots();
                 }
             }
