@@ -63,6 +63,7 @@ namespace FusilliProject
             {
                 fixedInPlace = false;
                 this.isDragged = true;
+                this.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 10;
             }
 
             AudioSource audio = GetComponent<AudioSource>();
@@ -77,6 +78,7 @@ namespace FusilliProject
         public void OnEndDrag(PointerEventData eventData)
         {
             this.isDragged = false;
+            this.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 9;
         }
 
         public void returnToStart()

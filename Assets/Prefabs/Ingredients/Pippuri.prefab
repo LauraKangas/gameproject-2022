@@ -197,7 +197,11 @@ MonoBehaviour:
   isDragged: 0
   isOvenCooked: 0
   isFried: 0
-  ingredientStages: []
+  ingredientStages:
+  - {fileID: 21300000, guid: c0e8afb54440e9e49bcb40fc7aed7e6b, type: 3}
+  - {fileID: 21300000, guid: c0e8afb54440e9e49bcb40fc7aed7e6b, type: 3}
+  - {fileID: 21300000, guid: c0e8afb54440e9e49bcb40fc7aed7e6b, type: 3}
+  - {fileID: 21300000, guid: c0e8afb54440e9e49bcb40fc7aed7e6b, type: 3}
   cookedSprite: {fileID: 0}
   burnedSprite: {fileID: 0}
   points: 2
