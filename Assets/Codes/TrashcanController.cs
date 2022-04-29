@@ -8,12 +8,15 @@ namespace FusilliProject
     {
         private GameObject draggedTrash;
 
+        public GameObject scoreCounter;
+
         private void Update()
         {
             if (draggedTrash != null)
             {
                 if (!draggedTrash.GetComponent<Draggable>().isDragged)
                 {
+                    scoreCounter.GetComponent<AddScore>().AddPoint(-1);
                     draggedTrash.GetComponent<Draggable>().DestroyIngredient();
                 }
             }
