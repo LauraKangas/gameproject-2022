@@ -2993,7 +2993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: KitchenSummer
+  scene: KitchenWinter
 --- !u!114 &437256389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4183,7 +4183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2cfc56947291054887200e995a531e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: KitchenSpring
+  scene: KitchenFall
 --- !u!114 &570950834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12347,7 +12347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 6369115}
   highscoreText: {fileID: 1818307620}
-  lvlNum: 1
+  lvlNum: 3
   nextScene: 0
   localizedScore:
     m_TableReference:
