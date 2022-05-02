@@ -1,133 +1,113 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
+using UnityEngine.UI;
 
 namespace FusilliProject
 {
     public class BookText : MonoBehaviour
     {
+        public TMP_Text numLeft, numRight;
 
-        public TMP_Text pageNum;
-        public TMP_Text pageNum2;
-        
-        public int num, num2, num3;
+        private int left, right, num;
 
-        public Button next;
-        public Button previous;
+        public Button buttonRight, buttonLeft;
 
-        public TMP_Text texts, texts2;
-        
+        public TMP_Text rightText, leftText;
 
         [SerializeField]
         private LocalizedString[] localizedRecipeRight;
 
         [SerializeField]
         private LocalizedString[] localizedRecipeLeft;
-        
+
         void Start()
         {
-        
-           BookEnter();
+            BookEnter();
         }
 
         // Update is called once per frame
         void Update()
         {
-          
-            
-        
         }
 
-         private void OnEnable()
+        private void OnEnable()
         {
-
             LocalizationSettings.SelectedLocaleChanged += OnLocalizationChanged;
-
         }
 
-         private void OnDisable()
+        private void OnDisable()
         {
-
             LocalizationSettings.SelectedLocaleChanged -= OnLocalizationChanged;
-
         }
 
         private void OnLocalizationChanged(Locale obj)
-		{
-			texts.text = localizedRecipeRight[num3].GetLocalizedString();
-            texts2.text = localizedRecipeLeft[num3].GetLocalizedString();
-      
-		}
+        {
+            rightText.text = localizedRecipeRight[num].GetLocalizedString();
+            leftText.text = localizedRecipeLeft[num].GetLocalizedString();
+        }
 
         public void BookEnter()
         {
-            
-            num = 1;
-            num2 = 2;
-            num3 = 0;
-            pageNum.text = "Page " + num;
-            pageNum2.text = "Page " + num2;
+            left = 1;
+            right = 2;
+            num = 0;
+            numLeft.text = "Page " + left;
+            numRight.text = "Page " + right;
 
-            texts.text = localizedRecipeRight[num3].GetLocalizedString();
-            texts2.text = localizedRecipeLeft[num3].GetLocalizedString();
+            rightText.text = localizedRecipeRight[num].GetLocalizedString();
+            leftText.text = localizedRecipeLeft[num].GetLocalizedString();
 
-            
-
+            Time.timeScale = 1f;
         }
 
-        public void NewText()
+        public void NextPage()
         {
-            
-            num3 += 1;
-            num += 2;
-            num2 += 2;
-            pageNum.text = "Page " + num;
-            pageNum2.text = "Page " + num2;
+            num += 1;
+            left += 2;
+            right += 2;
+            numLeft.text = "Page " + left;
+            numRight.text = "Page " + right;
 
-            Debug.Log(num3);
+            Debug.Log (num);
 
-            texts.text = localizedRecipeRight[num3].GetLocalizedString();
-            texts2.text = localizedRecipeLeft[num3].GetLocalizedString();
+            rightText.text = localizedRecipeRight[num].GetLocalizedString();
+            leftText.text = localizedRecipeLeft[num].GetLocalizedString();
 
-            if (num2 == 34) {
-
-                next.interactable = false;
+            if (right == 34)
+            {
+                buttonRight.interactable = false;
             }
 
-            if (num > 1){
-
-                previous.interactable = true;
+            if (left > 1)
+            {
+                buttonLeft.interactable = true;
             }
-
         }
 
-        public void PreviousText()
+        public void PreviousPage()
         {
-            
-                    
-            num3 -= 1;
-            num -= 2;
-            num2 -= 2;
-            pageNum.text = "Page " + num;
-            pageNum2.text = "Page " + num2;
-        
-            texts.text = localizedRecipeRight[num3].GetLocalizedString();
-            texts2.text = localizedRecipeLeft[num3].GetLocalizedString();
-            
-            if (num == 1) {
+            num -= 1;
+            left -= 2;
+            right -= 2;
+            numLeft.text = "Page " + left;
+            numRight.text = "Page " + right;
 
-                    previous.interactable = false;
+            rightText.text = localizedRecipeRight[num].GetLocalizedString();
+            leftText.text = localizedRecipeLeft[num].GetLocalizedString();
+
+            if (left == 1)
+            {
+                buttonLeft.interactable = false;
             }
 
-            if (num2 < 34){
-
-                next.interactable = true;
+            if (right < 34)
+            {
+                buttonRight.interactable = true;
             }
         }
-       
     }
 }

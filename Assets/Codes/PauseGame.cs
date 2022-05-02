@@ -7,7 +7,6 @@ namespace FusilliProject
 {
     public class PauseGame : MonoBehaviour
     {
-        
         public bool isPaused;
 
         [SerializeField]
@@ -22,7 +21,6 @@ namespace FusilliProject
             inventory.SetActive(false);
             button.interactable = false;
             Time.timeScale = 0f;
-            
         }
 
         public void Resume()

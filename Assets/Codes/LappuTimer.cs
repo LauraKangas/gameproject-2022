@@ -8,30 +8,28 @@ namespace FusilliProject
     public class LappuTimer : MonoBehaviour
     {
         [SerializeField]
-		private Image timebar;
+        private Image timebar;
 
         [SerializeField]
-		private float customerTime;
+        private float customerTime;
 
         private float timeLeft;
+
         // Start is called before the first frame update
         void Start()
         {
             timeLeft = customerTime;
-        
         }
 
         // Update is called once per frame
         void Update()
         {
-
-            if (timeLeft > 0) {
-
+            if (timeLeft > 0)
+            {
                 timeLeft -= Time.deltaTime;
 
-                timebar.fillAmount = timeLeft/customerTime;
+                timebar.fillAmount = timeLeft / customerTime;
             }
-        
         }
     }
 }

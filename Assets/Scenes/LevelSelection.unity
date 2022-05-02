@@ -3574,8 +3574,8 @@ MonoBehaviour:
   - {fileID: 400915868}
   - {fileID: 703306626}
   - {fileID: 1742564386}
-  leftButton: {fileID: 266330755}
-  rightButton: {fileID: 1086946811}
+  leftArrow: {fileID: 266330755}
+  rightArrow: {fileID: 1086946811}
 --- !u!1 &482266364
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,7 +4643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hs: {fileID: 2136616975}
   HS: 0
-  num: 2
+  numLevel: 2
   localizedHS:
     m_TableReference:
       m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
@@ -5959,7 +5959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hs: {fileID: 650482260}
   HS: 0
-  num: 1
+  numLevel: 1
   localizedHS:
     m_TableReference:
       m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
@@ -8705,7 +8705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hs: {fileID: 499267767}
   HS: 0
-  num: 4
+  numLevel: 4
   localizedHS:
     m_TableReference:
       m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
@@ -10199,7 +10199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hs: {fileID: 138403329}
   HS: 0
-  num: 3
+  numLevel: 3
   localizedHS:
     m_TableReference:
       m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7

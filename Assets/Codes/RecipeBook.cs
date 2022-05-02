@@ -1,71 +1,62 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
 namespace FusilliProject
 {
     public class RecipeBook : MonoBehaviour
     {
-         [SerializeField]
-        private GameObject button, button2, page_left;
+        [SerializeField]
+        private GameObject rightButton, leftButton, turnPage;
 
-         public TMP_Text recipe, ingredients, instructions, page1, page2;
+        public TMP_Text rightPage, leftPage, leftNum, rightNum;
 
-        
         // Start is called before the first frame update
         void Start()
         {
-            button.SetActive(false);
-            button2.SetActive(false);
-            instructions.enabled = false;
-            recipe.enabled = false;
-            page1.enabled = false;
-            page2.enabled = false;
+            rightButton.SetActive(false);
+            leftButton.SetActive(false);
+            leftPage.enabled = false;
+            rightPage.enabled = false;
+            leftNum.enabled = false;
+            rightNum.enabled = false;
         }
 
         // Update is called once per frame
         void Update()
         {
-         
         }
 
-       
-    public void startAnimation()
-    {
-        
-        button.SetActive(false);
-        button2.SetActive(false);
-        instructions.enabled = false;
-        recipe.enabled = false;
-        page1.enabled = false;
-        page2.enabled = false;
+        public void StartAnimation()
+        {
+            rightButton.SetActive(false);
+            leftButton.SetActive(false);
+            leftPage.enabled = false;
+            rightPage.enabled = false;
+            leftNum.enabled = false;
+            rightNum.enabled = false;
+        }
+
+        public void EndAnimation()
+        {
+            rightButton.SetActive(true);
+            leftButton.SetActive(true);
+            leftPage.enabled = true;
+            rightPage.enabled = true;
+            leftNum.enabled = true;
+            rightNum.enabled = true;
+            turnPage.SetActive(false);
+        }
+
+        public void RecipeBookEnd()
+        {
+            rightButton.SetActive(true);
+            leftButton.SetActive(false);
+            leftPage.enabled = true;
+            rightPage.enabled = true;
+            leftNum.enabled = true;
+            rightNum.enabled = true;
+        }
     }
-
-    public void endAnimation()
-    {
-        
-        button.SetActive(true);
-        button2.SetActive(true);
-        instructions.enabled = true;
-        recipe.enabled = true;
-        page1.enabled = true;
-        page2.enabled = true;
-        page_left.SetActive(false);
-    }
-
-    
-
-    public void WaitAnimaitonEnds()
-    {
-        
-        button.SetActive(true);
-        button2.SetActive(false);
-        instructions.enabled = true;
-        recipe.enabled = true;
-        page1.enabled = true;
-        page2.enabled = true;
-    }
-
-  }
 }

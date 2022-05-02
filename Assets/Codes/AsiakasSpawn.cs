@@ -6,146 +6,105 @@ namespace FusilliProject
 {
     public class AsiakasSpawn : MonoBehaviour
     {
-   
-
         public enum State
-		{
-			WaitingForSpawn,
-			WaitingForDestroy
-		}
+        {
+            WaitingForSpawn,
+            WaitingForDestroy
+        }
 
-		[SerializeField]
-		private float spawnTime;
-        
-		[SerializeField]
-		private float destroyTime;
-		
-		[SerializeField]
-		private GameObject prefab, prefab1, prefab2;
-		int randomSpawn;
+        [SerializeField]
+        private float spawnTime;
 
-		private float timer;
+        [SerializeField]
+        private float destroyTime;
+
+        [SerializeField]
+        private GameObject[] prefab;
+
+        int randomSpawn;
+
+        private float timer;
+
         private float timerDestroy;
 
-		private State state = State.WaitingForSpawn;
+        private State state = State.WaitingForSpawn;
 
-		private GameObject spawnedObject;
+        private GameObject spawnedObject;
 
-		[SerializeField]
-		private GameObject pauseHandler;
+        [SerializeField]
+        private GameObject pauseHandler;
 
-		void Start()
-		{
-			timer = spawnTime;
+        void Start()
+        {
+            timer = spawnTime;
             timerDestroy = destroyTime;
-			
-		}
+        }
 
-		void Update()
-		{
-			switch (state)
-				{
+        void Update()
+        {
+            switch (state)
+            {
+                case State.WaitingForSpawn:
+                    if (timer > 0)
+                    {
+                        timer -= Time.deltaTime;
+                        if (timer <= 0)
+                        {
+                            Spawn();
+                            ChangeState();
+                            Debug.Log("not Destroyed");
+                        }
+                    }
 
-                    case State.WaitingForSpawn:
-            if (timer > 0)
-			{
-
-                timer -= Time.deltaTime;
-            if (timer <= 0)
-			{
-					    Spawn();
-                        ChangeState();
-						Debug.Log("not Destroyed");
-					
-				}
-							
-				}
-
-                break;
+                    break;
 
                 case State.WaitingForDestroy:
+                    if (timerDestroy > 0)
+                    {
+                        timerDestroy -= Time.deltaTime;
+                        if (timerDestroy <= 0)
+                        {
+                            DoDestroy();
+                            ChangeState();
 
-                 if (timerDestroy > 0)
-			{
+                            Debug.Log("Destroyed");
+                        }
+                    }
 
-                timerDestroy -= Time.deltaTime;
-            if (timerDestroy <= 0)
-			{
-					    DoDestroy();
+                    if (spawnedObject == null)
+                    {
                         ChangeState();
-                        
-						Debug.Log("Destroyed");
-					
-				}
-						
-					
-				}
+                    }
+                    break;
+                    
+            }
+        }
 
-				if (spawnedObject == null)
-			{
-					    
-                        ChangeState();
-                        
-						
-					
-				}
-                break;
-                }
-			}
+        private void ChangeState()
+        {
+            state = state == State.WaitingForDestroy
+                    ? State.WaitingForSpawn
+                    : State.WaitingForDestroy;
 
-            private void ChangeState()
-		{
-			
-			state = state == State.WaitingForDestroy
-				? State.WaitingForSpawn
-				: State.WaitingForDestroy;
-
-			
-			
-			timer = spawnTime;
+            timer = spawnTime;
             timerDestroy = destroyTime;
-		}
-		
+        }
 
-		private void DoDestroy()
-		{
-			Destroy(spawnedObject);
-			spawnedObject = null;
-		}
+        private void DoDestroy()
+        {
+            Destroy (spawnedObject);
+            spawnedObject = null;
+        }
 
-		private void Spawn()
-		{
-			randomSpawn = Random.Range(1,7);
+        private void Spawn()
+        {
+            randomSpawn = Random.Range(0, 5);
 
-			switch(randomSpawn){
-				case 1:
-			spawnedObject = Instantiate(prefab, transform.position, transform.rotation);
-			break;
+            spawnedObject = Instantiate(prefab[randomSpawn], transform.position, transform.rotation);
 
-			case 2:
-			spawnedObject = Instantiate(prefab1, transform.position, transform.rotation);
-			break;
+			Debug.Log(randomSpawn);
 
-			case 3:
-			spawnedObject = Instantiate(prefab2, transform.position, transform.rotation);
-			break;
-
-			case 4:
-			spawnedObject = Instantiate(prefab, transform.position, transform.rotation);
-			break;
-
-			case 5:
-			spawnedObject = Instantiate(prefab1, transform.position, transform.rotation);
-			break;
-
-			case 6:
-			spawnedObject = Instantiate(prefab2, transform.position, transform.rotation);
-			break;
-
-			}
-
-			spawnedObject.GetComponent<Draggable>().pauseHandler = this.pauseHandler.GetComponent<PauseGame>();
-		}
-	}
-
+            spawnedObject.GetComponent<Draggable>().pauseHandler = this.pauseHandler.GetComponent<PauseGame>();
+        }
     }
+}

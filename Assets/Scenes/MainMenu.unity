@@ -208,7 +208,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1879554442}
         m_TargetAssemblyTypeName: FusilliProject.BookText, Assembly-CSharp
-        m_MethodName: NewText
+        m_MethodName: NextPage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -851,7 +851,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1879554442}
         m_TargetAssemblyTypeName: FusilliProject.BookText, Assembly-CSharp
-        m_MethodName: PreviousText
+        m_MethodName: PreviousPage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1625,7 +1625,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1879554437}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2812,7 +2812,7 @@ GameObject:
   - component: {fileID: 1083084399}
   - component: {fileID: 1083084398}
   m_Layer: 5
-  m_Name: Recipe
+  m_Name: RightPageText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3646,7 +3646,7 @@ GameObject:
   - component: {fileID: 1322096410}
   - component: {fileID: 1322096409}
   m_Layer: 5
-  m_Name: Instructions
+  m_Name: LeftPageText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3664,7 +3664,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1879554437}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4669,18 +4669,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2098780783}
-        m_TargetAssemblyTypeName: FusilliProject.SceneChanger, Assembly-CSharp
-        m_MethodName: quit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1879554442}
         m_TargetAssemblyTypeName: FusilliProject.BookText, Assembly-CSharp
         m_MethodName: BookEnter
@@ -4973,140 +4961,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &1728404740
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1728404741}
-  - component: {fileID: 1728404743}
-  - component: {fileID: 1728404742}
-  m_Layer: 5
-  m_Name: Ingredients
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1728404741
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728404740}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1879554437}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -412.41, y: 24.56}
-  m_SizeDelta: {x: 650.18, y: 445.4}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1728404742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728404740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8077d8dcc50c57a4e9f9ba2a0be69db7, type: 2}
-  m_sharedMaterial: {fileID: 3909213365851545734, guid: 8077d8dcc50c57a4e9f9ba2a0be69db7, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1728404743
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728404740}
-  m_CullTransparentMesh: 1
 --- !u!1 &1749281839
 GameObject:
   m_ObjectHideFlags: 0
@@ -5344,7 +5198,6 @@ RectTransform:
   - {fileID: 83671640}
   - {fileID: 423012602}
   - {fileID: 1083084397}
-  - {fileID: 1728404741}
   - {fileID: 1322096408}
   - {fileID: 1908005185}
   - {fileID: 699715011}
@@ -5425,14 +5278,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a85729e7f440f4f960acda7db923fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 83671639}
-  button2: {fileID: 423012601}
-  page_left: {fileID: 2070735014}
-  recipe: {fileID: 1083084398}
-  ingredients: {fileID: 1728404742}
-  instructions: {fileID: 1322096409}
-  page1: {fileID: 1908005186}
-  page2: {fileID: 699715012}
+  rightButton: {fileID: 83671639}
+  leftButton: {fileID: 423012601}
+  turnPage: {fileID: 0}
+  rightPage: {fileID: 1083084398}
+  leftPage: {fileID: 1322096409}
+  leftNum: {fileID: 1908005186}
+  rightNum: {fileID: 699715012}
 --- !u!114 &1879554442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5445,15 +5297,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60676ba5db734a542bc918a4116e9741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pageNum: {fileID: 1908005186}
-  pageNum2: {fileID: 699715012}
-  num: 0
-  num2: 0
-  num3: 0
-  next: {fileID: 83671641}
-  previous: {fileID: 423012603}
-  texts: {fileID: 1322096409}
-  texts2: {fileID: 1083084398}
+  numLeft: {fileID: 1908005186}
+  numRight: {fileID: 699715012}
+  buttonRight: {fileID: 83671641}
+  buttonLeft: {fileID: 423012603}
+  rightText: {fileID: 1083084398}
+  leftText: {fileID: 1322096409}
   localizedRecipeRight:
   - m_TableReference:
       m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
@@ -5990,7 +5839,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1879554437}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6202,14 +6051,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a85729e7f440f4f960acda7db923fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 423012601}
-  button2: {fileID: 423012601}
-  page_left: {fileID: 2070735014}
-  recipe: {fileID: 1083084398}
-  ingredients: {fileID: 1728404742}
-  instructions: {fileID: 1322096409}
-  page1: {fileID: 1908005186}
-  page2: {fileID: 699715012}
+  rightButton: {fileID: 83671639}
+  leftButton: {fileID: 423012601}
+  turnPage: {fileID: 2070735014}
+  rightPage: {fileID: 1083084398}
+  leftPage: {fileID: 1322096409}
+  leftNum: {fileID: 1908005186}
+  rightNum: {fileID: 699715012}
 --- !u!1 &2080593049
 GameObject:
   m_ObjectHideFlags: 0
@@ -6318,14 +6166,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a85729e7f440f4f960acda7db923fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 423012601}
-  button2: {fileID: 83671639}
-  page_left: {fileID: 2080593049}
-  recipe: {fileID: 1083084398}
-  ingredients: {fileID: 1728404742}
-  instructions: {fileID: 1322096409}
-  page1: {fileID: 1908005186}
-  page2: {fileID: 699715012}
+  rightButton: {fileID: 83671639}
+  leftButton: {fileID: 423012601}
+  turnPage: {fileID: 2080593049}
+  rightPage: {fileID: 1083084398}
+  leftPage: {fileID: 1322096409}
+  leftNum: {fileID: 1908005186}
+  rightNum: {fileID: 699715012}
 --- !u!1 &2080688259
 GameObject:
   m_ObjectHideFlags: 0
@@ -6456,7 +6303,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1879554441}
         m_TargetAssemblyTypeName: FusilliProject.RecipeBook, Assembly-CSharp
-        m_MethodName: startAnimation
+        m_MethodName: StartAnimation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

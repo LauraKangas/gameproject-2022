@@ -30,7 +30,7 @@ namespace FusilliProject
 
                 slider.value = volume;
 
-                }
+            }
         
         }
 

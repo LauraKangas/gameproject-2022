@@ -8,23 +8,21 @@ namespace FusilliProject
 {
     public class LevelSelection : MonoBehaviour
     {
-
         [SerializeField]
-		public GameObject[] info;
+        public GameObject[] info;
+
         int randomSpawn;
+
         void Start()
         {
-            
             SpawnInfo();
         }
 
         private void SpawnInfo()
-		{
-			randomSpawn = Random.Range(1,18);
+        {
+            randomSpawn = Random.Range(1, 18);
 
-			info[randomSpawn].SetActive(true);
-
-			
+            info[randomSpawn].SetActive(true);
         }
     }
 }

@@ -6,9 +6,6 @@ namespace FusilliProject
 {
     public class ScoreController : MonoBehaviour
     {
-
-        public static int textScore;
-        
-       
+        public static int score;
     }
 }
