@@ -132,7 +132,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b12948ac5ee71584b96fde90d2241036, type: 3}
   cookedSprite: {fileID: 21300000, guid: bab248efe656c374c8f22ad85c17ba4e, type: 3}
   burnedSprite: {fileID: 21300000, guid: 208b7435e482abc47aa3ab6d6c0bb2c3, type: 3}
-  points: 3
+  points: 5
 --- !u!60 &98955147486589635
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -215,6 +215,7 @@ MonoBehaviour:
   tableSlot: 0
   tableSurface: {fileID: 0}
   draggable: 1
+  pauseHandler: {fileID: 0}
 --- !u!82 &-3481547420932267996
 AudioSource:
   m_ObjectHideFlags: 0

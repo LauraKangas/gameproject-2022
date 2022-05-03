@@ -201,7 +201,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6c8a76fed7e53524d9e4a8f94d266913, type: 3}
   cookedSprite: {fileID: 0}
   burnedSprite: {fileID: 0}
-  points: 2
+  points: 4
 --- !u!114 &4510469557490752269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,6 +221,7 @@ MonoBehaviour:
   tableSlot: 0
   tableSurface: {fileID: 0}
   draggable: 1
+  pauseHandler: {fileID: 0}
 --- !u!82 &7383888755362381525
 AudioSource:
   m_ObjectHideFlags: 0

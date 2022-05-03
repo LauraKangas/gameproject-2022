@@ -133,7 +133,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 94364a4c283a90f408f9339190295392, type: 3}
   cookedSprite: {fileID: 21300000, guid: 82f30eb357be95f44a6fdc6b3f7cd0af, type: 3}
   burnedSprite: {fileID: 21300000, guid: 400d1f718c412824cb27bb03220a300b, type: 3}
-  points: 3
+  points: 5
 --- !u!50 &3855439900198109522
 Rigidbody2D:
   serializedVersion: 4
@@ -174,6 +174,7 @@ MonoBehaviour:
   tableSlot: 0
   tableSurface: {fileID: 0}
   draggable: 1
+  pauseHandler: {fileID: 0}
 --- !u!82 &5070301514436997211
 AudioSource:
   m_ObjectHideFlags: 0

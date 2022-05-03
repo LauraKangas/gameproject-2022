@@ -116,7 +116,7 @@ namespace FusilliProject
         {
             if (meal != null)
             {
-                score = 0;
+                score = 5;
                 foreach (GameObject ingredient in ingredients)
                 {
                     score += ingredient.GetComponent<IngredientController>().points;
@@ -133,27 +133,15 @@ namespace FusilliProject
 
         private int RateIngredient(IngredientController ingredient)
         {
-            bool sameIngredientFound = false;
+            bool ingredientInRecipe = false;
             int flaws = 0;
-
-            for (int i = 0; i < ingredients.Count - 1; i++)
-            {
-                if (ingredients[i].GetComponent<IngredientController>().type == ingredient.type)
-                {
-                    flaws += 4;
-                    sameIngredientFound = true;
-                }
-            }
-
-            if (sameIngredientFound)
-            {
-                return flaws;
-            }
 
             foreach (Ingredient orderIngredient in order.GetComponent<Order>().ingredients)
             {
                 if (orderIngredient.type == ingredient.type)
                 {
+                    ingredientInRecipe = true;
+
                     if (orderIngredient.cookingState != ingredient.chopState)
                     {
                         flaws++;
@@ -172,19 +160,29 @@ namespace FusilliProject
                     }
                     if (orderIngredient.isCooked != ingredient.isCooked)
                     {
-                        flaws += 2;
+                        flaws += 4;
                     }
                     if (ingredient.isBurned)
                     {
-                        flaws += 3;
+                        flaws += 4;
                     }
+                }
+            }
 
-                    return flaws;
+            for (int i = 0; i < ingredients.Count - 1; i++)
+            {
+                if (ingredients[i].GetComponent<IngredientController>().type == ingredient.type)
+                {
+                    flaws += 3;
                 }
             }
 
             // Aines ei edes kuulu reseptiin
-            flaws = 6;
+            if (!ingredientInRecipe)
+            {
+                flaws = 6;
+            }
+
             return flaws;
         }
 
