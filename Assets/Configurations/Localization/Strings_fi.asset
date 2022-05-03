@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 370288716607488
-    m_Localized: VOITTAJA
+    m_Localized: Voitto!
     m_Metadata:
       m_Items: []
   - m_Id: 497425108889600
@@ -71,39 +71,40 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 727814037499904
     m_Localized: "1. Kuori perunat, porkkanat, juuriselleri ja palsternakka. Leikkaa
-      juurekset tasakokoisiksi paloiksi.\r\n2. Kaada kasvisliemi kattilaan, lis\xE4\xE4
-      juurekset. Keit\xE4 juureksia, kunnes ne ovat pehmenneit\xE4 ja kypsi\xE4.\r\n3.
+      juurekset tasakokoisiksi paloiksi.\r\n\n2. Kaada kasvisliemi kattilaan, lis\xE4\xE4
+      juurekset. Keit\xE4 juureksia, kunnes ne ovat pehmenneit\xE4 ja kypsi\xE4.\r\n\n3.
       Kun juurekset ovat kypsi\xE4, soseuta keitto blenderill\xE4 tai sauvasekoittimella.
-      Ole varovainen, kuuma keitto roiskuu helposti!\r\n\n"
+      \n\n"
     m_Metadata:
       m_Items: []
   - m_Id: 727955251326976
-    m_Localized: "4. Kaada tarvittaessa keitto takaisin kattilaan. Lis\xE4\xE4 mausteet
-      ja kerma, sekoita huolellisesti. Maista ja mausta lis\xE4\xE4 tarvittaessa.
-      Jos keitto tuntuu liian paksulta, lis\xE4\xE4 runsaammin kermaa.\r"
+    m_Localized: "Ole varovainen, kuuma keitto roiskuu helposti!\r\n\n4. Kaada tarvittaessa
+      keitto takaisin kattilaan. Lis\xE4\xE4 mausteet ja kerma, sekoita huolellisesti.
+      Maista ja mausta lis\xE4\xE4 tarvittaessa. Jos keitto tuntuu liian paksulta,
+      lis\xE4\xE4 runsaammin kermaa.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 728812680310784
     m_Localized: "1. Kuori perunat ja siivuta ne ohuiksi siivuiksi. Leikkaa silakkafileet
-      paloiksi.\n2. Keit\xE4 perunaviipaleita kattilassa n. 10min. Viipaleiden ei
-      tarvitse olla kypsi\xE4! Valuta viipaleet ja j\xE4t\xE4 odottamaan.\n3. Leikkaa
-      sipuli pieniksi kuutioiksi.\n4. Lorauta syv\xE4lle paistinpannulle \xF6ljy\xE4
-      ja lis\xE4\xE4 sipulit. Kuullota, kunnes sipuli on hiukan l\xE4pikuultavaa."
+      paloiksi.\n\n2. Keit\xE4 perunaviipaleita kattilassa n. 10min. Viipaleiden
+      ei tarvitse olla kypsi\xE4! Valuta viipaleet ja j\xE4t\xE4 odottamaan.\n\n3.
+      Leikkaa sipuli pieniksi kuutioiksi.\n\n4. Lorauta syv\xE4lle paistinpannulle"
     m_Metadata:
       m_Items: []
   - m_Id: 728912517328896
-    m_Localized: "5. Lis\xE4\xE4 pannulle perunat, kala sek\xE4 nesteet. Mausta.
-      Peit\xE4 kannella ja hauduta kunnes kala kyps\xE4\xE4 ja perunat pehmeit\xE4
+    m_Localized: "\xF6ljy\xE4 ja lis\xE4\xE4 sipulit. Kuullota, kunnes sipuli on
+      hiukan l\xE4pikuultavaa.\n\n5. Lis\xE4\xE4 pannulle perunat, kala sek\xE4 nesteet.
+      Mausta. Peit\xE4 kannella ja hauduta kunnes kala kyps\xE4\xE4 ja perunat pehmeit\xE4
       haarukalla tuikatessa. Kypsennysaika riippuu vahvasti siit\xE4, kuinka ohuiksi.
       perunat on leikattu."
     m_Metadata:
       m_Items: []
   - m_Id: 729059468963840
-    m_Localized: "1. Sekoita kattilassa kaikki ainesosat sekaisin.\n2. Kuumenna miedolla
-      l\xE4mm\xF6ll\xE4 kiisseli\xE4 sekoittaen jatkuvasti, kunnes n\xE4et ensimm\xE4isen
-      kuplan pulpahtavan pintaan.\n3. Kun ensimm\xE4inen iso kupla n\xE4kyy, ota
-      kiisseli pois l\xE4mm\xF6lt\xE4 ja anna sen j\xE4\xE4hty\xE4.\n4. Tarjoile
-      esimerkiksi sokerin tai marjojen kanssa."
+    m_Localized: "1. Sekoita kattilassa kaikki ainesosat sekaisin.\n\n2. Kuumenna
+      miedolla l\xE4mm\xF6ll\xE4 kiisseli\xE4 sekoittaen jatkuvasti, kunnes n\xE4et
+      ensimm\xE4isen kuplan pulpahtavan pintaan.\n\n3. Kun ensimm\xE4inen iso kupla
+      n\xE4kyy, ota kiisseli pois l\xE4mm\xF6lt\xE4 ja anna sen j\xE4\xE4hty\xE4.\n\n4.
+      Tarjoile esimerkiksi sokerin tai marjojen kanssa."
     m_Metadata:
       m_Items: []
   - m_Id: 735188345352192
@@ -113,22 +114,22 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 735374941548544
-    m_Localized: "1. L\xE4mmit\xE4 uuni 220 asteeseen.\n2. Kuori sipulit (\xE4l\xE4
+    m_Localized: "1. L\xE4mmit\xE4 uuni 220 asteeseen.\n\n2. Kuori sipulit (\xE4l\xE4
       kuori valkosipulia). Pilko sipulit isoiksi lohkoiksi.  Litist\xE4 hieman valkosipulia
-      kuorineen, niin ett\xE4 kuori rikkoutuu.\n3. Halkaise tomaatit. Laita ne leivinpaperin
-      p\xE4\xE4lle. Lis\xE4\xE4 mukaan sipulit ja valkosipulit. Lis\xE4\xE4 oliivi\xF6ljy,
-      sokeri, suola ja mustapippuri.\n4. Paahda uunissa n. 40 minuuttia. Poista valkosipulista
-      kuoret ja lis\xE4\xE4 ainekset kattilaan."
+      kuorineen, niin ett\xE4 kuori rikkoutuu.\n\n3. Halkaise tomaatit. Laita ne
+      leivinpaperin p\xE4\xE4lle. Lis\xE4\xE4 mukaan sipulit ja valkosipulit. Lis\xE4\xE4
+      oliivi\xF6ljy, sokeri, suola ja mustapippuri."
     m_Metadata:
       m_Items: []
   - m_Id: 736902045691904
-    m_Localized: "5. Lis\xE4\xE4 joukkoon kana- tai kasvisliemi.\n6. Keittele hiljakseen
-      noin 30 minuuttia. Mausta keitto suolalla, sokerilla, mustapippurilla. \r\n7.
-      Soseuta."
+    m_Localized: "4. Paahda uunissa n. 40 minuuttia. Poista valkosipulista kuoret
+      ja lis\xE4\xE4 ainekset kattilaan.\n\n5. Lis\xE4\xE4 joukkoon kana- tai kasvisliemi.\n\n6.
+      Keittele hiljakseen noin 30 minuuttia. Mausta keitto suolalla, sokerilla, mustapippurilla.
+      \r\n\n7. Soseuta."
     m_Metadata:
       m_Items: []
   - m_Id: 737894975860736
-    m_Localized: "Haukipihvit & keitetyt uudet perunat\r\n\n\n4 annosta\r\n\r\n500
+    m_Localized: "Haukipihvit & keitetyt uudet perunat\r\n\n4 annosta\r\n\r\n500
       g Fileoitua/jauhettua haukea\r\n1 prk (120g) smetanaa\r\n1 dl korppujauhoa\r\n1
       kananmuna\r\n1 tl valkopippuria\r\n\xD6ljy\xE4 paistamiseen\r\nkaksi oksaa
       tilli\xE4\r\nsuolaa maun mukaan\r\nn. 1-1,2 kg uusia perunoita\r\n"
@@ -139,16 +140,16 @@ MonoBehaviour:
       huolellinen puhdistus riitt\xE4\xE4. Laita perunat kattilaan kylm\xE4\xE4n
       veteen ja suolaa vesi. Keit\xE4 perunat kypsiksi. T\xE4m\xE4 vie tavallisesti
       n. 15-20 minuuttia. Kyps\xE4 peruna tuntuu pehme\xE4lt\xE4 kun sit\xE4 t\xF6kk\xE4isee
-      haarukalla!\r\n2. Jos k\xE4yt\xE4t pihveihin haukifileit\xE4 jauhetun hauen
-      sijaan, voit jauhaa hauen ruotoineen joko blenderill\xE4 tai sauvasekoittimella."
+      haarukalla!\r\n\n2. Jos k\xE4yt\xE4t pihveihin haukifileit\xE4 jauhetun hauen
+      sijaan, voit jauhaa hauen ruotoineen joko"
     m_Metadata:
       m_Items: []
   - m_Id: 738589678432256
-    m_Localized: "3. Valmista pihvimassa sekoittamalla yhteen jauhettu hauki, smetana,
-      korppujauho, muna ja mausteet. Muotoile pihveiksi. Jos pihvitaikina tuntuu
-      liian l\xF6ys\xE4lt\xE4, lis\xE4\xE4 enemm\xE4n korppujauhoa. Paista pihvit
-      \xF6ljyss\xE4 pannulla kypsiksi.\n4. Perunoiden ja haukipihvien kylkeen sopii
-      erinomaisesti voi ja tuore tilli!"
+    m_Localized: "blenderill\xE4 tai sauvasekoittimella.\n\n3. Valmista pihvimassa
+      sekoittamalla yhteen jauhettu hauki, smetana, korppujauho, muna ja mausteet.
+      Muotoile pihveiksi. Jos pihvitaikina tuntuu liian l\xF6ys\xE4lt\xE4, lis\xE4\xE4
+      enemm\xE4n korppujauhoa. Paista pihvit \xF6ljyss\xE4 pannulla kypsiksi.\n\n4.
+      Perunoiden ja haukipihvien kylkeen sopii erinomaisesti voi ja tuore tilli!"
     m_Metadata:
       m_Items: []
   - m_Id: 1112848523259904
@@ -162,37 +163,32 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1114244282773504
     m_Localized: "1. Keit\xE4 kattilassa marjat, hunaja ja vesi kunnes marjat muussautuvat
-      helposti hillomaiseksi massaksi.\r\n2. Kaada marjakattilaan maito ja kuumenna
-      se kiehuvaksi. Lis\xE4\xE4 mannasuurimot hitaasti samalla jatkuvasti sekoittaen.\n3.
-      Hauduta puuroa n. 10-15 minuuttia antaen sen paksuuntua.\n4. Kaada mannavanukas
-      tarjoilukulhoihin ja anna j\xE4\xE4hty\xE4. Koristele esimerkiksi tuoreilla
-      marjoilla ja kermavaahdolla."
+      helposti hillomaiseksi massaksi.\r\n\n2. Kaada marjakattilaan maito ja kuumenna
+      se kiehuvaksi. Lis\xE4\xE4 mannasuurimot hitaasti samalla jatkuvasti sekoittaen.\n\n3.
+      Hauduta puuroa n. 10-15 minuuttia antaen sen paksuuntua."
     m_Metadata:
       m_Items: []
   - m_Id: 1115173639876608
-    m_Localized: "Kana-porkkanapullat\n\n4 annosta\r\n\r\n400 porkkanaa\r\n400 g
-      kanan jauhelihaa\r\n0,5 dl korppujauhoa\r\n1 muna\r\n 1 tl mustapippuria\r\n1
+    m_Localized: "Kana-porkkanapullat\n\n4 annosta\r\n\r\n400 g porkkanaa\r\n400
+      g kanan jauhelihaa\r\n0,5 dl korppujauhoa\r\n1 muna\r\n 1 tl mustapippuria\r\n1
       tl suolaa\r\n10 lehte\xE4 tuoretta basilikaa\r\n100 g Lanttua\r\n200 g Punajuurta\r\n100
       g Palsternakkaa\r\n200 g Porkkanaa\r\n50 g Hunajaa\r\n0,5 dl \xF6ljy\xE4\r\n1
       tl kuivattua timjamia\r"
     m_Metadata:
       m_Items: []
   - m_Id: 1115247170220032
-    m_Localized: "1. Pese, kuori ja leikkaa juurekset suupalan kokoiksi paloiksi.\n2.
+    m_Localized: "1. Pese, kuori ja leikkaa juurekset suupalan kokoiksi paloiksi.\n\n2.
       Kuumenna pannussa \xF6ljy\xE4 ja lis\xE4\xE4 pilkotut juurekset. Lis\xE4\xE4
-      hunaja, pippuri, suola ja timjami.\n3. Paahda juureksia n. 15 minuuttia keskil\xE4mm\xF6ll\xE4,
-      kunnes ne alkavat pehmet\xE4.\n4. Pullia varten pese, kuori ja raasta porkkanat.
-      Purista porkkanoista pois mahdollisimman paljon nestett\xE4. Voit s\xE4\xE4st\xE4\xE4
-      nesteen herkulliseksi porkkanamehuksi!"
+      hunaja, pippuri, suola ja timjami.\n\n3. Paahda juureksia n. 15 minuuttia keskil\xE4mm\xF6ll\xE4,
+      kunnes ne alkavat pehmet\xE4.\n\n4. Pullia varten pese, kuori ja raasta porkkanat.
+      Purista "
     m_Metadata:
       m_Items: []
   - m_Id: 1115884561821696
-    m_Localized: "4. Hienonna basilikanlehdet.\n5. Sekoita yhteen porkkanaraaste,
-      jauheliha, korppujauho, muna, pippuri, suola ja basilikasilppu. Sekoita tasaiseksi
-      ja muotoile tasakokoisiksi pulliksi. Jos pullat tuntuvat hajoavan, voit kokeilla
-      puristaa niit\xE4 k\xE4sien v\xE4liss\xE4 paremmin muotoonsa.\n6. Kuumenna
-      pannulla loraus \xF6ljy\xE4 ja paista pullat kypsiksi joka puolelta.\n7. L\xE4mmit\xE4
-      tarvittaessa juureksia uudelleen pannulla."
+    m_Localized: "porkkanoista pois mahdollisimman paljon nestett\xE4. Voit s\xE4\xE4st\xE4\xE4
+      nesteen herkulliseksi porkkanamehuksi!\n\n5. Hienonna basilikanlehdet.\n\n6.
+      Sekoita yhteen porkkanaraaste, jauheliha, korppujauho, muna, pippuri, suola
+      ja basilikasilppu. Sekoita tasaiseksi ja muotoile tasakokoisiksi pulliksi. "
     m_Metadata:
       m_Items: []
   - m_Id: 1116180927148032
@@ -203,11 +199,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1116341577379840
     m_Localized: "1. Yhdist\xE4 paistinpannulla vesi, mausteet ja hunaja. Kuumenna
-      kiehuvaksi.\n2. Kuori p\xE4\xE4ryn\xE4t ja leikkaa jokainen p\xE4\xE4ryn\xE4
-      nelj\xE4\xE4n osaan. Poista mahdolliset huonot kohdat ja kannat.\n3. Lis\xE4\xE4
+      kiehuvaksi.\n\n2. Kuori p\xE4\xE4ryn\xE4t ja leikkaa jokainen p\xE4\xE4ryn\xE4
+      nelj\xE4\xE4n osaan. Poista mahdolliset huonot kohdat ja kannat.\n\n3. Lis\xE4\xE4
       p\xE4\xE4ryn\xE4t kuumalle pannulle, ja py\xF6rittele hunajaseoksessa kunnes
-      p\xE4\xE4ryn\xE4t alkavat pehmet\xE4. Voit k\xE4ytt\xE4\xE4 pannulle j\xE4\xE4v\xE4n
-      hunajasiirapin muuhun kokkaukseen, eli sit\xE4 ei kannata heitt\xE4\xE4 pois!"
+      p\xE4\xE4ryn\xE4t alkavat pehmet\xE4. Voit k\xE4ytt\xE4\xE4 pannulle"
     m_Metadata:
       m_Items: []
   - m_Id: 1116652551467008
@@ -217,49 +212,40 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1116728342540288
-    m_Localized: "1. Pese, kuori ja raasta juurekset.\n2. Lorauta kattilaan \xF6ljy\xE4
+    m_Localized: "1. Pese, kuori ja raasta juurekset.\n\n2. Lorauta kattilaan \xF6ljy\xE4
       ja kuumenna. Lis\xE4\xE4 porsaanliha ja kypsenn\xE4 kattilassa kyps\xE4ksi
-      asti.\n3. Kun porsas on kyps\xE4\xE4, lis\xE4\xE4 kattilaan lihaliemi, raastetut
-      juurekset sek\xE4 etikka, pippuri ja suola.\n4. Hauduta borssia kattilassa
-      ilman kantta n. 50-60minuuttia kunnes juurekset ovat kypsi\xE4.\n5. Tarjoile
-      smetanan kanssa."
+      asti.\n\n3. Kun porsas on kyps\xE4\xE4, lis\xE4\xE4 kattilaan lihaliemi, raastetut
+      juurekset sek\xE4 etikka, pippuri ja suola.\n\n4. Hauduta borssia kattilassa
+      ilman kantta n. 50-60"
     m_Metadata:
       m_Items: []
   - m_Id: 1117006974349312
     m_Localized: "H\xE4rkiskaalik\xE4\xE4ryleet pannulla\r\n\n4 annosta\n\r\n1 iso
       kaali\r\n1 rlk suolaa kaalin keittoveteen\r\n1 pkt maustamatonta H\xE4rkist\xE4\r\n2
       dl Ruokaohrasuurimoa\r\n1 Sipuli\r\n200 g Porkkanaa\r\nsiirappia\r\n2 dlkasvislient\xE4
-      \r\n 1 tl kuivattua timjamia\r\n1 tl kuivattua rosmariinia\r\n1 tl mustapippurirouhetta\r\nsuolaa
-      maun mukaan\r\n50g margariinia\r\n"
+      \r\n1 tl kuivattua timjamia\r\n\n"
     m_Metadata:
       m_Items: []
   - m_Id: 1118501128040448
-    m_Localized: "1. Laita suuri kattilallinen vett\xE4 kiehumaan ja suolaa se vahvasti.\n2.
+    m_Localized: "1. Laita suuri kattilallinen vett\xE4 kiehumaan ja suolaa se vahvasti.\n\n2.
       Poista kaalista kanta ja upota se kiehuvaan veteen. Keit\xE4 kaalia n. 20 minuuttia,
       ett\xE4 se pehmenee. Varovasti riivi pehmenneest\xE4 kaalista kokonaisia lehti\xE4.
-      Jos tuntuu etteiv\xE4t lehdet irtoa, keit\xE4 kaalia hiukan lis\xE4\xE4.\n3.
-      Keit\xE4 ruokaohrasuurimot pakkauksen ohjeen mukaan. Voit k\xE4ytt\xE4\xE4
-      my\xF6s riisi\xE4 tai ruokakaurasuurimoita.\n4. Pese, kuori ja raasta porkkana.
-      Hienonna sipuli."
+      Jos tuntuu etteiv\xE4t lehdet irtoa, keit\xE4 kaalia hiukan lis\xE4\xE4.\n\n"
     m_Metadata:
       m_Items: []
   - m_Id: 1118824336912384
-    m_Localized: "5. Kuumenna pannulla loraus \xF6ljy\xE4 ja lis\xE4\xE4 porkkana,
-      sipuli, h\xE4rkis ja ohra. Sekoita pannulla ja paahda n. 10min keskil\xE4mm\xF6ll\xE4.\n6.
-      Tehd\xE4ksesi k\xE4\xE4ryleet ota kaalinlehti\xE4 yksi kerrallaan, laita jokaiselle
-      lehdelle kukkurallinen ruokalusikallinen t\xE4ytett\xE4 ja rullaa p\xF6tk\xF6ksi
-      niin, ett\xE4 taitat my\xF6s lehtien laidat sis\xE4\xE4np\xE4in. Asettele k\xE4\xE4ryleet
-      paistinpannulle sauma alasp\xE4in. Jatka, kunnes t\xE4yte tai kaalinlehdet
-      loppuvat kesken."
+    m_Localized: "3. Keit\xE4 ruokaohrasuurimot pakkauksen ohjeen mukaan. Voit k\xE4ytt\xE4\xE4
+      my\xF6s riisi\xE4 tai ruokakaurasuurimoita.\n\n4. Pese, kuori ja raasta porkkana.
+      Hienonna sipuli.\n\n5. Kuumenna pannulla loraus \xF6ljy\xE4 ja lis\xE4\xE4
+      porkkana, sipuli, h\xE4rkis ja ohra. Sekoita pannulla ja paahda n. 10min keskil\xE4mm\xF6ll\xE4."
     m_Metadata:
       m_Items: []
   - m_Id: 1119069363957760
-    m_Localized: "7. Lis\xE4\xE4 k\xE4\xE4rylepannulle margariini ja kuumenna keskil\xE4mm\xF6lle.
-      Kaada pannulle kasvisliemi.\n8. Seuraa, ettei neste p\xE4\xE4se haihtumaan
-      kuiviin pannulta! Voit k\xE4\xE4nt\xE4\xE4 k\xE4\xE4ryleet haudutusajan puoliv\xE4liss\xE4
-      ymp\xE4ri, ettei yksi puoli pala ja toinen j\xE4\xE4 raa\u2019aksi.\r\n kaalik\xE4\xE4ryleiden
-      p\xE4\xE4lle. Peit\xE4 paistinpannu kannella ja anna k\xE4\xE4ryleiden hautua
-      matalalla l\xE4mm\xF6ll\xE4 pannulla nesteess\xE4 n. 1-1.5h."
+    m_Localized: "6. Tehd\xE4ksesi k\xE4\xE4ryleet ota kaalinlehti\xE4 yksi kerrallaan,
+      laita jokaiselle lehdelle kukkurallinen ruokalusikallinen t\xE4ytett\xE4 ja
+      rullaa p\xF6tk\xF6ksi niin, ett\xE4 taitat my\xF6s lehtien laidat sis\xE4\xE4np\xE4in.
+      Asettele k\xE4\xE4ryleet paistinpannulle sauma alasp\xE4in. Jatka, kunnes t\xE4yte
+      tai kaalinlehdet loppuvat kesken."
     m_Metadata:
       m_Items: []
   - m_Id: 1119433299521536
@@ -271,22 +257,22 @@ MonoBehaviour:
   - m_Id: 1119660567883776
     m_Localized: "1. Kaada paistinpannulle vesi ja sokeri. Anna sokerin karamellisoitua.
       Lis\xE4\xE4 pannulle mausteet, omenamehu ja hunaja. Sekoita tasaiseksi kastikkeeksi.
-      Lis\xE4\xE4 voi ja anna sen sulaa.\n2. Lis\xE4\xE4 pannulle kaurahiutaleet,
-      sekoita tasaiseksi.\n3. Kuori ja raasta omenat karkeaksi raasteeksi.\n"
+      Lis\xE4\xE4 voi ja anna sen sulaa.\n\n2. Lis\xE4\xE4 pannulle kaurahiutaleet,
+      sekoita tasaiseksi.\n\n3. Kuori ja raasta omenat karkeaksi raasteeksi."
     m_Metadata:
       m_Items: []
   - m_Id: 1119960875855872
     m_Localized: "4.Lis\xE4\xE4 raaste pannulle ja sekoita ne tasaiseksi kaurahiutaleiden
       sekaan. Mik\xE4li seos tuntuu kuivalta, voit lis\xE4t\xE4 pannulle lis\xE4\xE4
       omenamehua. Liian kosteuden taas saat hallintaan lis\xE4\xE4m\xE4ll\xE4 lis\xE4\xE4
-      kaurahiutaletta.\n6. Hauduta seosta matalalla l\xE4mm\xF6ll\xE4, kunnes omenat
-      pehmenev\xE4t. Tarjoile omena-kauraherkku esimerkiksi vaniljakastikkeen, j\xE4\xE4tel\xF6n
-      tai kermavaahdon kanssa."
+      kaurahiutaletta.\n\n5. Hauduta seosta matalalla l\xE4mm\xF6ll\xE4, kunnes omenat
+      pehmenev\xE4t. Tarjoile omena-kauraherkku esimerkiksi vaniljakastikkeen, "
     m_Metadata:
       m_Items: []
   - m_Id: 1120063858601984
-    m_Localized: "5. Tarjoile p\xE4\xE4ryn\xE4t esimerkiksi kermavaahdon tai ranskankerman
-      kera."
+    m_Localized: "j\xE4\xE4v\xE4n hunajasiirapin muuhun kokkaukseen, eli sit\xE4
+      ei kannata heitt\xE4\xE4 pois!\n\n5. Tarjoile p\xE4\xE4ryn\xE4t esimerkiksi
+      kermavaahdon tai ranskankerman kera."
     m_Metadata:
       m_Items: []
   - m_Id: 1781388687372288
@@ -342,7 +328,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1805150031900672
-    m_Localized: Sika
+    m_Localized: Possu
     m_Metadata:
       m_Items: []
   - m_Id: 1805226921881600
@@ -402,13 +388,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1848248921419776
-    m_Localized: "9. Seuraa, ettei neste p\xE4\xE4se haihtumaan kuiviin pannulta!
-      Voit k\xE4\xE4nt\xE4\xE4 k\xE4\xE4ryleet haudutusajan puoliv\xE4liss\xE4 ymp\xE4ri,
-      ettei yksi puoli pala ja toinen j\xE4\xE4 raa\u2019aksi."
+    m_Localized: "7. Lis\xE4\xE4 k\xE4\xE4rylepannulle margariini ja kuumenna keskil\xE4mm\xF6lle.
+      Kaada pannulle kasvisliemi.\n\n8. Sekoita yhteen siirappi ja 0,5dl kuumaa vett\xE4.
+      Kaada neste kaalik\xE4\xE4ryleiden p\xE4\xE4lle. Peit\xE4 paistinpannu kannella
+      ja anna k\xE4\xE4ryleiden hautua matalalla l\xE4mm\xF6ll\xE4 pannulla nesteess\xE4
+      n. 1-1.5h.\n"
     m_Metadata:
       m_Items: []
   - m_Id: 1121640908517376
-    m_Localized: 
+    m_Localized: "j\xE4\xE4tel\xF6n tai kermavaahdon kanssa."
     m_Metadata:
       m_Items: []
   - m_Id: 1985404776148992
@@ -419,19 +407,17 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1985554907066368
     m_Localized: "1. Pese, kuori ja pilko porkkanat paloiksi. Mit\xE4 pienempi\xE4
-      paloja leikkaat, sen vikkel\xE4mmin keittosi valmistuu!\n2. Keit\xE4 porkkanapalat
+      paloja leikkaat, sen vikkel\xE4mmin keittosi valmistuu!\n\n2. Keit\xE4 porkkanapalat
       kasvisliemess\xE4 kypsiksi. Kyps\xE4 porkkana on pehme\xE4, kun sit\xE4 t\xF6kk\xE4isee
-      veitsenk\xE4rjell\xE4!\r\n3. Soseuta keitto joko blenderill\xE4 tai sauvasekoittimella.
-      Mik\xE4li k\xE4ytit blenderi\xE4, kaada keitto takaisin kattilaan."
+      veitsenk\xE4rjell\xE4!\r\n\n3. Soseuta keitto joko blenderill\xE4 tai sauvasekoittimella.
+      Mik\xE4li k\xE4ytit"
     m_Metadata:
       m_Items: []
   - m_Id: 1985804979859456
-    m_Localized: "4. Lis\xE4\xE4 keittoon rosmariininoksat kokonaisina, etikka ja
-      mausteet. Hauduta keittoa matalalla l\xE4mm\xF6ll\xE4 sekoittaen n. 15 minuuttia,
-      ett\xE4 rosmariini antaa kaiken makunsa. Nypp\xE4ise rosmariininoksat pois
-      keitosta.\r\n5. Lis\xE4\xE4 keittoon kerma juuri ennen tarjoilua, sekoita se
-      huolellisesti keiton sekaan ja maista. Mausta tarvittaessa lis\xE4\xE4.\n6.
-      Voit hienontaa keiton p\xE4\xE4lle hiukan tuoretta rosmariinia tarjoilua varten."
+    m_Localized: "blenderi\xE4, kaada keitto takaisin kattilaan.\n\n4. Lis\xE4\xE4
+      keittoon rosmariininoksat kokonaisina, etikka ja mausteet. Hauduta keittoa
+      matalalla l\xE4mm\xF6ll\xE4 sekoittaen n. 15 minuuttia, ett\xE4 rosmariini
+      antaa kaiken makunsa. Nypp\xE4ise rosmariininoksat pois keitosta.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 1989257554751488
@@ -488,6 +474,40 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1990705323634688
     m_Localized: "Pys\xE4ytysnappi, pisteet ja ajastin sijaitsevat vasemmassa yl\xE4kulmassa. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238384095653888
+    m_Localized: "4. Kaada mannavanukas tarjoilukulhoihin ja anna j\xE4\xE4hty\xE4.
+      Koristele esimerkiksi tuoreilla marjoilla ja kermavaahdolla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238840607895552
+    m_Localized: "5. Lis\xE4\xE4 keittoon kerma juuri ennen tarjoilua, sekoita se
+      huolellisesti keiton sekaan ja maista. Mausta tarvittaessa lis\xE4\xE4.\n\n6.
+      Voit hienontaa keiton p\xE4\xE4lle hiukan tuoretta rosmariinia tarjoilua varten."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240351496859648
+    m_Localized: "Jos pullat tuntuvat hajoavan, voit kokeilla puristaa niit\xE4 k\xE4sien
+      v\xE4liss\xE4 paremmin muotoonsa.\n\n7. Kuumenna pannulla loraus \xF6ljy\xE4
+      ja paista pullat kypsiksi joka puolelta.\n\n8. L\xE4mmit\xE4 tarvittaessa juureksia
+      uudelleen pannulla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3243023054598144
+    m_Localized: "minuuttia kunnes juurekset ovat kypsi\xE4.\n\n5. Tarjoile smetanan
+      kanssa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3243518791970816
+    m_Localized: "1 tl kuivattua rosmariinia\r\n1 tl mustapippurirouhetta\r\nsuolaa
+      maun mukaan\r\n50g margariinia\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3245491654160384
+    m_Localized: "9. Seuraa, ettei neste p\xE4\xE4se haihtumaan kuiviin pannulta!
+      Voit k\xE4\xE4nt\xE4\xE4 k\xE4\xE4ryleet haudutusajan puoliv\xE4liss\xE4 ymp\xE4ri,
+      ettei yksi puoli pala ja toinen j\xE4\xE4 raa\u2019aksi."
     m_Metadata:
       m_Items: []
   references:

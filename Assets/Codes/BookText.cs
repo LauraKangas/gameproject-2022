@@ -55,8 +55,8 @@ namespace FusilliProject
             left = 1;
             right = 2;
             num = 0;
-            numLeft.text = "Page " + left;
-            numRight.text = "Page " + right;
+            numLeft.text = left.ToString();
+            numRight.text = right.ToString();
 
             rightText.text = localizedRecipeRight[num].GetLocalizedString();
             leftText.text = localizedRecipeLeft[num].GetLocalizedString();
@@ -69,15 +69,15 @@ namespace FusilliProject
             num += 1;
             left += 2;
             right += 2;
-            numLeft.text = "Page " + left;
-            numRight.text = "Page " + right;
+            numLeft.text = left.ToString();
+            numRight.text = right.ToString();
 
             Debug.Log (num);
 
             rightText.text = localizedRecipeRight[num].GetLocalizedString();
             leftText.text = localizedRecipeLeft[num].GetLocalizedString();
 
-            if (right == 34)
+            if (right == 42)
             {
                 buttonRight.interactable = false;
             }
@@ -93,8 +93,8 @@ namespace FusilliProject
             num -= 1;
             left -= 2;
             right -= 2;
-            numLeft.text = "Page " + left;
-            numRight.text = "Page " + right;
+            numLeft.text = left.ToString();
+            numRight.text = right.ToString();
 
             rightText.text = localizedRecipeRight[num].GetLocalizedString();
             leftText.text = localizedRecipeLeft[num].GetLocalizedString();
@@ -104,7 +104,7 @@ namespace FusilliProject
                 buttonLeft.interactable = false;
             }
 
-            if (right < 34)
+            if (right < 42)
             {
                 buttonRight.interactable = true;
             }

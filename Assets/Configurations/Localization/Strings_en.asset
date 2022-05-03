@@ -33,7 +33,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 370288716607488
-    m_Localized: ' WINNER'
+    m_Localized: ' Victory!'
     m_Metadata:
       m_Items: []
   - m_Id: 497425108889600
@@ -101,45 +101,52 @@ MonoBehaviour:
     m_Localized: '1. Peel the potatoes, carrots, celeriac and parsnip. Chop all the
       vegetables roughly the same size for even cooking.
 
+
       2. Add the vegetable
       stock and the vegetables to a large pot and cook until the vegetables are tender
       and cooked through.
 
+
       3. Once the vegetables are cooked, puree the soup
-      with an immersion blender or a food processor until smooth and creamy. Be careful,
-      the hot soup splashes easily!'
+      with an immersion blender or a food processor until smooth and creamy. '
     m_Metadata:
       m_Items: []
   - m_Id: 727955251326976
-    m_Localized: 4. Stir in the heavy cream or milk and taste for seasoning. If the
-      soup feels too thick, you can add more heavy cream/milk.
+    m_Localized: 'Be careful, the hot soup splashes easily!
+
+
+      4. Stir in the
+      heavy cream or milk and taste for seasoning. If the soup feels too thick, you
+      can add more heavy cream/milk.'
     m_Metadata:
       m_Items: []
   - m_Id: 728812680310784
     m_Localized: "1.Peel the potatoes and cut them into thin slices. Cut the herring
-      fillets into smaller pieces\n2. Boil the potato slices for approximately 10
-      minutes. The slices don\u2019t have to be fully cooked yet. Pour the water
-      out and put the potato slices aside.\n3. Cut the onion into small cubes\n4.
-      Put oil into a deep frying pan and add the diced onions. Saut\xE9 until the
-      onions are sligthly translucent."
+      fillets into smaller pieces\n\n2. Boil the potato slices for approximately
+      10 minutes. The slices don\u2019t have to be fully cooked yet. Pour the water
+      out and put the potato slices aside.\n\n3. Cut the onion into small cubes."
     m_Metadata:
       m_Items: []
   - m_Id: 728912517328896
-    m_Localized: 5. Add the potatoes, herring, heavy cream/milk and fish stock into
-      the pan. Season to taste. Cover the pan with a lid and let the ingredients
-      simmer until the fish is cooked and the potatoes are soft. The cooking time
-      depends on how thin the potatoes are cut.
+    m_Localized: "4. Put oil into a deep frying pan and add the diced onions. Saut\xE9
+      until the onions are slightly translucent.\n\n5. Add the potatoes, herring,
+      heavy cream/milk and fish stock into the pan. Season to taste. Cover the pan
+      with a lid and let the ingredients simmer until the fish is cooked and the
+      potatoes are soft. The cooking time depends on how thin the potatoes are cut."
     m_Metadata:
       m_Items: []
   - m_Id: 729059468963840
     m_Localized: '1. Add all of the ingredients into a pot and mix.
 
+
       2. Heat
       the fool on a low heat, constantly stirring until you see the first bubbles
       forming.
 
+
       3. When the fool is bubbling, take it off the heat and let
       it cool.
+
 
       4. Serve the fool with e.g. sugar and berries.'
     m_Metadata:
@@ -172,22 +179,27 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 735374941548544
-    m_Localized: "1. Preheat the oven to 220 degrees celcius.\n2. Peel the onions
+    m_Localized: "1. Preheat the oven to 220 degrees celsius.\n\n2. Peel the onions
       (Don\u2019t peel the garlic). Chop the onion into rough pieces. Flatten the
-      garlic with the peel still on.\n3. Split the tomatoes in half. Put them onto
+      garlic with the peel still on.\n\n3. Split the tomatoes in half. Put them onto
       a baking tray, add the onions and garlic. Add olive oil, sugar, salt and black
-      pepper.\n4. Roast them in the oven for 40 minutes. Remove the peels from the
-      garlic and add the ingredients in to a pot."
+      pepper."
     m_Metadata:
       m_Items: []
   - m_Id: 736902045691904
-    m_Localized: '5. Add the vegeatble or chicken stock.
+    m_Localized: '4. Roast them in the oven for 40 minutes. Remove the peels from
+      the garlic and add the ingredients into a pot.
 
-      6. Let the soup simmer
-      for about 30 minutes. Season the soup with salt, sugar and black pepper.
 
-      7.
-      Puree the soup and serve!'
+      5. Add the vegetable
+      or chicken stock.
+
+
+      6. Let the soup simmer for about 30 minutes. Season
+      the soup with salt, sugar and black pepper.
+
+
+      7. Puree the soup and serve!'
     m_Metadata:
       m_Items: []
   - m_Id: 737894975860736
@@ -197,24 +209,34 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 738275734777856
-    m_Localized: "1. Wash the new potatoes. You don\u2019t have to peel them, thorough
-      cleaning is enough.\r\n2. Put the potatoes into a pot filled with cold water
-      and add salt. Boil the potatoes until cooked through, this usually takes 15
-      to 20 minutes.\n3. If you have pike fillets instead of ground pike, you can
-      grind the pike up with a blender yourself."
+    m_Localized: '1. Wash the potatoes.
+
+
+      2. Put the potatoes into a pot filled
+      with cold water and add salt. Boil the potatoes until cooked through, this
+      usually takes 15 to 20 minutes.
+
+
+      3. If you have pike fillets instead
+      of ground pike, you can grind the pike up with a blender yourself.
+
+
+      4.
+      Prepare the patty mixture by mixing together the ground '
     m_Metadata:
       m_Items: []
   - m_Id: 738589678432256
-    m_Localized: '4. Prepare the patty mixture by mixing together the ground pike,
-      sour cream, breadcrumbs, egg and spices. Divide the mixture into 4 equal amounts
-      (or more if you want smaller steaks) and form them into patties. If the mixture
-      feels too soft, add more breadcrumbs.
+    m_Localized: 'pike, sour cream, breadcrumbs, egg and spices. Divide the mixture
+      into 4 equal amounts (or more if you want smaller steaks) and form them into
+      patties. If the mixture feels too soft, add more breadcrumbs.
 
-      5. Fry the patties in oil until
-      they are cooked through.
 
-      6. Serve the patties and potatoes with butter
-      and fresh dill!'
+      5. Fry
+      the patties in oil until they are cooked through.
+
+
+      6. Serve the patties
+      and potatoes with butter and fresh dill!'
     m_Metadata:
       m_Items: []
   - m_Id: 1112848523259904
@@ -342,21 +364,19 @@ MonoBehaviour:
     m_Localized: '1. Boil the berries, honey and water in a pot until the berries
       turn into a jam-like consistency.
 
+
       2. Pour the milk into the berry mixture
       and bring it to a boil. Slowly add the semolina while stirring constantly.
 
-      3.
-      Let the pudding simmer for 10-15 minutes, letting it thicken
 
-      4. Pour
-      the pudding into serving bowls and allow to cool. Garnish the puddings with
-      fresh berries and whipped cream.'
+      3.
+      Let the pudding simmer for 10-15 minutes, letting it thicken.'
     m_Metadata:
       m_Items: []
   - m_Id: 1115173639876608
     m_Localized: "Chicken and Carrot Meatballs and Roasted Root Vegetables\n\n4 servings\n\n400
-      carrot\r\n\r400 g minced chicken\r\n\r0,5 dl breadcrumbs\r\n\r1 egg\r\n\r1
-      tsp black pepper\r\n\r1 tsp salt\r\n10 leaves of fresh basil\n100 g turnip\r\n\r200
+      g carrot\r\n\r400 g minced chicken\r\n\r0,5 dl breadcrumbs\r\n\r1 egg\r\n\r1
+      tsp black pepper\r\n\r1 tsp salt\r\n10 basil leaves\n100 g turnip\r\n\r200
       g beetroot\r\n\r100 g parsnip\r\n\r200 g carrot\r\n\r50 g honey\r\n\r0,5 dl
       oil\r\n\r1 tsp dried thyme"
     m_Metadata:
@@ -364,30 +384,31 @@ MonoBehaviour:
   - m_Id: 1115247170220032
     m_Localized: '1. Wash, peel and cut the root vegetables into bite-sized pieces.
 
+
       2.
       Heat oil in a pan and add the chopped vegetables. Add honey, pepper, salt and
       thyme.
 
-      3. Roast the vegetables for about 15 minutes on medium heat until
-      they begin to soften.
 
-      4. For the meatballs, wash, peel and grate the
-      carrots. Squeeze as much juice out of the grated carrots as you can.
-
-      5.
-      Chop the basil leaves.'
+      3. Roast the vegetables for about 15 minutes on medium heat
+      until they begin to soften.'
     m_Metadata:
       m_Items: []
   - m_Id: 1115884561821696
-    m_Localized: '6. Mix together the grated carrots, minced chicken, breadcrumbs,
+    m_Localized: '4. For the meatballs, wash, peel and grate the carrots. Squeeze
+      as much juice out of the grated carrots as you can.
+
+
+      5. Chop the basil
+      leaves.
+
+
+      6. Mix together the grated carrots, minced chicken, breadcrumbs,
       egg, pepper, salt and shredded basil. Stir until the mixture is smooth and
       shape into same-sized balls.
 
-      7. Heat some oil in a pan and fry the meatballs
-      until cooked on all sides.
 
-      8. If necessary, reheat the root vegetables
-      in a pan if they have cooled down while waiting for the meatballs.'
+'
     m_Metadata:
       m_Items: []
   - m_Id: 1116180927148032
@@ -396,12 +417,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1116341577379840
-    m_Localized: "1. Add water, spices and honey in a frying pan. Bring to a boil.\n2.
+    m_Localized: "1. Add water, spices and honey in a frying pan. Bring to a boil.\n\n2.
       Peel the pears and cut each pear into four pieces. Remove any bad spots and
-      the stems.\n3. Add the pears into the hot pan and swirl in the honey mixture
-      until the pears begin to soften.\n4. Serve the pears with whipped cream or
-      cr\xE8me fra\xEEche. You can also drizzle some of the leftover honey syrup
-      on the pears.\n"
+      the stems.\n\n3. Add the pears into the hot pan and swirl in the honey mixture
+      until the pears begin to soften.\n\n4. Serve the pears with whipped cream or
+      cr\xE8me fra\xEEche. "
     m_Metadata:
       m_Items: []
   - m_Id: 1116652551467008
@@ -413,104 +433,91 @@ MonoBehaviour:
   - m_Id: 1116728342540288
     m_Localized: '1. Wash, peel and grate the vegetables.
 
+
       2. Fry the pork
       strips in a pot with oil until the pork is cooked through.
 
-      3. Once the
-      pork strips are cooked, add the meat stock, grated vegetables, vinegar, pepper
-      and salt into the pot.
 
-      4. Let the borscht simmer in the pot without
-      the lid for 50-60 minutes until the vegetables are cooked.
+      3. Once
+      the pork strips are cooked, add the meat stock, grated vegetables, vinegar,
+      pepper and salt into the pot.
 
-      5. Serve
-      with sour cream.'
+
+      4. Let the borscht simmer in the pot
+      without the lid for 50-60 minutes until '
     m_Metadata:
       m_Items: []
   - m_Id: 1117006974349312
     m_Localized: "Fava bean cabbage rolls\r\n\r\n4 servings\r\n\r\n1 big cabbage\r\n\r1
       tbsp salt\r\n\r1 package (250g) unflavored H\xE4rkis\r\n\r2 dl barkley\r\n\r1
       onion\r\n\r200 g carrot\r\n\rsyrup\r\n\r2 dl vegetable broth\r\n\r1 tsp dried
-      thyme\r\n\r1 tsp dried rosemary\r\n\r1 tsp black pepper\r\n\rSalt\r\n\r50g
-      butter"
+      thyme\r\n\r1 tsp dried rosemary\r\n\r1 tsp black pepper\r"
     m_Metadata:
       m_Items: []
   - m_Id: 1118501128040448
     m_Localized: '1. Bring a large pot of water to a boil and salt the water well.
 
+
       2.
       Remove the stem from the cabbage and add the whole cabbage into the boiling
       water. Let it cook for 20 minutes to soften it.
 
-      3. Once the cabbage
-      is soft, let it cool and carefully peel leaves from the head.
 
-      4. Boil
-      the barley according to the instructions on the package. You can also use rice
-      or oats.'
+      3. Once the cabbage
+      is soft, let it cool and carefully peel leaves from the head.'
     m_Metadata:
       m_Items: []
   - m_Id: 1118824336912384
-    m_Localized: "5. Wash, peel and grate the carrot. Chop the onion.\n6. Heat a
-      drizzle of oil in a pan and add the carrots, onion, H\xE4rkis and barley. Stir
-      well and let simmer for 10 minutes on medium heat."
+    m_Localized: "4. Boil the barley according to the instructions on the package.
+      You can also use rice or oats.\n\n5. Wash, peel and grate the carrot. Chop
+      the onion.\n\n6. Heat a drizzle of oil in a pan and add the carrots, onion,
+      H\xE4rkis and barley. Stir well and let simmer for 10 minutes on medium heat."
     m_Metadata:
       m_Items: []
   - m_Id: 1119069363957760
-    m_Localized: '7. To make the rolls, take the cabbage leaves one at a time and
-      put a teaspoonful on the filling on each leaf. Now fold in the sides and roll
-      up the cabbage placing seam side down on to a pan. Continue until the filling
-      or the cabbage leaves run out.
-
-      8. Add the butter to the pan and heat
-      over medium heat. Pour the vegetable stock into the pan.'
+    m_Localized: "7. To make the \nrolls, take the cabbage leaves one \nat a time
+      and put \na teaspoonful of the filling on each leaf. Now fold in the \nsides
+      and roll up \nthe cabbage placing seam side down on to \na pan. Continue until
+      the filling or the cabbage leaves run out.\n\n8. Add the butter to the pan
+      and heat \nover medium heat. "
     m_Metadata:
       m_Items: []
   - m_Id: 1848248921419776
-    m_Localized: "9. Mix together the syrup and 0,5dl of hot water. Pour the liquid
-      over the cabbage rolls. Cover the pan with a lid and let the rolls simmer on
-      low heat for 1-1,5 hours.\n10. Make sure that the liquid doesn\u2019t evaporate
-      from the pan. You can turn the rolls around halfway through so they don\u2019t
-      burn."
+    m_Localized: "Pour the vegetable stock into the pan.\n\n9. Mix together the syrup
+      and 0,5dl \nof hot water. Pour \nthe liquid over \nthe cabbage rolls. \nCover
+      the pan with \na lid and let the rolls simmer on \nlow heat for 1-1,5 hours.\n\n10.
+      Make sure that \nthe liquid does not \nevaporate from \nthe pan. You can turn
+      \nthe rolls around "
     m_Metadata:
       m_Items: []
   - m_Id: 1119433299521536
     m_Localized: "Apple and oats crumble\r\n\r\n4 servings\r\n\r\n200 g butter\r\n\r0,5
-      dl water\r\n\r1 dl sugar\r\n\r2 tsp cinnamon\r\n\r1 tsp cardemum\r\n\r4 dl
+      dl water\r\n\r1 dl sugar\r\n\r2 tsp cinnamon\r\n\r1 tsp cardamom\r\n\r4 dl
       oats\r\n\r3 dl apple juice\r\n\r1 kg apples\r\n\r50g honey"
     m_Metadata:
       m_Items: []
   - m_Id: 1119660567883776
-    m_Localized: '1. Pour water and sugar into a pan. Let the sugar caramelize.
-
-      2.
-      Add the spices, apple juice and honey into the pan. Stir until smooth.
-
-      3.
-      Add the butter into the pan and let it melt.
-
-      4. Add the oats into the
-      pan and stir well.
-
-      5. Peel and coarsly grate the apples.
-
-      6. Add
-      the grated apples into the pan and mix them evenly with the oats. If the mixture
-      feels dry, you can add more apple juice into the pan.'
+    m_Localized: "1. Pour water and sugar into a pan. \nLet the sugar caramelize.\n\n2.
+      Add the spices, apple juice and \nhoney into the pan. Stir until smooth.\n\n3.
+      Add the butter \ninto the pan and let it melt.\n\n4. Add the oats into the
+      pan and stir \nwell."
     m_Metadata:
       m_Items: []
   - m_Id: 1119960875855872
-    m_Localized: 7. Let the crumble simmer on low heat until the apples soften. Serve
-      the crumble with vanilla sauce, ice cream or whipped cream.
+    m_Localized: "5. Peel and \ncoarsely grate the apples.\n\n6. Add the grated apples
+      into the pan and mix them evenly with the oats. If \nthe mixture feels \ndry,
+      you can add \nmore apple juice into the pan.\n\n7. Let the crumble simmer on
+      low heat until the apples soften. Serve the crumble with \nvanilla sauce, "
     m_Metadata:
       m_Items: []
   - m_Id: 1121640908517376
-    m_Localized: 
+    m_Localized: ice cream or whipped cream.
     m_Metadata:
       m_Items: []
   - m_Id: 1120063858601984
-    m_Localized: "5. Serve the pears with whipped cream or cr\xE8me fra\xEEche. You
-      can also drizzle some of the leftover honey syrup on the pears."
+    m_Localized: "You can also drizzle some of the leftover honey syrup on the pears.\n\n5.
+      Serve the pears with whipped cream or cr\xE8me fra\xEEche. You can also drizzle
+      some of the leftover honey syrup on the pears."
     m_Metadata:
       m_Items: []
   - m_Id: 1985404776148992
@@ -521,13 +528,16 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1985554907066368
     m_Localized: '1. Wash, peel and chop the carrots into small pieces. The smaller
-      the pieces, the faster you soup will cook!
+      the pieces, the faster your soup will cook!
 
-      2. Boil the carrots in vegetable
-      stock until cooked through and soft.
 
-      3. Puree the soup with a blender
-      or a hand blender. If you used a blender, pour the soup back into the pot.'
+      2. Boil the carrots in
+      vegetable stock until cooked through and soft.
+
+
+      3. Puree the soup with
+      a blender or a hand blender. If you used a blender, pour the soup back into
+      the pot.'
     m_Metadata:
       m_Items: []
   - m_Id: 1985804979859456
@@ -535,11 +545,13 @@ MonoBehaviour:
       Let the soup simmer on low heat, stirring occasionally for 15 minutes. Pick
       the rosemary branches out of the soup.
 
+
       5. Add the cream to the soup
       just before serving, mix it in thoroughly. Season if necessary.
 
-      6. When
-      serving the soup, you can chop a little fresh rosemary on top.'
+
+      6.
+      When serving the soup, you can chop a '
     m_Metadata:
       m_Items: []
   - m_Id: 1989257554751488
@@ -596,6 +608,39 @@ MonoBehaviour:
   - m_Id: 1990705323634688
     m_Localized: 'The pause button, score and timer are located in the upper, left
       corner. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238384095653888
+    m_Localized: 4. Pour the pudding into serving bowls and allow to cool. Garnish
+      the puddings with fresh berries and whipped cream.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3238840607895552
+    m_Localized: little fresh rosemary on top.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3240351496859648
+    m_Localized: '7. Heat some oil in a pan and fry the meatballs until cooked on
+      all sides.
+
+
+      8. If necessary, reheat the root vegetables in a pan if
+      they have cooled down while waiting for the meatballs.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3243023054598144
+    m_Localized: 'the vegetables are cooked.
+
+
+      5. Serve with sour cream.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3243518791970816
+    m_Localized: "Salt\r\n\r50g butter"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3245491654160384
+    m_Localized: halfway through so they do not burn.
     m_Metadata:
       m_Items: []
   references:
