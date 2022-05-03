@@ -198,7 +198,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 17370b6572e64554a94523c79a3963c3, type: 3}
   cookedSprite: {fileID: 0}
   burnedSprite: {fileID: 0}
-  points: 5
+  points: 4
 --- !u!114 &2945709679146938347
 MonoBehaviour:
   m_ObjectHideFlags: 0

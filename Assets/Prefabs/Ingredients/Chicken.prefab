@@ -132,7 +132,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: a90287a37356ad74f96f4b78c28fc74b, type: 3}
   cookedSprite: {fileID: 21300000, guid: 0b72593fca20e1b4d9a622e6407fcc37, type: 3}
   burnedSprite: {fileID: 21300000, guid: ae1836c1c8098c64ebae86f026579eb0, type: 3}
-  points: 5
+  points: 4
 --- !u!50 &4615653462708849435
 Rigidbody2D:
   serializedVersion: 4

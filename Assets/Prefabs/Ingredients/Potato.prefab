@@ -132,7 +132,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3f800f9c20a92c144958746ff8ad60ed, type: 3}
   cookedSprite: {fileID: 21300000, guid: a82577057ba3b324cbb347ea5cc98da2, type: 3}
   burnedSprite: {fileID: 21300000, guid: 9c8ae68b799a72746af4c55ab96ad4a6, type: 3}
-  points: 5
+  points: 4
 --- !u!60 &8078016296620318477
 PolygonCollider2D:
   m_ObjectHideFlags: 0

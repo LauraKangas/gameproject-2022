@@ -116,7 +116,7 @@ namespace FusilliProject
         {
             if (meal != null)
             {
-                score = 5;
+                score = 2;
                 foreach (GameObject ingredient in ingredients)
                 {
                     score += ingredient.GetComponent<IngredientController>().points;
@@ -160,11 +160,11 @@ namespace FusilliProject
                     }
                     if (orderIngredient.isCooked != ingredient.isCooked)
                     {
-                        flaws += 4;
+                        flaws += 3;
                     }
                     if (ingredient.isBurned)
                     {
-                        flaws += 4;
+                        flaws += 3;
                     }
                 }
             }

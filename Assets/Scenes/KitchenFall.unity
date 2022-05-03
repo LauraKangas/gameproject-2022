@@ -9205,7 +9205,7 @@ PrefabInstance:
       objectReference: {fileID: 2200711421078061512, guid: f330efdde53316e4abba01ea99f74b4a, type: 3}
     - target: {fileID: 8327381924684848345, guid: bd1cf048836be6e42937e2dda031561b, type: 3}
       propertyPath: destroyTime
-      value: 100
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 8327381924684848345, guid: bd1cf048836be6e42937e2dda031561b, type: 3}
       propertyPath: pauseHandler
@@ -11502,7 +11502,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 612400448}
   m_HandleRect: {fileID: 1918690175}
   m_Direction: 0
-  m_MinValue: -80
+  m_MinValue: -50
   m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
@@ -11906,7 +11906,7 @@ PrefabInstance:
       objectReference: {fileID: 18291459243914944, guid: 3e42b5fab478cf7408c1d789026acc21, type: 3}
     - target: {fileID: 8327381924684848345, guid: bd1cf048836be6e42937e2dda031561b, type: 3}
       propertyPath: destroyTime
-      value: 100
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 8327381924684848345, guid: bd1cf048836be6e42937e2dda031561b, type: 3}
       propertyPath: pauseHandler
@@ -13750,7 +13750,7 @@ PrefabInstance:
       objectReference: {fileID: 2200711421078061512, guid: f330efdde53316e4abba01ea99f74b4a, type: 3}
     - target: {fileID: 8327381924684848345, guid: bd1cf048836be6e42937e2dda031561b, type: 3}
       propertyPath: destroyTime
-      value: 100
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 8327381924684848345, guid: bd1cf048836be6e42937e2dda031561b, type: 3}
       propertyPath: pauseHandler
