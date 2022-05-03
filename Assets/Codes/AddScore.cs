@@ -22,8 +22,6 @@ namespace FusilliProject
         [SerializeField]
         private int lvlNum;
 
-        public int nextScene;
-
         [SerializeField]
         private LocalizedString localizedScore;
 
@@ -75,16 +73,6 @@ namespace FusilliProject
 
             ScoreController.score = scoreNum;
 
-            if (scoreNum >= 50)
-            {
-                nextScene = SceneManager.GetActiveScene().buildIndex + 1;
-                Debug.Log (nextScene);
-
-                if (nextScene > PlayerPrefs.GetInt("lvl"))
-                {
-                    PlayerPrefs.SetInt("lvl", nextScene);
-                }
-            }
         }
     }
 }

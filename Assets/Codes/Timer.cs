@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace FusilliProject
 {
@@ -15,6 +16,8 @@ namespace FusilliProject
         private float startTime = 301;
 
         private float endTime = 0;
+
+        public int nextScene;
 
         public TMP_Text timer;
 
@@ -97,6 +100,14 @@ namespace FusilliProject
                     lose.enabled = false;
                     win.enabled = true;
                     next.SetActive(true);
+
+                    nextScene = SceneManager.GetActiveScene().buildIndex + 1;
+                    Debug.Log (nextScene);
+
+                    if (nextScene > PlayerPrefs.GetInt("lvl"))
+                    {
+                        PlayerPrefs.SetInt("lvl", nextScene);
+                    }
 
                     if (!isPlaying)
                     {
