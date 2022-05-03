@@ -47,7 +47,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 502906833530880
     m_Localized: "Juuressosekeitto\r\n\r\n4 annosta\r\n\r\n300 g jauhoista perunaa
-      \r\n200 g porkkanaa\r\n100 g juuriselleri\xE4\r\n100 g palsternakka\r\n6 dl
+      \r\n200 g porkkanaa\r\n100 g juuriselleri\xE4\r\n100 g palsternakkaa\r\n6 dl
       kasvislient\xE4\r\n1 dl kermaa tai maitoa\r\n2 tl Valkopippuria\r\nSuolaa maun
       mukaan\r"
     m_Metadata:
@@ -62,11 +62,11 @@ MonoBehaviour:
   - m_Id: 503248316985344
     m_Localized: "Mehukiisseli\r\n\r\n4 annosta\r\n\r\n8dl Marja/hedelm\xE4mehua,
       sokeroimatonta\r\n1 dl valitsemiasi marjoja tai hedelm\xE4npaloja\r\n1dl sokeria\r\n5
-      rlk perunajauhoa\r"
+      rkl perunajauhoa\r"
     m_Metadata:
       m_Items: []
   - m_Id: 715627176849408
-    m_Localized: '     Valitse taso!'
+    m_Localized: '      Valitse taso!'
     m_Metadata:
       m_Items: []
   - m_Id: 727814037499904
@@ -158,7 +158,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1114055975301120
     m_Localized: "Mannamarjavanukas\n\n4 annosta\n\n200 g kotimaisia sekamarjoja\r\n2
-      rlk Hunajaa\r\n1 dl vett\xE4\r\n1 l maitoa / kauramaitoa\r\n1,5 dl mannasuurimoita\r\n"
+      rkl Hunajaa\r\n1 dl vett\xE4\r\n1 l maitoa / kauramaitoa\r\n1,5 dl mannasuurimoita\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 1114244282773504
@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1116652551467008
     m_Localized: "Borssi\r\n\r\n4-5 annosta\r\n\r\n\r300 g kaalia\r\n300 g punajuurta\r\n100
-      g porkkanaa\r\n400 g porsaan paistisuikaleita\r\n1 l lihalient\xE4\r\n3 rlk
+      g porkkanaa\r\n400 g porsaan paistisuikaleita\r\n1 l lihalient\xE4\r\n3 rkl
       v\xE4kiviinaetikkaa\r\n2 tl mustapippuria\r\nsuolaa maun mukaan\r\n"
     m_Metadata:
       m_Items: []
@@ -221,7 +221,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1117006974349312
     m_Localized: "H\xE4rkiskaalik\xE4\xE4ryleet pannulla\r\n\n4 annosta\n\r\n1 iso
-      kaali\r\n1 rlk suolaa kaalin keittoveteen\r\n1 pkt maustamatonta H\xE4rkist\xE4\r\n2
+      kaali\r\n1 rkl suolaa kaalin keittoveteen\r\n1 pkt maustamatonta H\xE4rkist\xE4\r\n2
       dl Ruokaohrasuurimoa\r\n1 Sipuli\r\n200 g Porkkanaa\r\nsiirappia\r\n2 dlkasvislient\xE4
       \r\n1 tl kuivattua timjamia\r\n\n"
     m_Metadata:
@@ -450,7 +450,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1989363540619264
-    m_Localized: "Kokoa ateria vet\xE4m\xE4ll\xE4 ainekset lautaselle.  "
+    m_Localized: "Ved\xE4 ainekset lautaselle kootaksesi aterian. \nSuolaa ja pippuria
+      ei tarvitse kypsent\xE4\xE4! Ved\xE4 ne suoraan lautaselle, jos resepti vaatii
+      mausteita."
     m_Metadata:
       m_Items: []
   - m_Id: 1989390648406016
@@ -458,7 +460,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1990662063583232
-    m_Localized: "Ved\xE4 tilaukset keitti\xF6n ikkunassa olevaan paikkaan aloittaaksesi
+    m_Localized: "Ved\xE4 tilaukset keitti\xF6n ikkunassa olevaan ruutuun aloittaaksesi
       aterian kokoamisen.  "
     m_Metadata:
       m_Items: []
@@ -473,7 +475,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1990705323634688
-    m_Localized: "Pys\xE4ytysnappi, pisteet ja ajastin sijaitsevat vasemmassa yl\xE4kulmassa. "
+    m_Localized: "Pys\xE4ytysnappi, pisteet ja ajastin sijaitsevat vasemmassa yl\xE4kulmassa.\nTarvitset
+      50 pistett\xE4 p\xE4\xE4st\xE4ksesi seuraavalle tasolle. "
     m_Metadata:
       m_Items: []
   - m_Id: 3238384095653888

@@ -92,7 +92,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 715627176849408
-    m_Localized: Select level to play!
+    m_Localized: Select a level to play!
     m_Metadata:
       m_Items: []
   - m_Id: 727814037499904
@@ -354,8 +354,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1114055975301120
-    m_Localized: "Mannamarjavanukas\n\n4 servings\r\n\r\n200 g berries\r\n\r2 tbsp
-      honey\r\n\r1 dl water\r\n\r1 l milk or oat milk\r\n\r1,5 dl semolina"
+    m_Localized: "Semolina Berry Pudding\n\n4 servings\r\n\r\n200 g berries\r\n\r2
+      tbsp honey\r\n\r1 dl water\r\n\r1 l milk or oat milk\r\n\r1,5 dl semolina"
     m_Metadata:
       m_Items: []
   - m_Id: 1114244282773504
@@ -606,8 +606,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1990705323634688
-    m_Localized: 'The pause button, score and timer are located in the upper, left
-      corner. '
+    m_Localized: "The pause button, score and timer are located in the upper, left
+      corner. \nA min. of 50 points needs to be reached to get to the next level."
     m_Metadata:
       m_Items: []
   - m_Id: 3238384095653888

@@ -98,7 +98,7 @@ namespace FusilliProject
 
         private void Spawn()
         {
-            randomSpawn = Random.Range(0, 5);
+            randomSpawn = Random.Range(0, 6);
 
             spawnedObject = Instantiate(prefab[randomSpawn], transform.position, transform.rotation);
 
