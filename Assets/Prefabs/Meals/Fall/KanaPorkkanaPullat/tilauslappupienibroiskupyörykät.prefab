@@ -177,6 +177,13 @@ MonoBehaviour:
     isBurned: 0
     isOvenCooked: 1
     isFried: 0
+  - type: 18
+    cookingState: 3
+    isCooked: 1
+    isBoiled: 0
+    isBurned: 0
+    isOvenCooked: 1
+    isFried: 0
   points: 0
   meal: {fileID: 5546800409903894826, guid: d2a3e31807352314aa15fad06ec6e3b2, type: 3}
 --- !u!114 &1121971734277126166
@@ -198,6 +205,7 @@ MonoBehaviour:
   tableSlot: 0
   tableSurface: {fileID: 0}
   draggable: 1
+  pauseHandler: {fileID: 0}
 --- !u!50 &8027718278837172316
 Rigidbody2D:
   serializedVersion: 4

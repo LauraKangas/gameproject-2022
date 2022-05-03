@@ -6,7 +6,6 @@ namespace FusilliProject
 {
     public class CountdownController : MonoBehaviour
     {
-        private bool countingDown = true;
 
         [SerializeField]
         private GameObject timer;

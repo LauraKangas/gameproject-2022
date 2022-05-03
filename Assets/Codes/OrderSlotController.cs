@@ -67,7 +67,7 @@ namespace FusilliProject
         {
             Debug.Log("exit");
 
-            if (col.tag == "Order")
+            if (col.tag == "Order" && order == col.gameObject)
             {
                 order = null;
                 orderDragger = null;
