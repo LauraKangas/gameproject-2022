@@ -77,7 +77,7 @@ namespace FusilliProject
                 scoreboard.SetActive(true);
                 Time.timeScale = 0f;
 
-                totalScore.text = localizedPoints.GetLocalizedString() + ": " + ScoreController.score;
+                totalScore.text = localizedPoints.GetLocalizedString() + ":" + ScoreController.score;
 
                 if (ScoreController.score < 50)
                 {

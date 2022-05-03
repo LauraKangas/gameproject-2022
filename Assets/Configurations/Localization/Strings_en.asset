@@ -27,13 +27,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 370138904457216
-    m_Localized: '  Try
-
-      Again!'
+    m_Localized: "   Try\n  Again!"
     m_Metadata:
       m_Items: []
   - m_Id: 370288716607488
-    m_Localized: ' Victory!'
+    m_Localized: Victory!
     m_Metadata:
       m_Items: []
   - m_Id: 497425108889600
@@ -244,7 +242,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1781388687372288
-    m_Localized: Score
+    m_Localized: '  Score'
     m_Metadata:
       m_Items: []
   - m_Id: 1802256847138816
@@ -584,7 +582,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1989363540619264
-    m_Localized: 'Drag the ingredients onto the plate to assemble the meal. '
+    m_Localized: "Drag the ingredients onto the plate to assemble the meal. \nSalt
+      and pepper do not need to be cooked! Drag them straight onto the plate if the
+      recipe requires seasoning."
     m_Metadata:
       m_Items: []
   - m_Id: 1989390648406016

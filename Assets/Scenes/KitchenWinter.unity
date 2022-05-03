@@ -2292,6 +2292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb0437aa4aa880b469fb003eeaaa2f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: 0
   timer: {fileID: 43000328}
   totalScore: {fileID: 1165366752}
   win: {fileID: 2142793091}
@@ -2307,7 +2308,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7
     m_TableEntryReference:
-      m_KeyId: 1075065843712
+      m_KeyId: 1781388687372288
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -12407,7 +12408,6 @@ MonoBehaviour:
   scoreText: {fileID: 6369115}
   highscoreText: {fileID: 1818307620}
   lvlNum: 4
-  nextScene: 0
   localizedScore:
     m_TableReference:
       m_TableCollectionName: GUID:fc0441d8dec34d643b54a0a7026dfee7

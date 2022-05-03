@@ -20,7 +20,7 @@ namespace FusilliProject
 
         private void SpawnInfo()
         {
-            randomSpawn = Random.Range(1, 18);
+            randomSpawn = Random.Range(0, 17);
 
             info[randomSpawn].SetActive(true);
         }

@@ -58,6 +58,8 @@ namespace FusilliProject
             numLeft.text = left.ToString();
             numRight.text = right.ToString();
 
+            buttonRight.interactable = true;
+
             rightText.text = localizedRecipeRight[num].GetLocalizedString();
             leftText.text = localizedRecipeLeft[num].GetLocalizedString();
 

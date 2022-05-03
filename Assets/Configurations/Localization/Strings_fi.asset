@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 370288716607488
-    m_Localized: Voitto!
+    m_Localized: ' Voitto!'
     m_Metadata:
       m_Items: []
   - m_Id: 497425108889600
@@ -276,7 +276,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1781388687372288
-    m_Localized: Pisteet
+    m_Localized: ' Pisteet'
     m_Metadata:
       m_Items: []
   - m_Id: 1802256847138816
