@@ -13,6 +13,7 @@ namespace FusilliProject
         public TMP_Text rightPage, leftPage, leftNum, rightNum;
 
         // Start is called before the first frame update
+        // Kun kirja avautuu, kirjan näppäimet ja tekstit ovat piilotettuna
         void Start()
         {
             rightButton.SetActive(false);
@@ -28,6 +29,7 @@ namespace FusilliProject
         {
         }
 
+        // Kun kirjan sivua vaihtaa, kirjan näppäimet, sivunumerot ja tekstit piilotetaan
         public void StartAnimation()
         {
             rightButton.SetActive(false);
@@ -38,6 +40,8 @@ namespace FusilliProject
             rightNum.enabled = false;
         }
 
+        // Kun kirjan sivu on vaihtunut, sivu piilotetaan ja kirjan näppäimet,
+        // sivunumerot sekä tekstit aktivoidaan
         public void EndAnimation()
         {
             rightButton.SetActive(true);
@@ -49,6 +53,7 @@ namespace FusilliProject
             turnPage.SetActive(false);
         }
 
+        // Kun kirja on avattu, kirjan oikeanpuolinen näppäin, sivunumerot ja tekstit aktivoidaan
         public void RecipeBookEnd()
         {
             rightButton.SetActive(true);

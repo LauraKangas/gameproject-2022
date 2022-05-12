@@ -16,10 +16,13 @@ namespace FusilliProject
         // Start is called before the first frame update
         void Start()
         {
+            // Asettaa tason numeron avatun tason mukaisesti, unlockausta varten
             lvl = PlayerPrefs.GetInt("lvl", 3);
 
             for (int i = 0; i < lvlButtons.Length; i++)
             {
+                // Jos näppäimen arvo + 3 on isompi kuin tason arvo näppäin ei aktivoidu
+                // ja lukko on näkyvänä
                 if (i + 3 > lvl)
                 {
                     lvlButtons[i].interactable = false;

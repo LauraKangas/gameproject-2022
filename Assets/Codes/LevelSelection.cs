@@ -20,8 +20,10 @@ namespace FusilliProject
 
         private void SpawnInfo()
         {
+            // Palauttaa arvon 0 ja 17 väliltä 
             randomSpawn = Random.Range(0, 18);
 
+            // Näyttää infotaulun numeron mukaisesti
             info[randomSpawn].SetActive(true);
         }
     }

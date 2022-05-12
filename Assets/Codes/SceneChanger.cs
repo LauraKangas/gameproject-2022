@@ -13,6 +13,8 @@ namespace FusilliProject
 
         public void ChangeScene()
         {
+                   
+            // Vaihtaa scenen
             SceneManager.LoadScene (scene);
             Debug.Log("To " + scene);
             Time.timeScale = 1f;

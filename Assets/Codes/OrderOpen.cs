@@ -16,6 +16,7 @@ namespace FusilliProject
         {
             if (spawnedOrder == null && !GetComponent<Draggable>().isDragged && !GetComponent<Draggable>().pauseHandler.isPaused)
             {
+                // Luo suurennetun tilauslapun
                 spawnedOrder = Instantiate(orderLarge, new Vector2(-0.2f, 0.2f), transform.rotation);
                 Debug.Log(name + " is larger");
 

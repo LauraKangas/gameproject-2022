@@ -20,7 +20,7 @@ namespace FusilliProject
         private int highscore;
 
         [SerializeField]
-        private int lvlNum;
+        private int lvlNum; // Asetetaan tason numeron tasovalikon high score pisteytystä varten
 
         [SerializeField]
         private LocalizedString localizedScore;
@@ -28,7 +28,10 @@ namespace FusilliProject
         // Start is called before the first frame update
         void Start()
         {
+            // Asettaa tason pisteet nollaksi tason alussa
             scoreNum = 0;
+
+            // Asettaa tason high score tason alussa
             highscore = PlayerPrefs.GetInt(("highscore" + lvlNum), scoreNum);
 
             scoreText.text = localizedScore.GetLocalizedString() + ":" + scoreNum;
@@ -58,10 +61,13 @@ namespace FusilliProject
 
         public void AddPoint(int num)
         {
+            // Lisää pisteitä
             scoreNum += num;
             scoreText.text = localizedScore.GetLocalizedString() + ":" + scoreNum;
             Debug.Log("Current score: " + scoreNum);
 
+            // Asettaa uuden high scoren jos entinen high score on 
+            // pienempi kuin uusi pistemäärä
             if (highscore < scoreNum)
             {
                 PlayerPrefs.SetInt("highscore" + lvlNum, scoreNum);

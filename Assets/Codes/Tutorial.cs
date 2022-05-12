@@ -18,8 +18,13 @@ namespace FusilliProject
         // Start is called before the first frame update
         void Start()
         {
+            // Määrää tutoriaalin tekstin ja kuvan
             num = 0;
+
+            // Asettaa tutoriaalin tekstin ja kuvan num arvon perusteella
             tutorial[num].SetActive(true);
+
+            // Vasemmanpuoleinen näppäin ei toimi
             leftArrow.interactable = false;
         }
 
@@ -30,26 +35,30 @@ namespace FusilliProject
 
         public void RightButton()
         {
+            // Määrää uuden tekstin ja kuvan kun painaa tutoriaalin oikeanpuolista näppäintä
             num += 1;
             Debug.Log (num);
 
             for (int i = 0; i < tutorial.Length; i++)
             {
+                // Tutoriaalin teksti ja kuva aktivoidaan jos niiden arvo on yhtä suuri kuin num arvo
                 if (i == num)
                 {
-                    tutorial[i].SetActive(true);
+                    tutorial[i].SetActive(true); // Tutoriaalin teksti ja kuva aktivoidaan
                 }
                 else
                 {
-                    tutorial[i].SetActive(false);
+                    tutorial[i].SetActive(false); // Tutoriaalin teksti ja kuva piilotetaan
                 }
             }
 
+            // Jos sivunumero on 11 oikeanpuoleinen näppäin ei toimi 
             if (num == 11)
             {
                 rightArrow.interactable = false;
             }
 
+            // Jos sivunumero on isompi kuin 0 vasemmanpuoleinen näppäin toimii 
             if (num > 0)
             {
                 leftArrow.interactable = true;
@@ -58,27 +67,31 @@ namespace FusilliProject
 
         public void LeftButton()
         {
+            // Määrää uuden tekstin ja kuvan kun painaa tutoriaalin vasemmanpuolista näppäintä
             num -= 1;
             Debug.Log (num);
 
             for (int i = 0; i < tutorial.Length; i++)
             {
+                // Tutoriaalin teksti ja kuva aktivoidaan jos niiden arvo on yhtä suuri kuin num arvo
                 if (i == num)
                 {
-                    tutorial[i].SetActive(true);
+                    tutorial[i].SetActive(true); // Tutoriaalin teksti ja kuva aktivoidaan
                 }
                 else
                 {
-                    tutorial[i].SetActive(false);
+                    tutorial[i].SetActive(false); // Tutoriaalin teksti ja kuva piilotetaan
                 }
             }
 
+            // Jos sivunumero on 0 vasemmanpuoleinen näppäin ei toimi
             if (num == 0)
             {
                 leftArrow.interactable = false;
             }
 
-            if (num < 12)
+            // Jos sivunumero on pienempi kuin 11 oikeanpuoleinen näppäin toimii 
+            if (num < 11)
             {
                 rightArrow.interactable = true;
             }

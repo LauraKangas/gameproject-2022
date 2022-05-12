@@ -18,17 +18,29 @@ namespace FusilliProject
         public void Pause()
         {
             isPaused = true;
+
+            // Inventoryn avaaminen estetään
             inventory.SetActive(false);
+
+            // Inventoryn näppäin ei toimi
             button.interactable = false;
+
+            // Pysäyttää pelin
             Time.timeScale = 0f;
         }
 
         public void Resume()
         {
-            Time.timeScale = 1f;
-            inventory.SetActive(true);
-            button.interactable = true;
             isPaused = false;
+            
+            // Inventoryn avaaminen asetetaan
+            inventory.SetActive(true);
+
+            // Inventoryn näppäin aktivoidaan
+            button.interactable = true;
+
+            // Käynnistää pelin
+            Time.timeScale = 1f;
         }
     }
 }

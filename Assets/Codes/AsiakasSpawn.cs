@@ -71,6 +71,7 @@ namespace FusilliProject
                         }
                     }
 
+                    // Luo uuden asiakkaan kun sitä ei ole olemassa  
                     if (spawnedObject == null)
                     {
                         ChangeState();
@@ -98,8 +99,10 @@ namespace FusilliProject
 
         private void Spawn()
         {
+            // Palauttaa arvon 0 ja 5 väliltä
             randomSpawn = Random.Range(0, 6);
 
+            // Luo uuden asiakkaan numeron mukaisesti
             spawnedObject = Instantiate(prefab[randomSpawn], transform.position, transform.rotation);
 
 			Debug.Log(randomSpawn);

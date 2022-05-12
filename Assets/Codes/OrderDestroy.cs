@@ -9,6 +9,7 @@ namespace FusilliProject
     {
         public void OnPointerDown(PointerEventData pointerEventData)
         {
+            // Tuhoaa suurennetun tilauslapun
             Destroy (gameObject);
             Debug.Log(name + " is destroyed");
         }

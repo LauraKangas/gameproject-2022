@@ -13,7 +13,7 @@ namespace FusilliProject
 
         public int HS;
 
-        public int numLevel;
+        public int numLevel; // Asettaa menu tauluille taso arvot high score pisteytystä varten
 
         [SerializeField]
         private LocalizedString localizedHS;
@@ -21,6 +21,7 @@ namespace FusilliProject
         // Start is called before the first frame update
         void Start()
         {
+            // Näyttää tasojen high scoret
             hs.text = localizedHS.GetLocalizedString() + ": " + PlayerPrefs.GetInt(("highscore" + numLevel), HS);
         }
 
