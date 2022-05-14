@@ -46,7 +46,7 @@ namespace FusilliProject
             rightPage.enabled = true;
             leftNum.enabled = true;
             rightNum.enabled = true;
-            turnPage.SetActive(false);
+            //turnPage.SetActive(false);
         }
 
         public void RecipeBookEnd()

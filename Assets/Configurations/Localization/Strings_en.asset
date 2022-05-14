@@ -92,7 +92,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 715627176849408
-    m_Localized: Select a level to play!
+    m_Localized: '  Select a level to play!'
     m_Metadata:
       m_Items: []
   - m_Id: 727814037499904
